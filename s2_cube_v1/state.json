@@ -1,0 +1,820 @@
+{
+ "sigma": {
+  "X": 0.5,
+  "Y": 0.28125,
+  "Z": 0.5
+ },
+ "eta": 0.25,
+ "K": 3,
+ "cur": null,
+ "last_new": {
+  "base": "tri",
+  "m": 9,
+  "ops": [
+   [
+    "mul",
+    "sq"
+   ],
+   [
+    "add",
+    "ds"
+   ],
+   [
+    "add",
+    "tri"
+   ],
+   [
+    "add",
+    "sq"
+   ],
+   [
+    "add",
+    "fib"
+   ],
+   [
+    "add",
+    "tri"
+   ]
+  ]
+ },
+ "expanding": false,
+ "fails": 0,
+ "last_axes": [
+  "X"
+ ],
+ "pending": null,
+ "log": [
+  {
+   "i": 1,
+   "expr": "fib(sq(n))",
+   "m": 6,
+   "coords": [
+    0,
+    2,
+    1
+   ],
+   "period": 6,
+   "bound": 24,
+   "w": 1,
+   "e": 1,
+   "corner": "NEW",
+   "axes": [
+    "Y"
+   ],
+   "sigma": {
+    "X": 0.5,
+    "Y": 0.5,
+    "Z": 0.5
+   },
+   "source": "not found: quoted-terms search + plain search; top OEIS hit A131080 checked, different",
+   "expanding": false
+  },
+  {
+   "i": 2,
+   "expr": "[fib(sq(n)) + fib(n)]",
+   "m": 6,
+   "coords": [
+    1,
+    2,
+    1
+   ],
+   "period": 8,
+   "bound": 24,
+   "w": 1,
+   "e": 1,
+   "corner": "NEW",
+   "axes": [
+    "X"
+   ],
+   "sigma": {
+    "X": 0.5,
+    "Y": 0.5,
+    "Z": 0.5
+   },
+   "source": "not found; top OEIS hit A131806 checked, different",
+   "expanding": true
+  },
+  {
+   "i": 3,
+   "expr": "[[fib(sq(n)) + fib(n)] + ds(n)]",
+   "m": 6,
+   "coords": [
+    2,
+    3,
+    1
+   ],
+   "period": null,
+   "bound": null,
+   "w": 0,
+   "e": 0,
+   "corner": "FALSE",
+   "axes": [
+    "Y"
+   ],
+   "sigma": {
+    "X": 0.5,
+    "Y": 0.5,
+    "Z": 0.5
+   },
+   "source": null,
+   "expanding": true
+  },
+  {
+   "i": 4,
+   "expr": "[[fib(sq(n)) + fib(n)] * sq(n)]",
+   "m": 6,
+   "coords": [
+    2,
+    2,
+    1
+   ],
+   "period": 24,
+   "bound": 24,
+   "w": 1,
+   "e": 1,
+   "corner": "NEW",
+   "axes": [
+    "X"
+   ],
+   "sigma": {
+    "X": 0.5,
+    "Y": 0.375,
+    "Z": 0.5
+   },
+   "source": "not found; hits are triangle tables / unrelated",
+   "expanding": true
+  },
+  {
+   "i": 5,
+   "expr": "fib([[fib(sq(n)) + fib(n)] * sq(n)])",
+   "m": 6,
+   "coords": [
+    2,
+    2,
+    2
+   ],
+   "period": 24,
+   "bound": 24,
+   "w": 1,
+   "e": 1,
+   "corner": "NEW",
+   "axes": [
+    "Z"
+   ],
+   "sigma": {
+    "X": 0.5,
+    "Y": 0.375,
+    "Z": 0.5
+   },
+   "source": "not found; only triangle tables",
+   "expanding": true
+  },
+  {
+   "i": 6,
+   "expr": "fib(fib([[fib(sq(n)) + fib(n)] * sq(n)]))",
+   "m": 6,
+   "coords": [
+    2,
+    2,
+    3
+   ],
+   "period": null,
+   "bound": 24,
+   "w": 0,
+   "e": 1,
+   "corner": "UNREACHABLE (was mislabeled FALSE)",
+   "axes": [
+    "Z"
+   ],
+   "sigma": {
+    "X": 0.5,
+    "Y": 0.375,
+    "Z": 0.5
+   },
+   "source": null,
+   "expanding": true
+  },
+  {
+   "i": 7,
+   "expr": "tri(fib([[fib(sq(n)) + fib(n)] * sq(n)]))",
+   "m": 6,
+   "coords": [
+    2,
+    2,
+    3
+   ],
+   "period": null,
+   "bound": 24,
+   "w": 0,
+   "e": 1,
+   "corner": "UNREACHABLE (was mislabeled FALSE)",
+   "axes": [
+    "Z"
+   ],
+   "sigma": {
+    "X": 0.5,
+    "Y": 0.375,
+    "Z": 0.375
+   },
+   "source": null,
+   "expanding": true
+  },
+  {
+   "i": 8,
+   "expr": "[fib([[fib(sq(n)) + fib(n)] * sq(n)]) * sq(n)]",
+   "m": 6,
+   "coords": [
+    3,
+    2,
+    2
+   ],
+   "period": 24,
+   "bound": 24,
+   "w": 1,
+   "e": 1,
+   "corner": "NEW",
+   "axes": [
+    "X"
+   ],
+   "sigma": {
+    "X": 0.5,
+    "Y": 0.375,
+    "Z": 0.28125
+   },
+   "source": "not found; only triangle tables",
+   "expanding": true
+  },
+  {
+   "i": 9,
+   "expr": "[[fib([[fib(sq(n)) + fib(n)] * sq(n)]) * sq(n)] + fib(n)]",
+   "m": 6,
+   "coords": [
+    4,
+    2,
+    2
+   ],
+   "period": 24,
+   "bound": 24,
+   "w": 1,
+   "e": 1,
+   "corner": "NEW",
+   "axes": [
+    "X"
+   ],
+   "sigma": {
+    "X": 0.5,
+    "Y": 0.375,
+    "Z": 0.5
+   },
+   "source": "not found; A287552 checked, different",
+   "expanding": true
+  },
+  {
+   "i": 10,
+   "expr": "[[tri(n) * sq(n)] + ds(n)]",
+   "m": 9,
+   "coords": [
+    2,
+    2,
+    0
+   ],
+   "period": 9,
+   "bound": 18,
+   "w": 1,
+   "e": 1,
+   "corner": "NEW",
+   "axes": [
+    "X",
+    "Y"
+   ],
+   "sigma": {
+    "X": 0.5,
+    "Y": 0.375,
+    "Z": 0.5
+   },
+   "source": "not found; A136913 checked, different",
+   "expanding": false
+  },
+  {
+   "i": 11,
+   "expr": "fib([[tri(n) * sq(n)] + ds(n)])",
+   "m": 9,
+   "coords": [
+    2,
+    3,
+    1
+   ],
+   "period": null,
+   "bound": null,
+   "w": 0,
+   "e": 0,
+   "corner": "FALSE",
+   "axes": [
+    "Y"
+   ],
+   "sigma": {
+    "X": 0.5,
+    "Y": 0.375,
+    "Z": 0.5
+   },
+   "source": null,
+   "expanding": true
+  },
+  {
+   "i": 12,
+   "expr": "[[[tri(n) * sq(n)] + ds(n)] + tri(n)]",
+   "m": 9,
+   "coords": [
+    3,
+    2,
+    0
+   ],
+   "period": 3,
+   "bound": 18,
+   "w": 1,
+   "e": 1,
+   "corner": "NEW",
+   "axes": [
+    "X"
+   ],
+   "sigma": {
+    "X": 0.5,
+    "Y": 0.28125,
+    "Z": 0.5
+   },
+   "source": "not found by search; A130784, A144437 checked (other period-3 sequences); OEIS own search not reachable",
+   "expanding": true
+  },
+  {
+   "i": 13,
+   "expr": "[[[[tri(n) * sq(n)] + ds(n)] + tri(n)] + sq(n)]",
+   "m": 9,
+   "coords": [
+    4,
+    2,
+    0
+   ],
+   "period": 9,
+   "bound": 18,
+   "w": 1,
+   "e": 1,
+   "corner": "NEW",
+   "axes": [
+    "X"
+   ],
+   "sigma": {
+    "X": 0.5,
+    "Y": 0.28125,
+    "Z": 0.5
+   },
+   "source": "not found; A158674 checked, different",
+   "expanding": true
+  },
+  {
+   "i": 14,
+   "expr": "[[[[[tri(n) * sq(n)] + ds(n)] + tri(n)] + sq(n)] + fib(n)]",
+   "m": 9,
+   "coords": [
+    5,
+    3,
+    0
+   ],
+   "period": 72,
+   "bound": 72,
+   "w": 1,
+   "e": 1,
+   "corner": "NEW",
+   "axes": [
+    "Y"
+   ],
+   "sigma": {
+    "X": 0.5,
+    "Y": 0.28125,
+    "Z": 0.5
+   },
+   "source": "not found (hits: unrelated PDFs and digit-restriction OEIS entries)",
+   "expanding": true
+  },
+  {
+   "i": 15,
+   "expr": "[[[[[[tri(n) * sq(n)] + ds(n)] + tri(n)] + sq(n)] + fib(n)] + tri(n)]",
+   "m": 9,
+   "coords": [
+    6,
+    3,
+    0
+   ],
+   "period": 72,
+   "bound": 72,
+   "w": 1,
+   "e": 1,
+   "corner": "NEW",
+   "axes": [
+    "X"
+   ],
+   "sigma": {
+    "X": 0.5,
+    "Y": 0.28125,
+    "Z": 0.5
+   },
+   "source": "not found (hits unrelated)",
+   "expanding": true
+  }
+ ],
+ "ideas": [
+  {
+   "point": {
+    "base": "sq",
+    "m": 6,
+    "ops": [
+     [
+      "comp",
+      "fib"
+     ],
+     [
+      "add",
+      "fib"
+     ],
+     [
+      "mul",
+      "sq"
+     ],
+     [
+      "comp",
+      "fib"
+     ],
+     [
+      "mul",
+      "sq"
+     ],
+     [
+      "add",
+      "fib"
+     ]
+    ]
+   },
+   "result": {
+    "expr": "[[fib([[fib(sq(n)) + fib(n)] * sq(n)]) * sq(n)] + fib(n)]",
+    "m": 6,
+    "coords": [
+     4,
+     2,
+     2
+    ],
+    "period": 24,
+    "derived_bound": 24,
+    "w": 1,
+    "e": 1,
+    "contradiction": false,
+    "terms": [
+     0,
+     2,
+     1,
+     2,
+     3,
+     1,
+     2,
+     0,
+     3,
+     4,
+     1,
+     3,
+     0,
+     3,
+     5,
+     4,
+     3,
+     0,
+     4,
+     1,
+     3,
+     2,
+     5,
+     2
+    ],
+    "n_computed": 240,
+    "trace": [
+     {
+      "step": "fib(k) mod 6 depends only on k mod 24",
+      "rule": "R_FIB",
+      "how": "whole/left/left/outer"
+     },
+     {
+      "step": "fib(k) mod 24 depends only on k mod 24",
+      "rule": "R_FIB",
+      "how": "whole/left/left/inner/left/left/outer"
+     },
+     {
+      "step": "sq(k) mod 24 depends only on k mod 24",
+      "rule": "R_MOD",
+      "how": "whole/left/left/inner/left/left/inner"
+     },
+     {
+      "step": "fib(inner) mod 24: period divides 24",
+      "rule": "R_COMP",
+      "how": "whole/left/left/inner/left/left"
+     },
+     {
+      "step": "fib(k) mod 24 depends only on k mod 24",
+      "rule": "R_FIB",
+      "how": "whole/left/left/inner/left/right"
+     },
+     {
+      "step": "sum mod 24: period divides lcm(24,24) = 24",
+      "rule": "R_MOD",
+      "how": "whole/left/left/inner/left"
+     },
+     {
+      "step": "sq(k) mod 24 depends only on k mod 24",
+      "rule": "R_MOD",
+      "how": "whole/left/left/inner/right"
+     },
+     {
+      "step": "product mod 24: period divides lcm(24,24) = 24",
+      "rule": "R_MOD",
+      "how": "whole/left/left/inner"
+     },
+     {
+      "step": "fib(inner) mod 6: period divides 24",
+      "rule": "R_COMP",
+      "how": "whole/left/left"
+     },
+     {
+      "step": "sq(k) mod 6 depends only on k mod 6",
+      "rule": "R_MOD",
+      "how": "whole/left/right"
+     },
+     {
+      "step": "product mod 6: period divides lcm(24,6) = 24",
+      "rule": "R_MOD",
+      "how": "whole/left"
+     },
+     {
+      "step": "fib(k) mod 6 depends only on k mod 24",
+      "rule": "R_FIB",
+      "how": "whole/right"
+     },
+     {
+      "step": "sum mod 6: period divides lcm(24,24) = 24",
+      "rule": "R_MOD",
+      "how": "whole"
+     }
+    ]
+   },
+   "stop": "budget"
+  },
+  {
+   "point": {
+    "base": "tri",
+    "m": 9,
+    "ops": [
+     [
+      "mul",
+      "sq"
+     ],
+     [
+      "add",
+      "ds"
+     ],
+     [
+      "add",
+      "tri"
+     ],
+     [
+      "add",
+      "sq"
+     ],
+     [
+      "add",
+      "fib"
+     ],
+     [
+      "add",
+      "tri"
+     ]
+    ]
+   },
+   "result": {
+    "expr": "[[[[[[tri(n) * sq(n)] + ds(n)] + tri(n)] + sq(n)] + fib(n)] + tri(n)]",
+    "m": 9,
+    "coords": [
+     6,
+     3,
+     0
+    ],
+    "period": 72,
+    "derived_bound": 72,
+    "w": 1,
+    "e": 1,
+    "contradiction": false,
+    "terms": [
+     0,
+     6,
+     7,
+     8,
+     5,
+     8,
+     2,
+     3,
+     3,
+     7,
+     6,
+     5,
+     6,
+     1,
+     2,
+     1,
+     5,
+     4,
+     1,
+     1,
+     3,
+     8,
+     1,
+     4
+    ],
+    "n_computed": 900,
+    "trace": [
+     {
+      "step": "tri(k) mod 9 depends only on k mod 18",
+      "rule": "R_TRI",
+      "how": "whole/left/left/left/left/left/left"
+     },
+     {
+      "step": "sq(k) mod 9 depends only on k mod 9",
+      "rule": "R_MOD",
+      "how": "whole/left/left/left/left/left/right"
+     },
+     {
+      "step": "product mod 9: period divides lcm(18,9) = 18",
+      "rule": "R_MOD",
+      "how": "whole/left/left/left/left/left"
+     },
+     {
+      "step": "ds(k) mod 9 depends only on k mod 9",
+      "rule": "R_DS",
+      "how": "whole/left/left/left/left/right"
+     },
+     {
+      "step": "sum mod 9: period divides lcm(18,9) = 18",
+      "rule": "R_MOD",
+      "how": "whole/left/left/left/left"
+     },
+     {
+      "step": "tri(k) mod 9 depends only on k mod 18",
+      "rule": "R_TRI",
+      "how": "whole/left/left/left/right"
+     },
+     {
+      "step": "sum mod 9: period divides lcm(18,18) = 18",
+      "rule": "R_MOD",
+      "how": "whole/left/left/left"
+     },
+     {
+      "step": "sq(k) mod 9 depends only on k mod 9",
+      "rule": "R_MOD",
+      "how": "whole/left/left/right"
+     },
+     {
+      "step": "sum mod 9: period divides lcm(18,9) = 18",
+      "rule": "R_MOD",
+      "how": "whole/left/left"
+     },
+     {
+      "step": "fib(k) mod 9 depends only on k mod 24",
+      "rule": "R_FIB",
+      "how": "whole/left/right"
+     },
+     {
+      "step": "sum mod 9: period divides lcm(18,24) = 72",
+      "rule": "R_MOD",
+      "how": "whole/left"
+     },
+     {
+      "step": "tri(k) mod 9 depends only on k mod 18",
+      "rule": "R_TRI",
+      "how": "whole/right"
+     },
+     {
+      "step": "sum mod 9: period divides lcm(72,18) = 72",
+      "rule": "R_MOD",
+      "how": "whole"
+     }
+    ]
+   },
+   "stop": "session budget"
+  }
+ ],
+ "known_rules": [],
+ "count": 15,
+ "last_new_res": {
+  "expr": "[[[[[[tri(n) * sq(n)] + ds(n)] + tri(n)] + sq(n)] + fib(n)] + tri(n)]",
+  "m": 9,
+  "coords": [
+   6,
+   3,
+   0
+  ],
+  "period": 72,
+  "derived_bound": 72,
+  "w": 1,
+  "e": 1,
+  "contradiction": false,
+  "terms": [
+   0,
+   6,
+   7,
+   8,
+   5,
+   8,
+   2,
+   3,
+   3,
+   7,
+   6,
+   5,
+   6,
+   1,
+   2,
+   1,
+   5,
+   4,
+   1,
+   1,
+   3,
+   8,
+   1,
+   4
+  ],
+  "n_computed": 900,
+  "trace": [
+   {
+    "step": "tri(k) mod 9 depends only on k mod 18",
+    "rule": "R_TRI",
+    "how": "whole/left/left/left/left/left/left"
+   },
+   {
+    "step": "sq(k) mod 9 depends only on k mod 9",
+    "rule": "R_MOD",
+    "how": "whole/left/left/left/left/left/right"
+   },
+   {
+    "step": "product mod 9: period divides lcm(18,9) = 18",
+    "rule": "R_MOD",
+    "how": "whole/left/left/left/left/left"
+   },
+   {
+    "step": "ds(k) mod 9 depends only on k mod 9",
+    "rule": "R_DS",
+    "how": "whole/left/left/left/left/right"
+   },
+   {
+    "step": "sum mod 9: period divides lcm(18,9) = 18",
+    "rule": "R_MOD",
+    "how": "whole/left/left/left/left"
+   },
+   {
+    "step": "tri(k) mod 9 depends only on k mod 18",
+    "rule": "R_TRI",
+    "how": "whole/left/left/left/right"
+   },
+   {
+    "step": "sum mod 9: period divides lcm(18,18) = 18",
+    "rule": "R_MOD",
+    "how": "whole/left/left/left"
+   },
+   {
+    "step": "sq(k) mod 9 depends only on k mod 9",
+    "rule": "R_MOD",
+    "how": "whole/left/left/right"
+   },
+   {
+    "step": "sum mod 9: period divides lcm(18,9) = 18",
+    "rule": "R_MOD",
+    "how": "whole/left/left"
+   },
+   {
+    "step": "fib(k) mod 9 depends only on k mod 24",
+    "rule": "R_FIB",
+    "how": "whole/left/right"
+   },
+   {
+    "step": "sum mod 9: period divides lcm(18,24) = 72",
+    "rule": "R_MOD",
+    "how": "whole/left"
+   },
+   {
+    "step": "tri(k) mod 9 depends only on k mod 18",
+    "rule": "R_TRI",
+    "how": "whole/right"
+   },
+   {
+    "step": "sum mod 9: period divides lcm(72,18) = 72",
+    "rule": "R_MOD",
+    "how": "whole"
+   }
+  ]
+ },
+ "grow": 5,
+ "B": 6
+}

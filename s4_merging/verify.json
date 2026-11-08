@@ -1,0 +1,52 @@
+{
+ "tested": 572,
+ "unreachable": 28,
+ "proof_eq_world": 325,
+ "proof_ne_world": [],
+ "world_too_short": [
+  [
+   "[tri(luc(sq(n))) * tri(n)]",
+   13,
+   182,
+   535
+  ]
+ ],
+ "gap_world_periodic": [
+  [
+   "[sq([[ds(n) + ds(n)] * sq(n)]) * sq(n)]",
+   16,
+   200,
+   "GAP: Ds(.) mod 16: M_DS needs the modulus to divide 9"
+  ],
+  [
+   "[[tri(n) + ds(n)] + ds(n)]",
+   8,
+   200,
+   "GAP: Ds(.) mod 16: M_DS needs the modulus to divide 9"
+  ],
+  [
+   "tri([[[ds(n) * ds(n)] + sq(n)] + sq(n)])",
+   2,
+   200,
+   "GAP: Ds(.) mod 4: M_DS needs the modulus to divide 9"
+  ],
+  [
+   "[sq(tri(n)) + ds(n)]",
+   2,
+   200,
+   "GAP: Ds(.) mod 8: M_DS needs the modulus to divide 9"
+  ],
+  [
+   "fib([[ds(n) + tri(n)] + ds(n)])",
+   8,
+   300,
+   "GAP: Ds(.) mod 24: M_DS needs the modulus to divide 9"
+  ]
+ ],
+ "gap_world_not": 241,
+ "old_exact": 251,
+ "merged_exact": 325,
+ "structural": 87,
+ "residue": 238,
+ "secs": 132.5
+}

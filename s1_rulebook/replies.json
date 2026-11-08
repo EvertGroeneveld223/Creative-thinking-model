@@ -1,0 +1,250 @@
+{
+ "full": {
+  "to": "generator",
+  "claim": "(1 + 1) = 2",
+  "works": true,
+  "status": "EXPLAINED",
+  "explained": true,
+  "left_chain": [
+   {
+    "rule": "D1",
+    "before": "1",
+    "after": "S(0)",
+    "what": "1 = S(0)",
+    "how": "apply D1 to part 1 [1]",
+    "why": "definition of the name 1",
+    "who": "https://en.wikipedia.org/wiki/Proofs_involving_the_addition_of_natural_numbers",
+    "where": "natural numbers"
+   },
+   {
+    "rule": "D1",
+    "before": "1",
+    "after": "S(0)",
+    "what": "1 = S(0)",
+    "how": "apply D1 to part 2 [1]",
+    "why": "definition of the name 1",
+    "who": "https://en.wikipedia.org/wiki/Proofs_involving_the_addition_of_natural_numbers",
+    "where": "natural numbers"
+   },
+   {
+    "rule": "A2",
+    "before": "(S(0) + S(0))",
+    "after": "S((S(0) + 0))",
+    "what": "a + S(b) = S(a + b)",
+    "how": "apply A2 to whole [(S(0) + S(0))] with a=S(0), b=0",
+    "why": "addition, step case",
+    "who": "https://en.wikipedia.org/wiki/Proofs_involving_the_addition_of_natural_numbers",
+    "where": "any naturals a, b"
+   },
+   {
+    "rule": "A1",
+    "before": "(S(0) + 0)",
+    "after": "S(0)",
+    "what": "a + 0 = a",
+    "how": "apply A1 to part 1 [(S(0) + 0)] with a=S(0)",
+    "why": "addition, base case",
+    "who": "https://en.wikipedia.org/wiki/Proofs_involving_the_addition_of_natural_numbers",
+    "where": "any natural a"
+   }
+  ],
+  "right_chain": [
+   {
+    "rule": "D2",
+    "before": "2",
+    "after": "S(S(0))",
+    "what": "2 = S(S(0))",
+    "how": "apply D2 to whole [2]",
+    "why": "definition of the name 2",
+    "who": "https://en.wikipedia.org/wiki/Peano_axioms",
+    "where": "natural numbers"
+   }
+  ],
+  "left_end": "S(S(0))",
+  "right_end": "S(S(0))",
+  "gaps": [],
+  "ask_web": [],
+  "hash": "ead2cbc70a46"
+ },
+ "missing_A2": {
+  "to": "generator",
+  "claim": "(1 + 1) = 2",
+  "works": true,
+  "status": "WORKS-BUT-UNEXPLAINED",
+  "explained": false,
+  "left_chain": [
+   {
+    "rule": "D1",
+    "before": "1",
+    "after": "S(0)",
+    "what": "1 = S(0)",
+    "how": "apply D1 to part 1 [1]",
+    "why": "definition of the name 1",
+    "who": "https://en.wikipedia.org/wiki/Proofs_involving_the_addition_of_natural_numbers",
+    "where": "natural numbers"
+   },
+   {
+    "rule": "D1",
+    "before": "1",
+    "after": "S(0)",
+    "what": "1 = S(0)",
+    "how": "apply D1 to part 2 [1]",
+    "why": "definition of the name 1",
+    "who": "https://en.wikipedia.org/wiki/Proofs_involving_the_addition_of_natural_numbers",
+    "where": "natural numbers"
+   }
+  ],
+  "right_chain": [
+   {
+    "rule": "D2",
+    "before": "2",
+    "after": "S(S(0))",
+    "what": "2 = S(S(0))",
+    "how": "apply D2 to whole [2]",
+    "why": "definition of the name 2",
+    "who": "https://en.wikipedia.org/wiki/Peano_axioms",
+    "where": "natural numbers"
+   }
+  ],
+  "left_end": "(S(0) + S(0))",
+  "right_end": "S(S(0))",
+  "gaps": [
+   "(S(0) + S(0))"
+  ],
+  "ask_web": [
+   "rule for '(S(0) + S(0))' (definition of the operation in this form)"
+  ],
+  "hash": "7264a411c0a1"
+ },
+ "A2_added_from_web": {
+  "to": "generator",
+  "claim": "(1 + 1) = 2",
+  "works": true,
+  "status": "EXPLAINED",
+  "explained": true,
+  "left_chain": [
+   {
+    "rule": "D1",
+    "before": "1",
+    "after": "S(0)",
+    "what": "1 = S(0)",
+    "how": "apply D1 to part 1 [1]",
+    "why": "definition of the name 1",
+    "who": "https://en.wikipedia.org/wiki/Proofs_involving_the_addition_of_natural_numbers",
+    "where": "natural numbers"
+   },
+   {
+    "rule": "D1",
+    "before": "1",
+    "after": "S(0)",
+    "what": "1 = S(0)",
+    "how": "apply D1 to part 2 [1]",
+    "why": "definition of the name 1",
+    "who": "https://en.wikipedia.org/wiki/Proofs_involving_the_addition_of_natural_numbers",
+    "where": "natural numbers"
+   },
+   {
+    "rule": "A2",
+    "before": "(S(0) + S(0))",
+    "after": "S((S(0) + 0))",
+    "what": "a + S(b) = S(a + b)",
+    "how": "apply A2 to whole [(S(0) + S(0))] with a=S(0), b=0",
+    "why": "addition, step case",
+    "who": "https://en.wikipedia.org/wiki/Proofs_involving_the_addition_of_natural_numbers",
+    "where": "any naturals a, b"
+   },
+   {
+    "rule": "A1",
+    "before": "(S(0) + 0)",
+    "after": "S(0)",
+    "what": "a + 0 = a",
+    "how": "apply A1 to part 1 [(S(0) + 0)] with a=S(0)",
+    "why": "addition, base case",
+    "who": "https://en.wikipedia.org/wiki/Proofs_involving_the_addition_of_natural_numbers",
+    "where": "any natural a"
+   }
+  ],
+  "right_chain": [
+   {
+    "rule": "D2",
+    "before": "2",
+    "after": "S(S(0))",
+    "what": "2 = S(S(0))",
+    "how": "apply D2 to whole [2]",
+    "why": "definition of the name 2",
+    "who": "https://en.wikipedia.org/wiki/Peano_axioms",
+    "where": "natural numbers"
+   }
+  ],
+  "left_end": "S(S(0))",
+  "right_end": "S(S(0))",
+  "gaps": [],
+  "ask_web": [],
+  "hash": "ead2cbc70a46"
+ },
+ "false_claim": {
+  "to": "generator",
+  "claim": "(1 + 1) = 1",
+  "works": false,
+  "status": "FALSE",
+  "explained": false,
+  "left_chain": [
+   {
+    "rule": "D1",
+    "before": "1",
+    "after": "S(0)",
+    "what": "1 = S(0)",
+    "how": "apply D1 to part 1 [1]",
+    "why": "definition of the name 1",
+    "who": "https://en.wikipedia.org/wiki/Proofs_involving_the_addition_of_natural_numbers",
+    "where": "natural numbers"
+   },
+   {
+    "rule": "D1",
+    "before": "1",
+    "after": "S(0)",
+    "what": "1 = S(0)",
+    "how": "apply D1 to part 2 [1]",
+    "why": "definition of the name 1",
+    "who": "https://en.wikipedia.org/wiki/Proofs_involving_the_addition_of_natural_numbers",
+    "where": "natural numbers"
+   },
+   {
+    "rule": "A2",
+    "before": "(S(0) + S(0))",
+    "after": "S((S(0) + 0))",
+    "what": "a + S(b) = S(a + b)",
+    "how": "apply A2 to whole [(S(0) + S(0))] with a=S(0), b=0",
+    "why": "addition, step case",
+    "who": "https://en.wikipedia.org/wiki/Proofs_involving_the_addition_of_natural_numbers",
+    "where": "any naturals a, b"
+   },
+   {
+    "rule": "A1",
+    "before": "(S(0) + 0)",
+    "after": "S(0)",
+    "what": "a + 0 = a",
+    "how": "apply A1 to part 1 [(S(0) + 0)] with a=S(0)",
+    "why": "addition, base case",
+    "who": "https://en.wikipedia.org/wiki/Proofs_involving_the_addition_of_natural_numbers",
+    "where": "any natural a"
+   }
+  ],
+  "right_chain": [
+   {
+    "rule": "D1",
+    "before": "1",
+    "after": "S(0)",
+    "what": "1 = S(0)",
+    "how": "apply D1 to whole [1]",
+    "why": "definition of the name 1",
+    "who": "https://en.wikipedia.org/wiki/Proofs_involving_the_addition_of_natural_numbers",
+    "where": "natural numbers"
+   }
+  ],
+  "left_end": "S(S(0))",
+  "right_end": "S(0)",
+  "gaps": [],
+  "ask_web": [],
+  "hash": "e561e4b27985"
+ }
+}

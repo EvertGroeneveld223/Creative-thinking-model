@@ -1,0 +1,13 @@
+base t 25
+base t 50
+base t 75
+base t 100
+base t 125
+base t 150
+base 0 mutations {'AREA': 13, 'MOD': 26, 'RULE': 24} useful {'AREA': 7, 'RULE': 4, 'MOD': 8} distinct useful finds 14 amps None {'EXPLAINED': 120, 'FALSE': 20, 'UNREACHABLE': 9, 'OUT-OF-GRID': 1}
+base t 50
+base t 75
+base t 100
+base t 125
+base t 150
+base 1 mutations {'MOD': 27, 'AREA': 24, 'RULE': 25} useful {'RULE': 9, 'MOD': 12, 'AREA': 2} distinct useful finds 13 amps None {'EXPLAINED': 112, 'FALSE': 18, 'UNREACHABLE': 11, 'OUT-OF-GRID': 9}

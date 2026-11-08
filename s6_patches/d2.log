@@ -1,0 +1,3 @@
+depth2: 969 | R_COMP 831 | MUL-GLOBAL 931 | QUOT bound alone 862 | QUOT+AFF 968 | below true (error) 0
+   misses: 1 [(30, 'FQ', 24, 12, [30, 120, 24])]
+secs 63.3

@@ -1,0 +1,14 @@
+polar t 25
+polar t 50
+polar t 75
+polar t 100
+polar t 125
+polar t 150
+polar 0 mutations {'AREA': 31, 'MOD': 29, 'RULE': 19, 'DEPTH': 43} useful {'MOD': 12, 'RULE': 1, 'AREA': 3, 'DEPTH': 18} distinct useful finds 17 amps [0.3, 0.3, 2.0, 1.28] {'EXPLAINED': 102, 'FALSE': 19, 'UNREACHABLE': 20, 'OUT-OF-GRID': 9}
+polar t 25
+polar t 50
+polar t 75
+polar t 100
+polar t 125
+polar t 150
+polar 1 mutations {'RULE': 43, 'AREA': 29, 'MOD': 45, 'DEPTH': 38} useful {'RULE': 7, 'AREA': 5, 'MOD': 12, 'DEPTH': 8} distinct useful finds 16 amps [0.3, 0.38, 0.3, 0.59] {'EXPLAINED': 103, 'FALSE': 21, 'UNREACHABLE': 23, 'OUT-OF-GRID': 3}

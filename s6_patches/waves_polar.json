@@ -1,0 +1,223 @@
+[
+ {
+  "muts": {
+   "AREA": 31,
+   "MOD": 29,
+   "RULE": 19,
+   "DEPTH": 43
+  },
+  "useful": {
+   "MOD": 12,
+   "RULE": 1,
+   "AREA": 3,
+   "DEPTH": 18
+  },
+  "finds": [
+   [
+    6,
+    "fib([fib(n) + luc(n)])",
+    0.333
+   ],
+   [
+    10,
+    "tri(sq(n))",
+    0.5
+   ],
+   [
+    8,
+    "[[tri(tri(sq(n))) * tri(n)] * sq(n)]",
+    0.2
+   ],
+   [
+    10,
+    "luc([[[tri(n) + fib(n)] + sq(n)] + fib(n)])",
+    0.464
+   ],
+   [
+    7,
+    "fib(sq(n))",
+    0.5
+   ],
+   [
+    7,
+    "tri(sq([fib(sq(n)) + tri(n)]))",
+    0.2
+   ],
+   [
+    6,
+    "sq([[tri(n) + tri(n)] * sq(n)])",
+    0.5
+   ],
+   [
+    6,
+    "[sq([[tri(n) + tri(n)] * sq(n)]) * sq(n)]",
+    0.4
+   ],
+   [
+    6,
+    "fib(sq(tri(n)))",
+    0.667
+   ],
+   [
+    15,
+    "tri([[sq(n) * luc(n)] + sq(n)])",
+    0.25
+   ],
+   [
+    13,
+    "sq([fib(n) + fib(n)])",
+    0.333
+   ],
+   [
+    13,
+    "luc([[fib(n) * fib(n)] * luc(n)])",
+    0.25
+   ],
+   [
+    15,
+    "fib(tri([fib(n) + luc(n)]))",
+    0.25
+   ],
+   [
+    15,
+    "[fib(tri([fib(n) + luc(n)])) + sq(n)]",
+    0.2
+   ],
+   [
+    16,
+    "sq([luc(n) + fib(n)])",
+    1.0
+   ],
+   [
+    15,
+    "sq(tri(sq([luc(n) + fib(n)])))",
+    0.2
+   ],
+   [
+    6,
+    "[[fib(n) + fib(n)] * luc(n)]",
+    0.862
+   ]
+  ],
+  "amps": [
+   0.3,
+   0.3,
+   2.0,
+   1.28
+  ],
+  "kinds": {
+   "EXPLAINED": 102,
+   "FALSE": 19,
+   "UNREACHABLE": 20,
+   "OUT-OF-GRID": 9
+  }
+ },
+ {
+  "muts": {
+   "RULE": 43,
+   "AREA": 29,
+   "MOD": 45,
+   "DEPTH": 38
+  },
+  "useful": {
+   "RULE": 7,
+   "AREA": 5,
+   "MOD": 12,
+   "DEPTH": 8
+  },
+  "finds": [
+   [
+    8,
+    "[fib(n) * luc(n)]",
+    0.5
+   ],
+   [
+    14,
+    "luc(sq(tri(n)))",
+    0.333
+   ],
+   [
+    14,
+    "[luc(sq(tri(n))) + fib(n)]",
+    0.25
+   ],
+   [
+    10,
+    "luc(tri([[tri(n) * sq(n)] * fib(n)]))",
+    0.464
+   ],
+   [
+    14,
+    "fib(tri([luc(n) * luc(n)]))",
+    0.25
+   ],
+   [
+    16,
+    "[luc(n) * fib(n)]",
+    0.5
+   ],
+   [
+    16,
+    "[sq(n) * fib(n)]",
+    1.0
+   ],
+   [
+    4,
+    "fib([luc(n) * luc(n)])",
+    0.333
+   ],
+   [
+    16,
+    "sq([[sq(tri(n)) + sq(n)] + luc(n)])",
+    0.4
+   ],
+   [
+    16,
+    "[[sq(tri(n)) + sq(n)] + luc(n)]",
+    0.25
+   ],
+   [
+    15,
+    "luc(sq([[fib(tri(n)) + sq(n)] + luc(n)]))",
+    0.554
+   ],
+   [
+    14,
+    "sq(luc(n))",
+    0.5
+   ],
+   [
+    14,
+    "[sq(luc(n)) + sq(n)]",
+    0.333
+   ],
+   [
+    6,
+    "luc([luc(n) * sq(n)])",
+    0.333
+   ],
+   [
+    8,
+    "[fib(n) + fib(n)]",
+    0.5
+   ],
+   [
+    10,
+    "luc(sq(n))",
+    1.661
+   ]
+  ],
+  "amps": [
+   0.3,
+   0.38,
+   0.3,
+   0.59
+  ],
+  "kinds": {
+   "EXPLAINED": 103,
+   "FALSE": 21,
+   "UNREACHABLE": 23,
+   "OUT-OF-GRID": 3
+  }
+ }
+]
