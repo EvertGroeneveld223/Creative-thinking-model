@@ -1,4 +1,1814 @@
 {
+ "arxiv:all:\"Fibonacci\" AND (all:period OR all:periodic OR all:pisano)|Fibonacci,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Connecting Zeros in Pisano Periods to Prime Factors of $K$-Fibonacci Numbers",
+    "url": "http://arxiv.org/abs/2407.20048v2"
+   },
+   {
+    "name": "The Bi-periodic Fibonacci Octonions",
+    "url": "http://arxiv.org/abs/1603.00681v2"
+   },
+   {
+    "name": "The generalized bi-periodic Fibonacci quaternions and octonions",
+    "url": "http://arxiv.org/abs/1802.05897v1"
+   },
+   {
+    "name": "Periodicity of power Fibonacci sequences modulus a Fibonacci number",
+    "url": "http://arxiv.org/abs/2204.00234v1"
+   },
+   {
+    "name": "The Hadamard Products for bi-periodic Fibonacci and bi-periodic Lucas Generating matrices",
+    "url": "http://arxiv.org/abs/1705.05127v1"
+   },
+   {
+    "name": "$p$-regularity of the $p$-adic valuation of the Fibonacci sequence",
+    "url": "http://arxiv.org/abs/0910.2907v4"
+   },
+   {
+    "name": "Rotating-Memory Fibonacci Numbers and Periodic Tilings",
+    "url": "http://arxiv.org/abs/2609.12569v1"
+   },
+   {
+    "name": "Fibonacci along even powers is (almost) realizable",
+    "url": "http://arxiv.org/abs/2011.13068v1"
+   },
+   {
+    "name": "The Matrix Sequence in terms of bi-periodic Fibonacci numbers",
+    "url": "http://arxiv.org/abs/1603.07487v2"
+   },
+   {
+    "name": "Properties of Periodic Fibonacci-like Sequences",
+    "url": "http://arxiv.org/abs/1701.08566v1"
+   },
+   {
+    "name": "Orbital Period Ratios and Fibonacci Numbers in Solar Planetary and Satellite Systems and in Exoplanetary Systems",
+    "url": "http://arxiv.org/abs/1803.02828v1"
+   },
+   {
+    "name": "The Measure of the Orthogonal Polynomials Related to Fibonacci Chains: The Periodic Case",
+    "url": "http://arxiv.org/abs/cond-mat/9602049v2"
+   },
+   {
+    "name": "Algebraic properties of bi$-$periodic dual Fibonacci quaternions",
+    "url": "http://arxiv.org/abs/1704.02865v1"
+   },
+   {
+    "name": "Sophie Germain Primes and the Totient of Fibonacci Numbers",
+    "url": "http://arxiv.org/abs/2604.17847v3"
+   },
+   {
+    "name": "Fibonacci numbers, Euler's 2-periodic continued fractions and moment sequences",
+    "url": "http://arxiv.org/abs/0902.1404v1"
+   },
+   {
+    "name": "Observation of Log-Periodic Oscillations in the Quantum Dynamics of Electrons on the One-Dimensional Fibonacci Quasicrystal",
+    "url": "http://arxiv.org/abs/1006.0688v1"
+   },
+   {
+    "name": "Quantum Walks in Periodic and Quasiperiodic Fibonacci Fibers",
+    "url": "http://arxiv.org/abs/1911.01389v1"
+   },
+   {
+    "name": "Super band gaps and periodic approximants of generalised Fibonacci tilings",
+    "url": "http://arxiv.org/abs/2302.10063v1"
+   },
+   {
+    "name": "A note on the bi-periodic Fibonacci and Lucas matrix sequences",
+    "url": "http://arxiv.org/abs/1604.00766v1"
+   },
+   {
+    "name": "Bi-periodic Fibonacci matrix polynomial and its binomial transforms",
+    "url": "http://arxiv.org/abs/1705.05128v1"
+   },
+   {
+    "name": "(a,b)-Fibonacci-Legendre Cordial Graphs and k-Pisano-Legendre Primes",
+    "url": "http://arxiv.org/abs/2601.10561v1"
+   },
+   {
+    "name": "The Smallest String Attractors of Fibonacci, Period-Doubling, and Thue--Morse Words",
+    "url": "http://arxiv.org/abs/2602.16152v3"
+   },
+   {
+    "name": "On the norms of r-circulant matrices with generalized bi-periodic Fibonacci numbers",
+    "url": "http://arxiv.org/abs/2101.12557v1"
+   },
+   {
+    "name": "Splitting fields and periods of Fibonacci sequences modulo primes",
+    "url": "http://arxiv.org/abs/0909.0362v1"
+   },
+   {
+    "name": "Electronic band gap and transport in Fibonacci quasi-periodic graphene superlattice",
+    "url": "http://arxiv.org/abs/1111.1754v1"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "arxiv:all:\"Fibonacci\" AND (all:period OR all:periodic OR all:pisano)|Fibonacci,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Rotating-Memory Fibonacci Numbers and Periodic Tilings",
+    "url": "http://arxiv.org/abs/2609.12569v1"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "arxiv:all:\"Fibonacci\" AND all:\"Lucas\" AND (all:period OR all:periodic OR all:pisano)|Fibonacci,Lucas,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "The Hadamard Products for bi-periodic Fibonacci and bi-periodic Lucas Generating matrices",
+    "url": "http://arxiv.org/abs/1705.05127v1"
+   },
+   {
+    "name": "A note on the bi-periodic Fibonacci and Lucas matrix sequences",
+    "url": "http://arxiv.org/abs/1604.00766v1"
+   },
+   {
+    "name": "Period patterns, entry points, and orders in the Lucas sequences: theory and applications",
+    "url": "http://arxiv.org/abs/2408.14632v2"
+   },
+   {
+    "name": "GCD of sums of $k$ consecutive Fibonacci, Lucas, and generalized Fibonacci numbers",
+    "url": "http://arxiv.org/abs/2104.12262v2"
+   },
+   {
+    "name": "Bi-periodic incomplete Lucas numbers",
+    "url": "http://arxiv.org/abs/1601.02414v2"
+   },
+   {
+    "name": "Generating matrix of the bi-periodic Lucas numbers",
+    "url": "http://arxiv.org/abs/1603.03241v1"
+   },
+   {
+    "name": "The Right Edge of the Zero Set of the Fibonacci Zeta Function",
+    "url": "http://arxiv.org/abs/2609.04993v1"
+   },
+   {
+    "name": "Sophie Germain Primes and the Totient of Fibonacci Numbers",
+    "url": "http://arxiv.org/abs/2604.17847v3"
+   },
+   {
+    "name": "Modular Periodicity of Random Initialized Recurrences",
+    "url": "http://arxiv.org/abs/2510.24882v5"
+   },
+   {
+    "name": "A dynamical property unique to the Lucas sequence",
+    "url": "http://arxiv.org/abs/math/9907015v1"
+   },
+   {
+    "name": "Residues of Terms of Lucas Sequences Modulo $3^k$",
+    "url": "http://arxiv.org/abs/2511.00722v1"
+   },
+   {
+    "name": "On the l.c.m. of shifted Lucas numbers",
+    "url": "http://arxiv.org/abs/2108.03628v1"
+   },
+   {
+    "name": "Uniform Bounds for Digit-Appending Fibonacci Walks",
+    "url": "http://arxiv.org/abs/2512.06446v1"
+   },
+   {
+    "name": "Fibonacci Waveguide Quantum Electrodynamics",
+    "url": "http://arxiv.org/abs/2507.06308v4"
+   },
+   {
+    "name": "On a new generalization of Fibonacci hybrid numbers",
+    "url": "http://arxiv.org/abs/2006.09727v1"
+   },
+   {
+    "name": "Periodic Weighted Sums of Binomial Coefficients",
+    "url": "http://arxiv.org/abs/2210.04322v6"
+   },
+   {
+    "name": "Dilogarithm identities after Bridgeman",
+    "url": "http://arxiv.org/abs/2006.04329v1"
+   },
+   {
+    "name": "Some basic properties of the generalized bi-periodic Fibonacci and Lucas sequences",
+    "url": "http://arxiv.org/abs/1910.04043v1"
+   },
+   {
+    "name": "Exact Combinatorial Density of States for the Critical 1D Ising Model",
+    "url": "http://arxiv.org/abs/2511.01646v2"
+   },
+   {
+    "name": "Goldstone modes and the golden spiral in the ferromagnetic spin-1 biquadratic model",
+    "url": "http://arxiv.org/abs/2302.13126v4"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "arxiv:all:\"Fibonacci\" AND all:\"Lucas\" AND (all:period OR all:periodic OR all:pisano)|Fibonacci,Lucas,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "arxiv:all:\"Fibonacci\" AND all:\"Lucas\" AND all:\"square\" AND (all:period OR all:periodic OR all:pisano)|Fibonacci,Lucas,square,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Sophie Germain Primes and the Totient of Fibonacci Numbers",
+    "url": "http://arxiv.org/abs/2604.17847v3"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "arxiv:all:\"Fibonacci\" AND all:\"Lucas\" AND all:\"square\" AND (all:period OR all:periodic OR all:pisano)|Fibonacci,Lucas,square,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "arxiv:all:\"Fibonacci\" AND all:\"Lucas\" AND all:\"triangular\" AND (all:period OR all:periodic OR all:pisano)|Fibonacci,Lucas,triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "arxiv:all:\"Fibonacci\" AND all:\"Lucas\" AND all:\"triangular\" AND (all:period OR all:periodic OR all:pisano)|Fibonacci,Lucas,triangular,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "arxiv:all:\"Fibonacci\" AND all:\"square\" AND (all:period OR all:periodic OR all:pisano)|Fibonacci,square,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Fibonacci along even powers is (almost) realizable",
+    "url": "http://arxiv.org/abs/2011.13068v1"
+   },
+   {
+    "name": "Sophie Germain Primes and the Totient of Fibonacci Numbers",
+    "url": "http://arxiv.org/abs/2604.17847v3"
+   },
+   {
+    "name": "Finite Sections of Periodic Schr\u00f6dinger Operators",
+    "url": "http://arxiv.org/abs/2110.09339v2"
+   },
+   {
+    "name": "Products of 2X2 matrices related to non autonomous Fibonacci difference equations",
+    "url": "http://arxiv.org/abs/1308.1137v3"
+   },
+   {
+    "name": "Algebraic integers with continued fraction expansions containing palindromes and square roots with prescribed periods",
+    "url": "http://arxiv.org/abs/2405.06430v2"
+   },
+   {
+    "name": "Higher-order topology in Fibonacci quasicrystals",
+    "url": "http://arxiv.org/abs/2401.14896v1"
+   },
+   {
+    "name": "Periodically and Quasi-periodically Driven Dynamics of Bose-Einstein Condensates",
+    "url": "http://arxiv.org/abs/2008.00373v3"
+   },
+   {
+    "name": "Generating Fibonacci Words via the Prefix--Suffix Duplication Operation",
+    "url": "http://arxiv.org/abs/2607.20405v1"
+   },
+   {
+    "name": "Interaction of water surface waves with periodic and quasiperiodic cylinder arrays",
+    "url": "http://arxiv.org/abs/2407.17141v2"
+   },
+   {
+    "name": "One cut, two parities: exact Fibonacci charge responses in the golden chain",
+    "url": "http://arxiv.org/abs/2607.01151v2"
+   },
+   {
+    "name": "Lower bounds for the integration error for multivariate functions with mixed smoothness and optimal Fibonacci cubature for functions on the square",
+    "url": "http://arxiv.org/abs/1311.1563v2"
+   },
+   {
+    "name": "Periods of the discretized Arnold Cat Map and its extension to n dimensions",
+    "url": "http://arxiv.org/abs/1111.2984v1"
+   },
+   {
+    "name": "On universal sampling recovery in the uniform norm",
+    "url": "http://arxiv.org/abs/2307.04017v1"
+   },
+   {
+    "name": "Magnetotransport in Quasilattices",
+    "url": "http://arxiv.org/abs/cond-mat/9809114v1"
+   },
+   {
+    "name": "Hexagonal and trigonal quasiperiodic tilings",
+    "url": "http://arxiv.org/abs/2201.11848v2"
+   },
+   {
+    "name": "Q-Dependent Susceptibilities in Ferromagnetic Quasiperiodic Z-Invariant Ising Models",
+    "url": "http://arxiv.org/abs/cond-mat/0606301v2"
+   },
+   {
+    "name": "On the continued fraction expansion of a class of numbers",
+    "url": "http://arxiv.org/abs/math/0409233v3"
+   },
+   {
+    "name": "RSOS Quantum Chains Associated with Off-Critical Minimal Models and $\\mathbb{Z}_n$ Parafermions",
+    "url": "http://arxiv.org/abs/1412.4942v1"
+   },
+   {
+    "name": "Heating suppression via two-rate random and quasiperiodic drive protocols",
+    "url": "http://arxiv.org/abs/2508.02783v1"
+   },
+   {
+    "name": "The fine structure of heating in a quasiperiodically driven critical quantum system",
+    "url": "http://arxiv.org/abs/2006.10054v1"
+   },
+   {
+    "name": "Engineering complete delocalization of single particle states in a class of one dimensional aperiodic lattices: a quantum dynamical study",
+    "url": "http://arxiv.org/abs/2312.11977v2"
+   },
+   {
+    "name": "Algorithmical Aspects of Some Bio Inspired Operations",
+    "url": "http://arxiv.org/abs/2501.06949v1"
+   },
+   {
+    "name": "A study of a family of self-referential sequences",
+    "url": "http://arxiv.org/abs/2506.18103v2"
+   },
+   {
+    "name": "Quantum dynamics of atoms in number-theory-inspired potentials",
+    "url": "http://arxiv.org/abs/2410.13988v2"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "arxiv:all:\"Fibonacci\" AND all:\"square\" AND (all:period OR all:periodic OR all:pisano)|Fibonacci,square,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Periods of the discretized Arnold Cat Map and its extension to n dimensions",
+    "url": "http://arxiv.org/abs/1111.2984v1"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "arxiv:all:\"Fibonacci\" AND all:\"square\" AND all:\"triangular\" AND (all:period OR all:periodic OR all:pisano)|Fibonacci,square,triangular,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "arxiv:all:\"Fibonacci\" AND all:\"triangular\" AND (all:period OR all:periodic OR all:pisano)|Fibonacci,triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Rotating-Memory Fibonacci Numbers and Periodic Tilings",
+    "url": "http://arxiv.org/abs/2609.12569v1"
+   },
+   {
+    "name": "Diagonal Bases and Diagonal Periods of Elementary Cellular Automata",
+    "url": "http://arxiv.org/abs/2609.25078v1"
+   },
+   {
+    "name": "Partition Function Zeros for Aperiodic Systems",
+    "url": "http://arxiv.org/abs/cond-mat/9311017v1"
+   },
+   {
+    "name": "Critical currents in superconductors with quasiperiodic pinning arrays: One-dimensional chains and two-dimensional Penrose lattices",
+    "url": "http://arxiv.org/abs/cond-mat/0511098v1"
+   },
+   {
+    "name": "A study of a family of self-referential sequences",
+    "url": "http://arxiv.org/abs/2506.18103v2"
+   },
+   {
+    "name": "Implementation of a Type-2 Fuzzy Logic Based Prediction System for the Nigerian Stock Exchange",
+    "url": "http://arxiv.org/abs/2202.02107v1"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "arxiv:all:\"Fibonacci\" AND all:\"triangular\" AND (all:period OR all:periodic OR all:pisano)|Fibonacci,triangular,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Rotating-Memory Fibonacci Numbers and Periodic Tilings",
+    "url": "http://arxiv.org/abs/2609.12569v1"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "arxiv:all:\"Lucas\" AND (all:period OR all:periodic OR all:pisano)|Lucas,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Bi-periodic incomplete Lucas numbers",
+    "url": "http://arxiv.org/abs/1601.02414v2"
+   },
+   {
+    "name": "A note on the bi-periodic Fibonacci and Lucas matrix sequences",
+    "url": "http://arxiv.org/abs/1604.00766v1"
+   },
+   {
+    "name": "Generating matrix of the bi-periodic Lucas numbers",
+    "url": "http://arxiv.org/abs/1603.03241v1"
+   },
+   {
+    "name": "The Hadamard Products for bi-periodic Fibonacci and bi-periodic Lucas Generating matrices",
+    "url": "http://arxiv.org/abs/1705.05127v1"
+   },
+   {
+    "name": "Period patterns, entry points, and orders in the Lucas sequences: theory and applications",
+    "url": "http://arxiv.org/abs/2408.14632v2"
+   },
+   {
+    "name": "Modular Periodicity of Random Initialized Recurrences",
+    "url": "http://arxiv.org/abs/2510.24882v5"
+   },
+   {
+    "name": "GCD of sums of $k$ consecutive Fibonacci, Lucas, and generalized Fibonacci numbers",
+    "url": "http://arxiv.org/abs/2104.12262v2"
+   },
+   {
+    "name": "Residues of Terms of Lucas Sequences Modulo $3^k$",
+    "url": "http://arxiv.org/abs/2511.00722v1"
+   },
+   {
+    "name": "A dynamical property unique to the Lucas sequence",
+    "url": "http://arxiv.org/abs/math/9907015v1"
+   },
+   {
+    "name": "On the l.c.m. of shifted Lucas numbers",
+    "url": "http://arxiv.org/abs/2108.03628v1"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "arxiv:all:\"Lucas\" AND (all:period OR all:periodic OR all:pisano)|Lucas,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "arxiv:all:\"Lucas\" AND all:\"Fibonacci\" AND (all:composition OR all:subscripts OR all:nested OR all:iterated) AND (all:period OR all:modulo)|fibonacci,period|periodic|pisano,composition|composite|nested|iterated|subscript|l_{l|f_{f|l_{f|f_{l|l(l(|f(f(|of lucas numbers|of fibonacci numbers": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "arxiv:all:\"Lucas\" AND all:\"Fibonacci\" AND (all:composition OR all:subscripts OR all:nested OR all:iterated) AND (all:period OR all:modulo)|fibonacci|lucas,period|periodic|pisano,composition|composite|nested|iterated|subscript|l_{l|f_{f|l_{f|f_{l|l(l(|f(f(|of lucas numbers|of fibonacci numbers": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "arxiv:all:\"Lucas\" AND all:\"Fibonacci\" AND (all:composition OR all:subscripts OR all:nested OR all:iterated) AND (all:period OR all:modulo)|lucas,5^k|powers of 5|5-adic|modulo 5,composition|composite|nested|iterated|subscript|l_{l|f_{f|l_{f|f_{l|l(l(|f(f(|of lucas numbers|of fibonacci numbers": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "arxiv:all:\"Lucas\" AND all:\"Fibonacci\" AND (all:composition OR all:subscripts OR all:nested OR all:iterated) AND (all:period OR all:modulo)|lucas,period|periodic|pisano,composition|composite|nested|iterated|subscript|l_{l|f_{f|l_{f|f_{l|l(l(|f(f(|of lucas numbers|of fibonacci numbers": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "arxiv:all:\"Lucas\" AND all:\"square\" AND (all:period OR all:periodic OR all:pisano)|Lucas,square,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Elliptic Divisibility Sequences, Squares and Cubes",
+    "url": "http://arxiv.org/abs/1101.3839v2"
+   },
+   {
+    "name": "Sophie Germain Primes and the Totient of Fibonacci Numbers",
+    "url": "http://arxiv.org/abs/2604.17847v3"
+   },
+   {
+    "name": "A Connection Between the Monogenicity of Certain Power-Compositional Trinomials and $k$-Wall-Sun-Sun Primes",
+    "url": "http://arxiv.org/abs/2211.14834v1"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "arxiv:all:\"Lucas\" AND all:\"square\" AND (all:period OR all:periodic OR all:pisano)|Lucas,square,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "A Connection Between the Monogenicity of Certain Power-Compositional Trinomials and $k$-Wall-Sun-Sun Primes",
+    "url": "http://arxiv.org/abs/2211.14834v1"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "arxiv:all:\"Lucas\" AND all:\"square\" AND all:\"triangular\" AND (all:period OR all:periodic OR all:pisano)|Lucas,square,triangular,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "arxiv:all:\"Lucas\" AND all:\"triangular\" AND (all:period OR all:periodic OR all:pisano)|Lucas,triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "arxiv:all:\"Lucas\" AND all:\"triangular\" AND (all:period OR all:periodic OR all:pisano)|Lucas,triangular,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "arxiv:all:\"square\" AND (all:period OR all:periodic OR all:pisano)|square,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Laplacians on periodic discrete graphs",
+    "url": "http://arxiv.org/abs/1301.6896v1"
+   },
+   {
+    "name": "Periodic representations and rational approximations of square roots",
+    "url": "http://arxiv.org/abs/1409.6159v1"
+   },
+   {
+    "name": "Counterexamples to mean square almost periodicity of the solutions of some SDEs with almost periodic coefficients",
+    "url": "http://arxiv.org/abs/1208.6384v1"
+   },
+   {
+    "name": "Periodic tillings of the plane by squares",
+    "url": "http://arxiv.org/abs/2003.05430v1"
+   },
+   {
+    "name": "A Solution to the Periodic Square Peg Problem",
+    "url": "http://arxiv.org/abs/2407.20412v1"
+   },
+   {
+    "name": "\"Pairs of Squares\" Periodic Table",
+    "url": "http://arxiv.org/abs/2506.11247v8"
+   },
+   {
+    "name": "Periodic orbits for square and rectangular billiards",
+    "url": "http://arxiv.org/abs/2410.18316v2"
+   },
+   {
+    "name": "Asymptotic behaviour and the Nahm transform of doubly periodic instantons with square integrable curvature",
+    "url": "http://arxiv.org/abs/1303.2394v2"
+   },
+   {
+    "name": "Fractional flux periodicity of a twisted planar square lattice",
+    "url": "http://arxiv.org/abs/cond-mat/0401597v3"
+   },
+   {
+    "name": "Fractional flux periodicity in tori made of square lattice",
+    "url": "http://arxiv.org/abs/cond-mat/0403096v2"
+   },
+   {
+    "name": "Infinite square well and periodic trajectories in classical mechanics",
+    "url": "http://arxiv.org/abs/physics/0207096v1"
+   },
+   {
+    "name": "A new simple family of non-periodic tilings with square tiles",
+    "url": "http://arxiv.org/abs/2307.16134v4"
+   },
+   {
+    "name": "Comparing periodic-orbit theory to perturbation theory in the asymmetric infinite square well",
+    "url": "http://arxiv.org/abs/0912.0243v1"
+   },
+   {
+    "name": "Linear independence of periods for the symmetric square $L$-functions",
+    "url": "http://arxiv.org/abs/2507.17608v1"
+   },
+   {
+    "name": "T=0 Partition Functions for Potts Antiferromagnets on Square Lattice Strips with (Twisted) Periodic Boundary Conditions",
+    "url": "http://arxiv.org/abs/cond-mat/0001407v1"
+   },
+   {
+    "name": "Periodicity and Period-Length Bounds for Browkin $p$-Adic Continued Fractions",
+    "url": "http://arxiv.org/abs/2609.15531v1"
+   },
+   {
+    "name": "A Periodicity Result for Tilings of $\\mathbb Z^3$ by Clusters of Prime-Squared Cardinality",
+    "url": "http://arxiv.org/abs/2109.14179v3"
+   },
+   {
+    "name": "Discovery of periodic variables in the hot subdwarf catalogue through a systematic search in Zwicky Transient Facility data",
+    "url": "http://arxiv.org/abs/2112.12868v2"
+   },
+   {
+    "name": "Domain and Stripe Formation Between Hexagonal and Square Ordered Fillings of Colloidal Particles on Periodic Pinning Substrates",
+    "url": "http://arxiv.org/abs/1211.4067v1"
+   },
+   {
+    "name": "Periodic continued fractions and elliptic curves over quadratic fields",
+    "url": "http://arxiv.org/abs/1411.6174v2"
+   },
+   {
+    "name": "ACM with Overlapping Partitions: Implementation and Periodicity Analysis",
+    "url": "http://arxiv.org/abs/2303.17069v1"
+   },
+   {
+    "name": "On the periodicity of an algorithm for p-adic continued fractions",
+    "url": "http://arxiv.org/abs/2201.12019v1"
+   },
+   {
+    "name": "High-energy asymptotics of the spectrum of a periodic square-lattice quantum graph",
+    "url": "http://arxiv.org/abs/1006.1446v2"
+   },
+   {
+    "name": "Quasi-periodically developed flow in channels with arrays of in-line square cylinders",
+    "url": "http://arxiv.org/abs/2306.14201v1"
+   },
+   {
+    "name": "Analytic Periods via Twisted Symmetric Squares",
+    "url": "http://arxiv.org/abs/2110.02962v2"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "arxiv:all:\"square\" AND (all:period OR all:periodic OR all:pisano)|square,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Laplacians on periodic discrete graphs",
+    "url": "http://arxiv.org/abs/1301.6896v1"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "arxiv:all:\"square\" AND all:\"triangular\" AND (all:period OR all:periodic OR all:pisano)|square,triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Periodic magnetoconductance fluctuations in triangular quantum dots in the absence of selective probing",
+    "url": "http://arxiv.org/abs/cond-mat/9807208v1"
+   },
+   {
+    "name": "Hall Conductance of a Two-Dimensional Electron Gas in Periodic Lattice with Triangular Antidots",
+    "url": "http://arxiv.org/abs/cond-mat/0404531v1"
+   },
+   {
+    "name": "Transverse Phase Locking for Vortex Motion in Square and Triangular Pinning Arrays",
+    "url": "http://arxiv.org/abs/cond-mat/0201021v1"
+   },
+   {
+    "name": "Critical Binder cumulant for isotropic Ising models on square and triangular lattices",
+    "url": "http://arxiv.org/abs/cond-mat/0701515v1"
+   },
+   {
+    "name": "Heider balance in square versus triangular lattices under an external field",
+    "url": "http://arxiv.org/abs/2512.00567v3"
+   },
+   {
+    "name": "Polarization as a tuning parameter for Floquet engineering: magnetism in the honeycomb, square, and triangular Mott insulators",
+    "url": "http://arxiv.org/abs/2003.05933v2"
+   },
+   {
+    "name": "Discrete Bethe--Sommerfeld Conjecture for Triangular, Square, and Hexagonal Lattices",
+    "url": "http://arxiv.org/abs/1806.01988v1"
+   },
+   {
+    "name": "Field-induced transformation between triangular and square skyrmion crystals in a tetragonal polar magnet",
+    "url": "http://arxiv.org/abs/2312.15587v1"
+   },
+   {
+    "name": "Moir\u00e9 and frustration physics of dipolar supersolids under periodic confinement",
+    "url": "http://arxiv.org/abs/2603.27983v1"
+   },
+   {
+    "name": "$\u03c9$-limit sets of triangular maps over periodic orbits of the base",
+    "url": "http://arxiv.org/abs/2611.06889v1"
+   },
+   {
+    "name": "Topological semimetal-to-insulator phase transition between noncollinear and noncoplanar multiple-Q states on a square-to-triangular lattice",
+    "url": "http://arxiv.org/abs/1412.0752v1"
+   },
+   {
+    "name": "Numerical Linked-Cluster Algorithms. I. Spin systems on square, triangular, and kagome lattices",
+    "url": "http://arxiv.org/abs/0706.3254v1"
+   },
+   {
+    "name": "Electron Band Structure in a Two Dimensional Periodic Magnetic Field",
+    "url": "http://arxiv.org/abs/cond-mat/9407083v1"
+   },
+   {
+    "name": "On the low lying spectrum of the magnetic Schr\u00f6dinger operator with kagome periodicity",
+    "url": "http://arxiv.org/abs/1404.0642v1"
+   },
+   {
+    "name": "On forced periodicity of perfect colorings",
+    "url": "http://arxiv.org/abs/2301.05232v1"
+   },
+   {
+    "name": "Asymmetric vortex solitons in nonlinear periodic lattices",
+    "url": "http://arxiv.org/abs/physics/0403103v1"
+   },
+   {
+    "name": "Dispersion relations of periodic quantum graphs associated with Archimedean tiling (I)",
+    "url": "http://arxiv.org/abs/1809.09581v2"
+   },
+   {
+    "name": "Corner free energies and boundary effects for Ising, Potts and fully-packed loop models on the square and triangular lattices",
+    "url": "http://arxiv.org/abs/1110.2158v1"
+   },
+   {
+    "name": "Supersolid-like square- and triangular-lattice crystallization of dipolar droplets in a box trap",
+    "url": "http://arxiv.org/abs/2209.14373v1"
+   },
+   {
+    "name": "Mixtures and grain boundaries of P, D, and G triply periodic minimal surfaces",
+    "url": "http://arxiv.org/abs/2411.11995v1"
+   },
+   {
+    "name": "Ground states of colloidal molecular crystals on periodic substrates",
+    "url": "http://arxiv.org/abs/0802.0115v1"
+   },
+   {
+    "name": "Novel Colloidal Crystalline States on Two Dimensional Periodic Substrates",
+    "url": "http://arxiv.org/abs/cond-mat/0201258v1"
+   },
+   {
+    "name": "Lattice random walks and quantum A-period conjecture",
+    "url": "http://arxiv.org/abs/2412.21128v2"
+   },
+   {
+    "name": "T=0 Partition Functions for Potts Antiferromagnets on Lattice Strips with Fully Periodic Boundary Conditions",
+    "url": "http://arxiv.org/abs/cond-mat/0007491v1"
+   },
+   {
+    "name": "Phonon spectra of a two-dimensional solid dusty plasma modified by two-dimensional periodic substrates",
+    "url": "http://arxiv.org/abs/2109.11355v1"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "arxiv:all:\"square\" AND all:\"triangular\" AND (all:period OR all:periodic OR all:pisano)|square,triangular,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "$\u03c9$-limit sets of triangular maps over periodic orbits of the base",
+    "url": "http://arxiv.org/abs/2611.06889v1"
+   },
+   {
+    "name": "Ground states of colloidal molecular crystals on periodic substrates",
+    "url": "http://arxiv.org/abs/0802.0115v1"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "arxiv:all:\"triangular\" AND (all:period OR all:periodic OR all:pisano)|triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Periodic and Non-Periodic Solutions of a Ricker-type Second-Order Equation with Periodic Parameters",
+    "url": "http://arxiv.org/abs/1602.02138v2"
+   },
+   {
+    "name": "On the global dynamics of periodic triangular maps",
+    "url": "http://arxiv.org/abs/1605.09631v1"
+   },
+   {
+    "name": "Quantum ergodicity for periodic graphs",
+    "url": "http://arxiv.org/abs/2208.12685v2"
+   },
+   {
+    "name": "Hyperbolic triangular buildings without periodic planes of genus two",
+    "url": "http://arxiv.org/abs/1409.1401v5"
+   },
+   {
+    "name": "Classical and Quantum Dynamics of a Periodically Driven Particle in a Triangular Well",
+    "url": "http://arxiv.org/abs/cond-mat/9506001v1"
+   },
+   {
+    "name": "Gluing doubly periodic Scherk surfaces into minimal surfaces",
+    "url": "http://arxiv.org/abs/2507.12859v2"
+   },
+   {
+    "name": "Periodic magnetoconductance fluctuations in triangular quantum dots in the absence of selective probing",
+    "url": "http://arxiv.org/abs/cond-mat/9807208v1"
+   },
+   {
+    "name": "Non-periodic not everywhere dense trajectories in triangular billiards",
+    "url": "http://arxiv.org/abs/2406.17734v1"
+   },
+   {
+    "name": "Proving periodic solutions and branches in the 2D Swift Hohenberg PDE with hexagonal and triangular symmetry",
+    "url": "http://arxiv.org/abs/2602.12491v2"
+   },
+   {
+    "name": "Hall Conductance of a Two-Dimensional Electron Gas in Periodic Lattice with Triangular Antidots",
+    "url": "http://arxiv.org/abs/cond-mat/0404531v1"
+   },
+   {
+    "name": "Partial Disorder in the Periodic Anderson Model on a Triangular Lattice",
+    "url": "http://arxiv.org/abs/1105.3271v1"
+   },
+   {
+    "name": "The scaling limit of the correlation of holes on the triangular lattice with periodic boundary conditions",
+    "url": "http://arxiv.org/abs/math-ph/0501071v3"
+   },
+   {
+    "name": "Carrier doping to a partially disordered state in the periodic Anderson model on a triangular lattice",
+    "url": "http://arxiv.org/abs/1107.4401v1"
+   },
+   {
+    "name": "Ultrasonic beam propagation in periodic structures: verifying the existence of sonic crystals in triangular structures",
+    "url": "http://arxiv.org/abs/1305.3910v1"
+   },
+   {
+    "name": "Superlubric-pinned transition of a two-dimensional solid dusty plasma under a periodic triangular substrate",
+    "url": "http://arxiv.org/abs/2207.11342v1"
+   },
+   {
+    "name": "Partial Disorder and Metal-Insulator Transition in the Periodic Anderson Model on a Triangular Lattice",
+    "url": "http://arxiv.org/abs/1208.4691v1"
+   },
+   {
+    "name": "Plasmon enhanced second harmonic generation by periodic arrays of triangular nanoholes coupled to quantum emitters",
+    "url": "http://arxiv.org/abs/1908.01077v3"
+   },
+   {
+    "name": "Exploring Periodic Orbit Expansions and Renormalisation with the Quantum Triangular Billiard",
+    "url": "http://arxiv.org/abs/chao-dyn/9607005v1"
+   },
+   {
+    "name": "Designing aperiodic to periodic interfaces",
+    "url": "http://arxiv.org/abs/2404.11378v2"
+   },
+   {
+    "name": "Rings Additively Generated by Periodic Elements",
+    "url": "http://arxiv.org/abs/2311.06966v1"
+   },
+   {
+    "name": "$\u03c9$-limit sets of triangular maps over periodic orbits of the base",
+    "url": "http://arxiv.org/abs/2611.06889v1"
+   },
+   {
+    "name": "Tailoring Metal Insulator Transitions $\\&$ Band Topology via Off-resonant Periodic Drive in an Interacting Triangular Lattice",
+    "url": "http://arxiv.org/abs/1912.00936v2"
+   },
+   {
+    "name": "Periodicity and Circulant Matrices in the Riordan Array of a Polynomial",
+    "url": "http://arxiv.org/abs/2308.02656v1"
+   },
+   {
+    "name": "Transition radiation on a dynamical periodical interface",
+    "url": "http://arxiv.org/abs/1510.07286v2"
+   },
+   {
+    "name": "Periodic Behavior of Topology in Graphene with Nanohole Array",
+    "url": "http://arxiv.org/abs/2605.14436v1"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "arxiv:all:\"triangular\" AND (all:period OR all:periodic OR all:pisano)|triangular,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "$\u03c9$-limit sets of triangular maps over periodic orbits of the base",
+    "url": "http://arxiv.org/abs/2611.06889v1"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "crossref:Fibonacci Lucas composition periodic modulo known result|Fibonacci,Lucas,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "periodic fibonacci and lucas sequences",
+    "url": "https://doi.org/10.1080/00150517.1991.12429395"
+   },
+   {
+    "name": "period lengths of the incomplete fibonacci and incomplete lucas sequences modulo m",
+    "url": "https://doi.org/10.3390/math14173038"
+   },
+   {
+    "name": "gaussian bi-periodic fibonacci and gaussian bi-periodic lucas sequences",
+    "url": "https://doi.org/10.29327/2520355.10.1-1"
+   },
+   {
+    "name": "positive integer solutions of some pell equations via generalized bi-periodic fibonacci and generalized bi-periodic lucas sequences",
+    "url": "https://doi.org/10.21275/sr22819215408"
+   },
+   {
+    "name": "relations between generalized bi-periodic fibonacci and lucas sequences",
+    "url": "https://doi.org/10.3390/math8091527"
+   },
+   {
+    "name": "bi-periodic (p,q)-fibonacci and bi-periodic (p,q)-lucas sequences",
+    "url": "https://doi.org/10.16984/saufenbilder.1148618"
+   },
+   {
+    "name": "on properties of bi-periodic fibonacci and lucas polynomials",
+    "url": "https://doi.org/10.1063/1.4992478"
+   },
+   {
+    "name": "on geometric circulant matrices whose entries are bi-periodic fibonacci and bi-periodic lucas numbers",
+    "url": "https://doi.org/10.32323/ujma.669276"
+   },
+   {
+    "name": "determinantal formulas and recurrent relations for bi-periodic fibonacci and lucas polynomials",
+    "url": "https://doi.org/10.31219/osf.io/qvxd8"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "crossref:Fibonacci Lucas periodic modulo known result|Fibonacci,Lucas,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "periodic fibonacci and lucas sequences",
+    "url": "https://doi.org/10.1080/00150517.1991.12429395"
+   },
+   {
+    "name": "period lengths of the incomplete fibonacci and incomplete lucas sequences modulo m",
+    "url": "https://doi.org/10.3390/math14173038"
+   },
+   {
+    "name": "gaussian bi-periodic fibonacci and gaussian bi-periodic lucas sequences",
+    "url": "https://doi.org/10.29327/2520355.10.1-1"
+   },
+   {
+    "name": "positive integer solutions of some pell equations via generalized bi-periodic fibonacci and generalized bi-periodic lucas sequences",
+    "url": "https://doi.org/10.21275/sr22819215408"
+   },
+   {
+    "name": "relations between generalized bi-periodic fibonacci and lucas sequences",
+    "url": "https://doi.org/10.3390/math8091527"
+   },
+   {
+    "name": "bi-periodic (p,q)-fibonacci and bi-periodic (p,q)-lucas sequences",
+    "url": "https://doi.org/10.16984/saufenbilder.1148618"
+   },
+   {
+    "name": "on properties of bi-periodic fibonacci and lucas polynomials",
+    "url": "https://doi.org/10.1063/1.4992478"
+   },
+   {
+    "name": "on geometric circulant matrices whose entries are bi-periodic fibonacci and bi-periodic lucas numbers",
+    "url": "https://doi.org/10.32323/ujma.669276"
+   },
+   {
+    "name": "determinantal formulas and recurrent relations for bi-periodic fibonacci and lucas polynomials",
+    "url": "https://doi.org/10.31219/osf.io/qvxd8"
+   },
+   {
+    "name": "fibonacci and lucas periodicity",
+    "url": "https://doi.org/10.1002/9781118033067.ch35"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "crossref:Fibonacci Lucas square composition periodic modulo known result|Fibonacci,Lucas,square,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "crossref:Fibonacci Lucas square periodic modulo known result|Fibonacci,Lucas,square,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "crossref:Fibonacci Lucas triangular composition periodic modulo known result|Fibonacci,Lucas,triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "crossref:Fibonacci Lucas triangular periodic modulo known result|Fibonacci,Lucas,triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "crossref:Fibonacci composition periodic modulo known result|Fibonacci,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "periodic lengths of the generalized fibonacci sequence modulo p",
+    "url": "https://doi.org/10.1080/00150517.1977.12430472"
+   },
+   {
+    "name": "fibonacci primitive roots and the period of the fibonacci numbers modulo p",
+    "url": "https://doi.org/10.1080/00150517.1977.12430422"
+   },
+   {
+    "name": "on the periods of the fibonacci sequence modulo m",
+    "url": "https://doi.org/10.1080/00150517.1989.12429594"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "crossref:Fibonacci numbers with Fibonacci subscripts period modulo m|fibonacci,period|periodic|pisano,composition|composite|nested|iterated|subscript|l_{l|f_{f|l_{f|f_{l|l(l(|f(f(|of lucas numbers|of fibonacci numbers": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "crossref:Fibonacci periodic modulo known result|Fibonacci,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "periodic lengths of the generalized fibonacci sequence modulo p",
+    "url": "https://doi.org/10.1080/00150517.1977.12430472"
+   },
+   {
+    "name": "fibonacci primitive roots and the period of the fibonacci numbers modulo p",
+    "url": "https://doi.org/10.1080/00150517.1977.12430422"
+   },
+   {
+    "name": "on the periods of the fibonacci sequence modulo m",
+    "url": "https://doi.org/10.1080/00150517.1989.12429594"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "crossref:Fibonacci square composition periodic modulo known result|Fibonacci,square,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "crossref:Fibonacci square periodic modulo known result|Fibonacci,square,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "crossref:Fibonacci square triangular composition periodic modulo known result|Fibonacci,square,triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "crossref:Fibonacci triangular composition periodic modulo known result|Fibonacci,triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "crossref:Fibonacci triangular periodic modulo known result|Fibonacci,triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "crossref:L_{L_n} modulo 5^k period Lucas|lucas,5^k|powers of 5|5-adic|modulo 5,composition|composite|nested|iterated|subscript|l_{l|f_{f|l_{f|f_{l|l(l(|f(f(|of lucas numbers|of fibonacci numbers": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "crossref:Lucas composition periodic modulo known result|Lucas,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "possible restricted periods of certain lucas sequences modulo p",
+    "url": "https://doi.org/10.1007/978-94-011-3586-3_32"
+   },
+   {
+    "name": "period lengths of the incomplete fibonacci and incomplete lucas sequences modulo m",
+    "url": "https://doi.org/10.3390/math14173038"
+   },
+   {
+    "name": "gaussian bi-periodic fibonacci and gaussian bi-periodic lucas sequences",
+    "url": "https://doi.org/10.29327/2520355.10.1-1"
+   },
+   {
+    "name": "positive integer solutions of some pell equations via generalized bi-periodic fibonacci and generalized bi-periodic lucas sequences",
+    "url": "https://doi.org/10.21275/sr22819215408"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "crossref:Lucas periodic modulo known result|Lucas,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "possible restricted periods of certain lucas sequences modulo p",
+    "url": "https://doi.org/10.1007/978-94-011-3586-3_32"
+   },
+   {
+    "name": "period lengths of the incomplete fibonacci and incomplete lucas sequences modulo m",
+    "url": "https://doi.org/10.3390/math14173038"
+   },
+   {
+    "name": "gaussian bi-periodic fibonacci and gaussian bi-periodic lucas sequences",
+    "url": "https://doi.org/10.29327/2520355.10.1-1"
+   },
+   {
+    "name": "positive integer solutions of some pell equations via generalized bi-periodic fibonacci and generalized bi-periodic lucas sequences",
+    "url": "https://doi.org/10.21275/sr22819215408"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "crossref:Lucas square composition periodic modulo known result|Lucas,square,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "crossref:Lucas square periodic modulo known result|Lucas,square,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "crossref:Lucas square triangular composition periodic modulo known result|Lucas,square,triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "crossref:Lucas triangular composition periodic modulo known result|Lucas,triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "crossref:Lucas triangular periodic modulo known result|Lucas,triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "crossref:composition of Fibonacci and Lucas sequences periodic modulo prime powers known theorem|fibonacci|lucas,period|periodic|pisano,composition|composite|nested|iterated|subscript|l_{l|f_{f|l_{f|f_{l|l(l(|f(f(|of lucas numbers|of fibonacci numbers": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "crossref:iterated Fibonacci sequence F(F(n)) period modulo m|fibonacci,period|periodic|pisano,composition|composite|nested|iterated|subscript|l_{l|f_{f|l_{f|f_{l|l(l(|f(f(|of lucas numbers|of fibonacci numbers": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "powers of the period function for the sequence of fibonacci numbers",
+    "url": "https://doi.org/10.1080/00150517.1980.12430186"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "crossref:period of Fibonacci Lucas numbers composition modulo prime powers|Fibonacci,Lucas,period|periodic|pisano,composition|composite|nested|iterated|subscript": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "crossref:period of Fibonacci Lucas numbers modulo m|Fibonacci,Lucas,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "period lengths of the incomplete fibonacci and incomplete lucas sequences modulo m",
+    "url": "https://doi.org/10.3390/math14173038"
+   },
+   {
+    "name": "fibonacci and lucas periodicity",
+    "url": "https://doi.org/10.1002/9781118033067.ch35"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "crossref:period of Fibonacci Lucas square numbers modulo m|Fibonacci,Lucas,square,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "crossref:period of Fibonacci Lucas triangular numbers modulo m|Fibonacci,Lucas,triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "crossref:period of Fibonacci Pell-Lucas numbers composition modulo prime powers|Fibonacci,Pell,period|periodic|pisano,composition|composite|nested|iterated|subscript": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "crossref:period of Fibonacci numbers modulo m|Fibonacci,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "fibonacci primitive roots and the period of the fibonacci numbers modulo p",
+    "url": "https://doi.org/10.1080/00150517.1977.12430422"
+   },
+   {
+    "name": "the period modulo product of consecutive fibonacci numbers",
+    "url": "https://doi.org/10.12732/ijpam.v90i3.7"
+   },
+   {
+    "name": "a lower bound for the period of the fibonacci series modulo m",
+    "url": "https://doi.org/10.1080/00150517.1974.12430707"
+   },
+   {
+    "name": "the relation of the period modulo m to the rank of apparition of m in the fibonacci sequence",
+    "url": "https://doi.org/10.1080/00150517.1963.12431578"
+   },
+   {
+    "name": "period lengths of the incomplete fibonacci and incomplete lucas sequences modulo m",
+    "url": "https://doi.org/10.3390/math14173038"
+   },
+   {
+    "name": "period lengths of continued fractions involving fibonacci numbers",
+    "url": "https://doi.org/10.1080/00150517.2004.12428433"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "crossref:period of Fibonacci square numbers modulo m|Fibonacci,square,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "crossref:period of Fibonacci square triangular numbers modulo m|Fibonacci,square,triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "crossref:period of Fibonacci triangular numbers modulo m|Fibonacci,triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "crossref:period of Lucas Pell-Lucas numbers composition modulo prime powers|Lucas,Pell,period|periodic|pisano,composition|composite|nested|iterated|subscript": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "crossref:period of Lucas numbers composition modulo prime powers|Lucas,period|periodic|pisano,composition|composite|nested|iterated|subscript": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "crossref:period of Lucas numbers modulo m|Lucas,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "possible restricted periods of certain lucas sequences modulo p",
+    "url": "https://doi.org/10.1007/978-94-011-3586-3_32"
+   },
+   {
+    "name": "period lengths of the incomplete fibonacci and incomplete lucas sequences modulo m",
+    "url": "https://doi.org/10.3390/math14173038"
+   },
+   {
+    "name": "period of balancing numbers modulo product of consecutive lucas-balancing numbers",
+    "url": "https://doi.org/10.24193/mathcluj.2018.2.10"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "crossref:period of Lucas numbers with Lucas subscripts modulo m|lucas,period|periodic|pisano,composition|composite|nested|iterated|subscript|l_{l|f_{f|l_{f|f_{l|l(l(|f(f(|of lucas numbers|of fibonacci numbers": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "crossref:period of Lucas square numbers modulo m|Lucas,square,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "crossref:period of Lucas square triangular numbers modulo m|Lucas,square,triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "crossref:period of Lucas triangular numbers modulo m|Lucas,triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "crossref:period of Pell Pell-Lucas numbers composition modulo prime powers|Pell,Pell,period|periodic|pisano,composition|composite|nested|iterated|subscript": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "crossref:period of Pell-Lucas numbers composition modulo prime powers|Pell,period|periodic|pisano,composition|composite|nested|iterated|subscript": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "crossref:period of Pell-Lucas tribonacci numbers composition modulo prime powers|Pell,tribonacci,period|periodic|pisano,composition|composite|nested|iterated|subscript": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "crossref:period of square numbers modulo m|square,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "crossref:period of square triangular numbers modulo m|square,triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "crossref:period of triangular numbers modulo m|triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "crossref:square composition periodic modulo known result|square,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "mean square approximation by optimal periodic interpolation",
+    "url": "https://doi.org/10.21136/am.1995.134294"
+   },
+   {
+    "name": "instantly periodic general continued fraction representations of square roots",
+    "url": "https://doi.org/10.3840/08003364"
+   },
+   {
+    "name": "instantly periodic general continued fraction representations of square roots",
+    "url": "https://doi.org/10.3840/003364"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "crossref:square periodic modulo known result|square,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "mean square approximation by optimal periodic interpolation",
+    "url": "https://doi.org/10.21136/am.1995.134294"
+   },
+   {
+    "name": "instantly periodic general continued fraction representations of square roots",
+    "url": "https://doi.org/10.3840/08003364"
+   },
+   {
+    "name": "instantly periodic general continued fraction representations of square roots",
+    "url": "https://doi.org/10.3840/003364"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "crossref:square triangular composition periodic modulo known result|square,triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "smooth triangular maps of the square with closed set of periodic points",
+    "url": "https://doi.org/10.1006/jmaa.1995.1455"
+   },
+   {
+    "name": "studies of relaxation phenomena in polymers. i. the use of periodic square and triangular stress functions",
+    "url": "https://doi.org/10.1002/app.1973.070171004"
+   },
+   {
+    "name": "effect of trigonometric sine, square and triangular wave-type time-periodic gravity-aligned oscillations on rayleigh\u2013b\u00e9nard convection in newtonian liquids and newtonian nanoliquids",
+    "url": "https://doi.org/10.1007/s11012-019-00957-w"
+   },
+   {
+    "name": "correction to: effect of trigonometric sine, square and triangular wavetype time-periodic gravity-aligned oscillations on rayleigh\u2013b\u00e9nard convection in newtonian liquids and newtonian nanoliquids",
+    "url": "https://doi.org/10.1007/s11012-019-00971-y"
+   },
+   {
+    "name": "diffraction images of truncated sine, square and triangular wave periodic objects formed by an optical system with shaded aperture",
+    "url": "https://doi.org/10.1007/bf03549735"
+   },
+   {
+    "name": "comparative study of photonic band gaps of germanium-based two-dimensional triangular-lattice and square-lattice and decagonal quasi-periodic photonic crystals",
+    "url": "https://doi.org/10.1016/j.mee.2012.02.041"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "crossref:square triangular periodic modulo known result|square,triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "smooth triangular maps of the square with closed set of periodic points",
+    "url": "https://doi.org/10.1006/jmaa.1995.1455"
+   },
+   {
+    "name": "studies of relaxation phenomena in polymers. i. the use of periodic square and triangular stress functions",
+    "url": "https://doi.org/10.1002/app.1973.070171004"
+   },
+   {
+    "name": "effect of trigonometric sine, square and triangular wave-type time-periodic gravity-aligned oscillations on rayleigh\u2013b\u00e9nard convection in newtonian liquids and newtonian nanoliquids",
+    "url": "https://doi.org/10.1007/s11012-019-00957-w"
+   },
+   {
+    "name": "correction to: effect of trigonometric sine, square and triangular wavetype time-periodic gravity-aligned oscillations on rayleigh\u2013b\u00e9nard convection in newtonian liquids and newtonian nanoliquids",
+    "url": "https://doi.org/10.1007/s11012-019-00971-y"
+   },
+   {
+    "name": "diffraction images of truncated sine, square and triangular wave periodic objects formed by an optical system with shaded aperture",
+    "url": "https://doi.org/10.1007/bf03549735"
+   },
+   {
+    "name": "comparative study of photonic band gaps of germanium-based two-dimensional triangular-lattice and square-lattice and decagonal quasi-periodic photonic crystals",
+    "url": "https://doi.org/10.1016/j.mee.2012.02.041"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "crossref:triangular composition periodic modulo known result|triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "periodic motion about a lagrangian triangular point",
+    "url": "https://doi.org/10.1016/0019-1035(65)90001-1"
+   },
+   {
+    "name": "bifurcation and periodic triangular pattern formation in reaction-diffusion with anisotropic diffusion",
+    "url": "https://doi.org/10.5772/intechopen.113295"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "crossref:triangular periodic modulo known result|triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "periodic motion about a lagrangian triangular point",
+    "url": "https://doi.org/10.1016/0019-1035(65)90001-1"
+   },
+   {
+    "name": "bifurcation and periodic triangular pattern formation in reaction-diffusion with anisotropic diffusion",
+    "url": "https://doi.org/10.5772/intechopen.113295"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "manual:https://arxiv.org/abs/2609.24544": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Chuysurichay, Jaidee, Panraksa, Ward, The local Dold congruence for Fibonacci and Lucas sequences",
+    "url": "https://arxiv.org/abs/2609.24544"
+   }
+  ],
+  "note": "read: abstract, plus a keyword search of the whole PDF. states the theorem: False. Dold congruences. No composed sequences found.",
+  "status": "READ"
+ },
+ "manual:https://arxiv.org/html/2006.12002v1": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "S. Yokura, A remark on periods of periodic sequences modulo m",
+    "url": "https://arxiv.org/html/2006.12002v1"
+   }
+  ],
+  "note": "read: full text. states the theorem: False. Partial sums of generalized Fibonacci sequences. No composed sequences.",
+  "status": "READ"
+ },
+ "manual:https://arxiv.org/html/2404.08194v2": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "B. Benfield, O. Lippard, Fixed points of K-Fibonacci sequences",
+    "url": "https://arxiv.org/html/2404.08194v2"
+   }
+  ],
+  "note": "read: about 90 percent verbatim, plus a keyword search of the whole PDF. states the theorem: False. Iterates the period function pi(pi(m)), a different object from the composed sequence.",
+  "status": "READ"
+ },
+ "manual:https://arxiv.org/html/2511.00722v1": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "J.C. Saunders, R.N. Stephens, Residues of Terms of Lucas Sequences Modulo 3^k",
+    "url": "https://arxiv.org/html/2511.00722v1"
+   }
+  ],
+  "note": "read: about 84 percent verbatim; the end including Future Work was not read. states the theorem: False. General Lucas sequences mod 3^k. No composed sequences in the part read.",
+  "status": "READ"
+ },
+ "manual:https://codeforces.com/blog/entry/83559": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Blog post on computing F(F(i)) mod m",
+    "url": "https://codeforces.com/blog/entry/83559"
+   }
+  ],
+  "note": "site returned 403",
+  "status": "NOT-READ"
+ },
+ "manual:https://doi.org/10.1080/00150517.1980.12430186": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Powers of the period function for the sequence of Fibonacci numbers (Fibonacci Quarterly, 1980)",
+    "url": "https://doi.org/10.1080/00150517.1980.12430186"
+   }
+  ],
+  "note": "publisher returned 403",
+  "status": "NOT-READ"
+ },
+ "manual:https://doi.org/10.3390/math14173038": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Yilmaz, Period Lengths of the Incomplete Fibonacci and Incomplete Lucas Sequences Modulo m",
+    "url": "https://doi.org/10.3390/math14173038"
+   }
+  ],
+  "note": "read: abstract only, through the Crossref API; the page itself returned 403. states the theorem: False. Incomplete sequences, by the abstract. Full text not read.",
+  "status": "READ"
+ },
+ "manual:https://oeis.org/A356550": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "a(n) is the period of {F(F(k)) mod n}",
+    "url": "https://oeis.org/A356550"
+   }
+  ],
+  "note": "read: full page. states the theorem: False. F(F(k)) only. Gives the upper bound a(n) divides A001175(A001175(n)). No L(L), L(F) or 5^k formula.",
+  "status": "READ"
+ },
+ "manual:https://openalex.org/W2923086435": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "G. Yucel, Aspects of Fibonacci numbers (1994 dissertation)",
+    "url": "https://openalex.org/W2923086435"
+   }
+  ],
+  "note": "read: abstract only. states the theorem: False. Thesis body not read.",
+  "status": "READ"
+ },
+ "manual:https://www.fq.math.ca/Scanned/33-3/lengyel.pdf": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "T. Lengyel, The Order of the Fibonacci and Lucas Numbers, Fibonacci Quarterly 33.3 (1995)",
+    "url": "https://www.fq.math.ca/Scanned/33-3/lengyel.pdf"
+   }
+  ],
+  "note": "read: all six pages. states the theorem: False. Source of Lemma V (its Lemma 1). p-adic orders of F(n) and L(n), and an application to Stirling numbers. No composed sequences.",
+  "status": "READ"
+ },
+ "manual:https://www.mdpi.com/2227-7390/14/17/3038": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Full text of the Yilmaz paper",
+    "url": "https://www.mdpi.com/2227-7390/14/17/3038"
+   }
+  ],
+  "note": "site returned 403",
+  "status": "NOT-READ"
+ },
+ "manual:https://www.sciencedirect.com/science/article/abs/pii/S0096300314000514": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Truncated Lucas sequence and its period",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0096300314000514"
+   }
+  ],
+  "note": "publisher returned 403",
+  "status": "NOT-READ"
+ },
+ "oeis-entry:A000027": {
+  "checked": "2026-11-09",
+  "data": "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77",
+  "hits": [],
+  "id": "A000027",
+  "name": "The positive integers. Also called the natural numbers, the whole numbers or the counting numbers, but these terms are ambiguous.",
+  "offset": "1,2",
+  "status": "FOUND"
+ },
+ "oeis-entry:A001175": {
+  "checked": "2026-11-09",
+  "data": "1,3,8,6,20,24,16,12,24,60,10,24,28,48,40,24,36,24,18,60,16,30,48,24,100,84,72,48,14,120,30,48,40,36,80,24,76,18,56,60,40,48,88,30,120,48,32,24,112,300,72,84,108,72,20,48,72,42,58,120,60,30,48,96,140,120,136",
+  "hits": [],
+  "id": "A001175",
+  "name": "Pisano periods (or Pisano numbers): period of Fibonacci numbers mod n.",
+  "offset": "1,2",
+  "status": "FOUND"
+ },
+ "oeis-entry:A001477": {
+  "checked": "2026-11-09",
+  "data": "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77",
+  "hits": [],
+  "id": "A001477",
+  "name": "The nonnegative integers.",
+  "offset": "0,3",
+  "status": "FOUND"
+ },
+ "oeis-entry:A002260": {
+  "checked": "2026-11-09",
+  "data": "1,1,2,1,2,3,1,2,3,4,1,2,3,4,5,1,2,3,4,5,6,1,2,3,4,5,6,7,1,2,3,4,5,6,7,8,1,2,3,4,5,6,7,8,9,1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10,11,1,2,3,4,5,6,7,8,9,10,11,12,1,2,3,4,5,6,7,8,9,10,11,12,13,1,2,3,4,5,6,7,8,9,10,11,12,13,14",
+  "hits": [],
+  "id": "A002260",
+  "name": "Triangle read by rows: T(n,k) = k for n >= 1, k = 1..n.",
+  "offset": "1,3",
+  "status": "FOUND"
+ },
+ "oeis-entry:A002262": {
+  "checked": "2026-11-09",
+  "data": "0,0,1,0,1,2,0,1,2,3,0,1,2,3,4,0,1,2,3,4,5,0,1,2,3,4,5,6,0,1,2,3,4,5,6,7,0,1,2,3,4,5,6,7,8,0,1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8,9,10,0,1,2,3,4,5,6,7,8,9,10,11,0,1,2,3,4,5,6,7,8,9,10,11,12,0,1,2,3,4,5,6,7,8,9,10,11,12,13",
+  "hits": [],
+  "id": "A002262",
+  "name": "Triangle read by rows: T(n,k) = k, 0 <= k <= n, in which row n lists the first n+1 nonnegative integers.",
+  "offset": "0,6",
+  "status": "FOUND"
+ },
+ "oeis-entry:A007947": {
+  "checked": "2026-11-09",
+  "data": "1,2,3,2,5,6,7,2,3,10,11,6,13,14,15,2,17,6,19,10,21,22,23,6,5,26,3,14,29,30,31,2,33,34,35,6,37,38,39,10,41,42,43,22,15,46,47,6,7,10,51,26,53,6,55,14,57,58,59,30,61,62,21,2,65,66,67,34,69,70,71,6,73,74,15,38,77,78",
+  "hits": [],
+  "id": "A007947",
+  "name": "Largest squarefree number dividing n: the squarefree kernel of n, rad(n), radical of n.",
+  "offset": "1,2",
+  "status": "FOUND"
+ },
+ "oeis-entry:A015052": {
+  "checked": "2026-11-09",
+  "data": "1,2,3,2,5,6,7,2,3,10,11,6,13,14,15,2,17,6,19,10,21,22,23,6,5,26,3,14,29,30,31,2,33,34,35,6,37,38,39,10,41,42,43,22,15,46,47,6,7,10,51,26,53,6,55,14,57,58,59,30,61,62,21,4,65,66,67,34,69,70,71,6,73,74,15,38,77,78",
+  "hits": [],
+  "id": "A015052",
+  "name": "a(n) is the smallest positive integer m such that m^5 is divisible by n.",
+  "offset": "1,2",
+  "status": "FOUND"
+ },
+ "oeis-entry:A015053": {
+  "checked": "2026-11-09",
+  "data": "1,2,3,2,5,6,7,2,3,10,11,6,13,14,15,2,17,6,19,10,21,22,23,6,5,26,3,14,29,30,31,2,33,34,35,6,37,38,39,10,41,42,43,22,15,46,47,6,7,10,51,26,53,6,55,14,57,58,59,30,61,62,21,2,65,66,67,34,69,70,71,6,73,74,15,38,77,78",
+  "hits": [],
+  "id": "A015053",
+  "name": "Smallest positive integer for which n divides a(n)^6.",
+  "offset": "1,2",
+  "status": "FOUND"
+ },
+ "oeis-entry:A019530": {
+  "checked": "2026-11-09",
+  "data": "0,2,3,2,5,6,7,4,3,10,11,6,13,14,15,4,17,6,19,10,21,22,23,6,5,26,3,14,29,30,31,4,33,34,35,6,37,38,39,10,41,42,43,22,15,46,47,6,7,10,51,26,53,6,55,14,57,58,59,30,61,62,21,4,65,66,67,34,69,70,71,6,73,74,15,38,77,78",
+  "hits": [],
+  "id": "A019530",
+  "name": "Smallest number m such that m^m is divisible by n.",
+  "offset": "1,2",
+  "status": "FOUND"
+ },
+ "oeis-entry:A019554": {
+  "checked": "2026-11-09",
+  "data": "1,2,3,2,5,6,7,4,3,10,11,6,13,14,15,4,17,6,19,10,21,22,23,12,5,26,9,14,29,30,31,8,33,34,35,6,37,38,39,20,41,42,43,22,15,46,47,12,7,10,51,26,53,18,55,28,57,58,59,30,61,62,21,8,65,66,67,34,69,70,71,12,73,74,15,38,77",
+  "hits": [],
+  "id": "A019554",
+  "name": "Smallest number whose square is divisible by n.",
+  "offset": "1,2",
+  "status": "FOUND"
+ },
+ "oeis-entry:A019555": {
+  "checked": "2026-11-09",
+  "data": "1,2,3,2,5,6,7,2,3,10,11,6,13,14,15,4,17,6,19,10,21,22,23,6,5,26,3,14,29,30,31,4,33,34,35,6,37,38,39,10,41,42,43,22,15,46,47,12,7,10,51,26,53,6,55,14,57,58,59,30,61,62,21,4,65,66,67,34,69,70,71,6,73,74,15,38,77,78",
+  "hits": [],
+  "id": "A019555",
+  "name": "Smallest number whose cube is divisible by n.",
+  "offset": "1,2",
+  "status": "FOUND"
+ },
+ "oeis-entry:A053166": {
+  "checked": "2026-11-09",
+  "data": "1,2,3,2,5,6,7,2,3,10,11,6,13,14,15,2,17,6,19,10,21,22,23,6,5,26,3,14,29,30,31,4,33,34,35,6,37,38,39,10,41,42,43,22,15,46,47,6,7,10,51,26,53,6,55,14,57,58,59,30,61,62,21,4,65,66,67,34,69,70,71,6,73,74,15,38",
+  "hits": [],
+  "id": "A053166",
+  "name": "Smallest positive integer for which n divides a(n)^4.",
+  "offset": "1,2",
+  "status": "FOUND"
+ },
+ "oeis-entry:A053645": {
+  "checked": "2026-11-09",
+  "data": "0,0,1,0,1,2,3,0,1,2,3,4,5,6,7,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+  "hits": [],
+  "id": "A053645",
+  "name": "Distance to largest power of 2 less than or equal to n; write n in binary, change the first digit to zero, and convert back to decimal.",
+  "offset": "1,6",
+  "status": "FOUND"
+ },
+ "oeis-entry:A060819": {
+  "checked": "2026-11-09",
+  "data": "1,1,3,1,5,3,7,2,9,5,11,3,13,7,15,4,17,9,19,5,21,11,23,6,25,13,27,7,29,15,31,8,33,17,35,9,37,19,39,10,41,21,43,11,45,23,47,12,49,25,51,13,53,27,55,14,57,29,59,15,61,31,63,16,65,33,67,17,69,35,71,18,73,37,75,19",
+  "hits": [],
+  "id": "A060819",
+  "name": "a(n) = n / gcd(n,4).",
+  "offset": "1,3",
+  "status": "FOUND"
+ },
+ "oeis-entry:A066069": {
+  "checked": "2026-11-09",
+  "data": "1,2,3,2,5,6,7,4,3,10,11,6,13,14,15,4,17,6,19,10,21,22,23,6,5,26,3,14,29,30,31,4,33,34,35,6,37,38,39,10,41,42,43,22,15,46,47,6,7,10,51,26,53,6,55,14,57,58,59,30,61,62,21,4,65,66,67,34,69,70,71,6,73,74,15,38",
+  "hits": [],
+  "id": "A066069",
+  "name": "a(n) is the smallest positive integer m such that n divides (n + m)^m.",
+  "offset": "1,2",
+  "status": "FOUND"
+ },
+ "oeis-entry:A106291": {
+  "checked": "2026-11-09",
+  "data": "1,3,8,6,4,24,16,12,24,12,10,24,28,48,8,24,36,24,18,12,16,30,48,24,20,84,72,48,14,24,30,48,40,36,16,24,76,18,56,12,40,48,88,30,24,48,32,24,112,60,72,84,108,72,20,48,72,42,58,24,60,30,48,96,28,120,136,36,48,48",
+  "hits": [],
+  "id": "A106291",
+  "name": "Period of the Lucas sequence A000032 mod n.",
+  "offset": "1,2",
+  "status": "FOUND"
+ },
+ "oeis-entry:A160597": {
+  "checked": "2026-11-09",
+  "data": "1,2,3,4,5,6,7,8,3,10,11,12,13,2,15,16,17,18,19,20,7,22,23,24,25,26,27,28,29,30,31,32,11,34,35,36,37,38,13,40,41,42,43,44,15,46,47,48,49,50,51,52,53,18,55,8,19,58,59,60,61,62,63,64,65,66,67,68,3,70,71,72,73,74",
+  "hits": [],
+  "id": "A160597",
+  "name": "Denominator of coresilience C(n) = (n - phi(n))/(n-1).",
+  "offset": "2,2",
+  "status": "FOUND"
+ },
+ "oeis-entry:A186646": {
+  "checked": "2026-11-09",
+  "data": "1,2,3,2,5,6,7,4,9,10,11,6,13,14,15,8,17,18,19,10,21,22,23,12,25,26,27,14,29,30,31,16,33,34,35,18,37,38,39,20,41,42,43,22,45,46,47,24,49,50,51,26,53,54,55,28,57,58,59,30,61,62,63,32,65,66,67,34,69,70,71,36,73,74,75,38,77,78,79,40,81,82,83,42,85,86,87,44,89,90,91,46,93,94,95,48,97,98,99",
+  "hits": [],
+  "id": "A186646",
+  "name": "Every fourth term of the sequence of natural numbers 1,2,3,4,... is halved.",
+  "offset": "1,2",
+  "status": "FOUND"
+ },
+ "oeis-entry:A259445": {
+  "checked": "2026-11-09",
+  "data": "1,2,3,2,5,6,7,2,9,10,11,6,13,14,15,2,17,18,19,10,21,22,23,6,25,26,27,14,29,30,31,2,33,34,35,18,37,38,39,10,41,42,43,22,45,46,47,6,49,50,51,26,53,54,55,14,57,58,59,30,61,62,63,2,65,66,67,34",
+  "hits": [],
+  "id": "A259445",
+  "name": "Multiplicative with a(n) = n if n is odd and a(2^s)=2.",
+  "offset": "1,2",
+  "status": "FOUND"
+ },
+ "oeis-entry:A281230": {
+  "checked": "2026-11-09",
+  "data": "1,3,4,3,10,12,8,6,12,30,5,12,14,24,20,12,18,12,9,30,8,15,24,12,50,42,36,24,7,60,15,24,20,18,40,12,38,9,28,30,20,24,44,15,60,24,16,12,56,150,36,42,54,36,10,24,36,21,29,60,30,15,24,48,70,60,68,18,24,120,35,12,74,114,100,9,40,84,39,60",
+  "hits": [],
+  "id": "A281230",
+  "name": "Period of the discrete Arnold cat map on an n X n array.",
+  "offset": "1,2",
+  "status": "FOUND"
+ },
+ "oeis-entry:A282779": {
+  "checked": "2026-11-09",
+  "data": "1,2,3,4,5,6,7,8,3,10,11,12,13,14,15,16,17,6,19,20,21,22,23,24,25,26,9,28,29,30,31,32,33,34,35,12,37,38,39,40,41,42,43,44,15,46,47,48,49,50,51,52,53,18,55,56,57,58,59,60,61,62,21,64,65,66,67,68,69,70,71,24,73,74,75,76,77,78,79,80,27",
+  "hits": [],
+  "id": "A282779",
+  "name": "Period of cubes mod n.",
+  "offset": "1,2",
+  "status": "FOUND"
+ },
+ "oeis-entry:A283971": {
+  "checked": "2026-11-09",
+  "data": "0,1,1,3,4,5,3,7,8,9,5,11,12,13,7,15,16,17,9,19,20,21,11,23,24,25,13,27,28,29,15,31,32,33,17,35,36,37,19,39,40,41,21,43,44,45,23,47,48,49,25,51,52,53,27,55,56,57,29,59,60,61,31,63,64,65,33,67",
+  "hits": [],
+  "id": "A283971",
+  "name": "a(n) = n except a(4*n + 2) = 2*n + 1.",
+  "offset": "0,4",
+  "status": "FOUND"
+ },
+ "oeis-entry:A327389": {
+  "checked": "2026-11-09",
+  "data": "1,2,3,4,5,6,7,8,3,10,11,12,13,14,15,16,17,6,19,20,7,22,23,24,5,26,3,28,29,30,31,32,33,34,35,12,37,38,13,40,41,14,43,44,15,46,47,48,7,10,51,52,53,6,55,56,19,58,59,60,61,62,7,64,13,66,67,68,69",
+  "hits": [],
+  "id": "A327389",
+  "name": "Maximum divisor of n that is prime or whose prime indices are pairwise coprime.",
+  "offset": "1,2",
+  "status": "FOUND"
+ },
+ "oeis-entry:A327535": {
+  "checked": "2026-11-09",
+  "data": "1,2,3,4,5,6,7,8,3,10,11,12,13,14,15,16,17,18,19,20,7,22,23,24,5,26,3,28,29,30,31,32,33,34,35,36,37,38,13,40,41,42,43,44,45,46,47,48,7,50,51,52,53,54,55,56,19,58,59,60,61,62,7,64,13,66,67,68,69",
+  "hits": [],
+  "id": "A327535",
+  "name": "Maximum divisor of n that is 1, prime, or whose prime indices are relatively prime.",
+  "offset": "1,2",
+  "status": "FOUND"
+ },
+ "oeis-entry:A327937": {
+  "checked": "2026-11-09",
+  "data": "1,2,3,2,5,6,7,2,9,10,11,6,13,14,15,2,17,18,19,10,21,22,23,6,25,26,9,14,29,30,31,2,33,34,35,18,37,38,39,10,41,42,43,22,45,46,47,6,49,50,51,26,53,18,55,14,57,58,59,30,61,62,63,2,65,66,67,34,69,70,71,18,73,74,75,38,77,78,79,10,9,82,83,42,85,86,87,22",
+  "hits": [],
+  "id": "A327937",
+  "name": "Multiplicative with a(p^e) = p^(p-1) if e >= p, otherwise a(p^e) = p^e.",
+  "offset": "1,2",
+  "status": "FOUND"
+ },
+ "oeis-entry:A348173": {
+  "checked": "2026-11-09",
+  "data": "1,1,3,4,5,3,7,8,9,5,11,12,13,7,15,16,17,9,19,20,21,11,23,24,25,13,27,28,29,15,31,32,33,17,35,36,37,19,39,40,41,21,43,44,45,23,47,48,49,25,51,52,53,27,55,56,57,29,59,60,61,31,63,64,65,33,67,68,69,35,71,72,73,37,75,76,77,39,79,80,81,41,83,78",
+  "hits": [],
+  "id": "A348173",
+  "name": "a(n) is the sum of the distinct values obtained when the unitary totient function is applied to the unitary divisors of n.",
+  "offset": "1,3",
+  "status": "FOUND"
+ },
+ "oeis-entry:A355263": {
+  "checked": "2026-11-09",
+  "data": "1,2,3,2,5,6,7,4,3,10,11,6,13,14,15,4,17,6,19,10,21,22,23,12,5,26,9,14,29,30,31,4,33,34,35,6,37,38,39,20,41,42,43,22,15,46,47,12,7,10,51,26,53,18,55,28,57,58,59,30,61,62,21,8,65,66,67,34,69",
+  "hits": [],
+  "id": "A355263",
+  "name": "a(n) = largest-nth-power(n, 3) * radical(n) = A053150(n) * A007947(n), where the largest-nth-power(n, e) is the largest positive integer b such that b^e divides n.",
+  "offset": "1,2",
+  "status": "FOUND"
+ },
+ "oeis-entry:A356550": {
+  "checked": "2026-11-09",
+  "data": "1,4,12,24,60,12,24,24,24,60,60,24,48,24,60,24,24,24,24,120,24,60,24,24,300,48,24,24,48,60,120,24,60,24,120,24,18,24,48,120,60,24,60,120,120,24,48,24,48,300,24,48,72,24,60,24,24,48,42,120,120,120,24",
+  "hits": [],
+  "id": "A356550",
+  "name": "a(n) is the period of {F(F(k)) mod n, k >= 0}, where F denotes the Fibonacci numbers (A000045).",
+  "offset": "1,2",
+  "status": "FOUND"
+ },
+ "oeis-entry:A371573": {
+  "checked": "2026-11-09",
+  "data": "1,2,3,2,5,6,7,4,3,10,11,6,13,14,15,8,17,18,19,10,21,22,23,12,5,26,9,14,29,30,31,16,33,34,35,18,37,38,39,20,41,42,43,22,15,46,47,24,7,50,51,26,53,54,55,28,57,58,59,30,61,62,21,32,65,66,67,34,69",
+  "hits": [],
+  "id": "A371573",
+  "name": "a(n) = lcm(A020639(n), A032742(n)).",
+  "offset": "1,2",
+  "status": "FOUND"
+ },
+ "oeis-entry:A376082": {
+  "checked": "2026-11-09",
+  "data": "1,1,8,3,20,8,16,6,24,20,10,24,28,16,40,12,36,24,18,60,16,10,48,24,100,28,72,48,14,40,30,24,40,36,80,24,76,18,56,60,40,16,88,30,120,48,32,24,112,100,72,84,108,72,20,48,72,14,58,120,60,30,48,48,140",
+  "hits": [],
+  "id": "A376082",
+  "name": "a(n) is the period of the Leonardo numbers (A001595) modulo n.",
+  "offset": "1,3",
+  "status": "FOUND"
+ },
+ "oeis-entry:A377515": {
+  "checked": "2026-11-09",
+  "data": "1,2,3,2,5,6,7,2,9,10,11,6,13,14,15,2,17,18,19,10,21,22,23,6,25,26,9,14,29,30,31,2,33,34,35,18,37,38,39,10,41,42,43,22,45,46,47,6,49,50,51,26,53,18,55,14,57,58,59,30,61,62,63,2,65,66,67,34,69,70",
+  "hits": [],
+  "id": "A377515",
+  "name": "The largest divisor of n that is a term in A276078.",
+  "offset": "1,2",
+  "status": "FOUND"
+ },
  "oeis:0,1,0,0,0,3,0,1,0,0,0,3,0,1,0,0,0,3,0,1,0,0,0,3": {
   "checked": "2026-11-08",
   "hits": [],
@@ -2120,5 +3930,1614 @@
   "checked": "2026-11-08",
   "hits": [],
   "status": "CLEAR"
+ },
+ "openalex:Fibonacci Lucas composition periodic modulo known result|Fibonacci,Lucas,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "openalex:Fibonacci Lucas periodic modulo known result|Fibonacci,Lucas,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Diophantine equations involving the bi-periodic Fibonacci and Lucas sequences",
+    "url": "https://doi.org/10.12697/acutm.2022.26.09"
+   },
+   {
+    "name": "GCD of sums of $k$ consecutive Fibonacci, Lucas, and generalized Fibonacci numbers",
+    "url": "https://doi.org/10.48550/arxiv.2104.12262"
+   },
+   {
+    "name": "On the Periods of Biperiodic Fibonacci and Biperiodic Lucas Numbers",
+    "url": "https://doi.org/10.1155/2016/7341729"
+   },
+   {
+    "name": "From the Modular Properties of (a,b)-Fibonacci Sequences to those of Generalized Lucas Sequences",
+    "url": "https://doi.org/10.9790/5728-1205023540"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "openalex:Fibonacci Lucas square composition periodic modulo known result|Fibonacci,Lucas,square,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "openalex:Fibonacci Lucas square periodic modulo known result|Fibonacci,Lucas,square,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Sophie Germain Primes and the Totient of Fibonacci Numbers",
+    "url": "https://doi.org/10.48550/arxiv.2604.17847"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "openalex:Fibonacci Lucas triangular composition periodic modulo known result|Fibonacci,Lucas,triangular,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "openalex:Fibonacci Lucas triangular periodic modulo known result|Fibonacci,Lucas,triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "openalex:Fibonacci composition periodic modulo known result|Fibonacci,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Fully generalized Fibonacci series modulo n as music sequence generators",
+    "url": "https://openalex.org/W7216603972"
+   },
+   {
+    "name": "Fixed points of K-Fibonacci sequences",
+    "url": "https://doi.org/10.48550/arxiv.2404.08194"
+   },
+   {
+    "name": "On the normality of the concatenated Fibonacci constant",
+    "url": "https://doi.org/10.48550/arxiv.2604.17136"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "openalex:Fibonacci numbers with Fibonacci subscripts period modulo m|fibonacci,period|periodic|pisano,composition|composite|nested|iterated|subscript|l_{l|f_{f|l_{f|f_{l|l(l(|f(f(|of lucas numbers|of fibonacci numbers": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Aspects of Fibonacci numbers",
+    "url": "https://openalex.org/W2923086435"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "openalex:Fibonacci periodic modulo known result|Fibonacci,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "TANTALIZING PROPERTIES OF SUBSEQUENCES OF THE FIBONACCI SEQUENCE MODULO 10",
+    "url": "https://doi.org/10.1216/rmj.2024.54.179"
+   },
+   {
+    "name": "On the period and the order of appearance of the sequence of Fibonacci polynomials modulo m",
+    "url": "https://doi.org/10.1080/09720529.2021.1995219"
+   },
+   {
+    "name": "Periodicity of power Fibonacci sequences modulus a Fibonacci number",
+    "url": "https://doi.org/10.48550/arxiv.2204.00234"
+   },
+   {
+    "name": "Distribution of the Fibonacci Numbers Modulo 3 k",
+    "url": "https://doi.org/10.1080/00150517.2005.12428388"
+   },
+   {
+    "name": "Splitting Fields and Periods of Fibonacci Sequences Modulo Primes",
+    "url": "https://doi.org/10.4169/math.mag.85.2.130"
+   },
+   {
+    "name": "THE PERIOD MODULO PRODUCT OF CONSECUTIVE FIBONACCI NUMBERS",
+    "url": "https://doi.org/10.12732/ijpam.v90i3.7"
+   },
+   {
+    "name": "Bi-Periodic Generalized Fibonacci Polynomials",
+    "url": "https://doi.org/10.66833/tjos-2022-0015"
+   },
+   {
+    "name": "Fully generalized Fibonacci series modulo n as music sequence generators",
+    "url": "https://openalex.org/W7216603972"
+   },
+   {
+    "name": "Periodic Coefficients and Random Fibonacci Sequences",
+    "url": "https://doi.org/10.37236/3204"
+   },
+   {
+    "name": "Exact Block-Sum Reconstruction of a Periodic Fibonacci Product Field: A Ternary Coding-Theoretic Reduction",
+    "url": "https://doi.org/10.5281/zenodo.23960229"
+   },
+   {
+    "name": "The Fibonacci sequence modulo $p^2$ -- An investigation by computer for $p < 10^{14}$",
+    "url": "https://doi.org/10.48550/arxiv.1006.0824"
+   },
+   {
+    "name": "A remark on periods of periodic sequences modulo $m$",
+    "url": "https://doi.org/10.48550/arxiv.2006.12002"
+   },
+   {
+    "name": "Exact Symmetry Orbits and Optimal Error-Correcting Reconstruction of a Periodic Fibonacci Field over Z/9Z",
+    "url": "https://doi.org/10.5281/zenodo.23954855"
+   },
+   {
+    "name": "Some Properties of Fibonacci Numbers, Generalized Fibonacci Numbers and Generalized Fibonacci Polynomial Sequences",
+    "url": "https://doi.org/10.5666/kmj.2017.57.1.1"
+   },
+   {
+    "name": "Diophantine equations involving the bi-periodic Fibonacci and Lucas sequences",
+    "url": "https://doi.org/10.12697/acutm.2022.26.09"
+   },
+   {
+    "name": "On the Periods of Generalized Fibonacci Recurrences",
+    "url": "https://doi.org/10.1090/s0025-5718-1994-1216256-7"
+   },
+   {
+    "name": "Fibonacci Sequences in Groups",
+    "url": "https://doi.org/10.33232/bims.0056.81.85"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "openalex:Fibonacci square composition periodic modulo known result|Fibonacci,square,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "openalex:Fibonacci square periodic modulo known result|Fibonacci,square,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "openalex:Fibonacci square triangular composition periodic modulo known result|Fibonacci,square,triangular,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "openalex:Fibonacci triangular composition periodic modulo known result|Fibonacci,triangular,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "openalex:Fibonacci triangular periodic modulo known result|Fibonacci,triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Diffie-Hellman key exchange on the Heisenberg group",
+    "url": "https://doi.org/10.61091/jcmcc127-22"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "openalex:L_{L_n} modulo 5^k period Lucas|lucas,5^k|powers of 5|5-adic|modulo 5,composition|composite|nested|iterated|subscript|l_{l|f_{f|l_{f|f_{l|l(l(|f(f(|of lucas numbers|of fibonacci numbers": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "openalex:Lucas composition periodic modulo known result|Lucas,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "GENERALIZED WALL-SUN-SUN PRIMES AND MONOGENIC POWER-COMPOSITIONAL TRINOMIALS",
+    "url": "https://doi.org/10.51286/albjm/1678110273"
+   },
+   {
+    "name": "A Connection Between the Monogenicity of Certain Power-Compositional Trinomials and $k$-Wall-Sun-Sun Primes",
+    "url": "https://doi.org/10.48550/arxiv.2211.14834"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "openalex:Lucas periodic modulo known result|Lucas,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Divisibility and Modular Periodicity of a Prime-Discriminant Lucas Sequence Modulo Prime Powers",
+    "url": "https://doi.org/10.36948/ijfmr.2026.v08i05.90907"
+   },
+   {
+    "name": "Diophantine equations involving the bi-periodic Fibonacci and Lucas sequences",
+    "url": "https://doi.org/10.12697/acutm.2022.26.09"
+   },
+   {
+    "name": "Congruences for Lucas sequences.",
+    "url": "https://doi.org/10.82465/6802"
+   },
+   {
+    "name": "Divisibility properties of sporadic Ap\u00e9ry-like numbers",
+    "url": "https://doi.org/10.1007/s40993-016-0036-8"
+   },
+   {
+    "name": "Blocks within the period of Lucas sequence",
+    "url": "https://doi.org/10.23755/rm.v41i0.664"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "openalex:Lucas square composition periodic modulo known result|Lucas,square,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "A Connection Between the Monogenicity of Certain Power-Compositional Trinomials and $k$-Wall-Sun-Sun Primes",
+    "url": "https://doi.org/10.48550/arxiv.2211.14834"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "openalex:Lucas square periodic modulo known result|Lucas,square,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Elliptic divisibility sequences, squares and cubes",
+    "url": "https://doi.org/10.5486/pmd.2013.5640"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "openalex:Lucas square triangular composition periodic modulo known result|Lucas,square,triangular,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "openalex:Lucas triangular composition periodic modulo known result|Lucas,triangular,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "openalex:Lucas triangular periodic modulo known result|Lucas,triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "openalex:composition of Fibonacci and Lucas sequences periodic modulo prime powers known theorem|fibonacci|lucas,period|periodic|pisano,composition|composite|nested|iterated|subscript|l_{l|f_{f|l_{f|f_{l|l(l(|f(f(|of lucas numbers|of fibonacci numbers": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Fixed points of K-Fibonacci sequences",
+    "url": "https://doi.org/10.48550/arxiv.2404.08194"
+   },
+   {
+    "name": "GENERALIZED WALL-SUN-SUN PRIMES AND MONOGENIC POWER-COMPOSITIONAL TRINOMIALS",
+    "url": "https://doi.org/10.51286/albjm/1678110273"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "openalex:iterated Fibonacci sequence F(F(n)) period modulo m|fibonacci,period|periodic|pisano,composition|composite|nested|iterated|subscript|l_{l|f_{f|l_{f|f_{l|l(l(|f(f(|of lucas numbers|of fibonacci numbers": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Fixed points of K-Fibonacci sequences",
+    "url": "https://doi.org/10.48550/arxiv.2404.08194"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "openalex:period of Fibonacci Lucas numbers composition modulo prime powers|Fibonacci,Lucas,period|periodic|pisano,composition|composite|nested|iterated|subscript": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "openalex:period of Fibonacci Lucas numbers modulo m|Fibonacci,Lucas,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Distribution of Fibonacci and Lucas Numbers Modulo 3 k",
+    "url": "https://doi.org/10.1080/00150517.2011.12428042"
+   },
+   {
+    "name": "Period Lengths of the Incomplete Fibonacci and Incomplete Lucas Sequences Modulo m",
+    "url": "https://doi.org/10.3390/math14173038"
+   },
+   {
+    "name": "GCD of sums of $k$ consecutive Fibonacci, Lucas, and generalized Fibonacci numbers",
+    "url": "https://doi.org/10.48550/arxiv.2104.12262"
+   },
+   {
+    "name": "On the Periods of Biperiodic Fibonacci and Biperiodic Lucas Numbers",
+    "url": "https://doi.org/10.1155/2016/7341729"
+   },
+   {
+    "name": "Applications of Fibonacci numbers : proceedings of the Seventh International Research Conference on Fibonacci Numbers and Their Applications', Technische Universit\u00e4t, Graz, Austria, July 15-19, 1996",
+    "url": "https://openalex.org/W630976363"
+   },
+   {
+    "name": "ON THE A NEW FAMILY OF k-FIBONACCI NUMBERS",
+    "url": "https://doi.org/10.18185/eufbed.01209"
+   },
+   {
+    "name": "Long Days on the Fibonacci Clock",
+    "url": "https://doi.org/10.1080/0025570x.2009.11953607"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "openalex:period of Fibonacci Lucas numbers modulo m|Fibonacci,Lucas,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Applications of Fibonacci numbers : proceedings of the Seventh International Research Conference on Fibonacci Numbers and Their Applications', Technische Universit\u00e4t, Graz, Austria, July 15-19, 1996",
+    "url": "https://openalex.org/W630976363"
+   },
+   {
+    "name": "Long Days on the Fibonacci Clock",
+    "url": "https://doi.org/10.1080/0025570x.2009.11953607"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "openalex:period of Fibonacci Lucas square numbers modulo m|Fibonacci,Lucas,square,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Sophie Germain Primes and the Totient of Fibonacci Numbers",
+    "url": "https://doi.org/10.48550/arxiv.2604.17847"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "openalex:period of Fibonacci Lucas square numbers modulo m|Fibonacci,Lucas,square,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "openalex:period of Fibonacci Lucas triangular numbers modulo m|Fibonacci,Lucas,triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "openalex:period of Fibonacci Lucas triangular numbers modulo m|Fibonacci,Lucas,triangular,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "openalex:period of Fibonacci Pell-Lucas numbers composition modulo prime powers|Fibonacci,Pell,period|periodic|pisano,composition|composite|nested|iterated|subscript": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "openalex:period of Fibonacci numbers modulo m|Fibonacci,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "THE PERIOD MODULO PRODUCT OF CONSECUTIVE FIBONACCI NUMBERS",
+    "url": "https://doi.org/10.12732/ijpam.v90i3.7"
+   },
+   {
+    "name": "Some Properties of Fibonacci Numbers, Generalized Fibonacci Numbers and Generalized Fibonacci Polynomial Sequences",
+    "url": "https://doi.org/10.5666/kmj.2017.57.1.1"
+   },
+   {
+    "name": "Distribution of Fibonacci and Lucas Numbers Modulo 3 k",
+    "url": "https://doi.org/10.1080/00150517.2011.12428042"
+   },
+   {
+    "name": "Period Lengths of the Incomplete Fibonacci and Incomplete Lucas Sequences Modulo m",
+    "url": "https://doi.org/10.3390/math14173038"
+   },
+   {
+    "name": "On Period of the Sequence of Fibonacci Polynomials Modulo",
+    "url": "https://doi.org/10.1155/2013/731482"
+   },
+   {
+    "name": "Distribution of the Fibonacci Numbers Modulo 3 k",
+    "url": "https://doi.org/10.1080/00150517.2005.12428388"
+   },
+   {
+    "name": "GCD of sums of $k$ consecutive Fibonacci, Lucas, and generalized Fibonacci numbers",
+    "url": "https://doi.org/10.48550/arxiv.2104.12262"
+   },
+   {
+    "name": "Fibonacci Numbers: Reduction Formulas and Short Periods",
+    "url": "https://doi.org/10.1080/00150517.1993.12429269"
+   },
+   {
+    "name": "The Pell-Fibonacci Sequence Modulo m",
+    "url": "https://doi.org/10.66833/tjos-2020-0032"
+   },
+   {
+    "name": "The Period of Convergents Modulo M of Reduced Quadratic Irrationals",
+    "url": "https://doi.org/10.1080/00150517.1991.12429416"
+   },
+   {
+    "name": "Connecting Zeros in Pisano Periods to Prime Factors of $K$-Fibonacci Numbers",
+    "url": "https://doi.org/10.48550/arxiv.2407.20048"
+   },
+   {
+    "name": "p -Regularity of the p -Adic Valuation of the Fibonacci Sequence",
+    "url": "https://doi.org/10.1080/00150517.2015.12428269"
+   },
+   {
+    "name": "Applications of Fibonacci numbers : proceedings of the Seventh International Research Conference on Fibonacci Numbers and Their Applications', Technische Universit\u00e4t, Graz, Austria, July 15-19, 1996",
+    "url": "https://openalex.org/W630976363"
+   },
+   {
+    "name": "ON THE A NEW FAMILY OF k-FIBONACCI NUMBERS",
+    "url": "https://doi.org/10.18185/eufbed.01209"
+   },
+   {
+    "name": "Aspects of Fibonacci numbers",
+    "url": "https://openalex.org/W2923086435"
+   },
+   {
+    "name": "Fully generalized Fibonacci series modulo n as music sequence generators",
+    "url": "https://openalex.org/W7216603972"
+   },
+   {
+    "name": "The Fibonacci sequence modulo $p^2$ -- An investigation by computer for $p < 10^{14}$",
+    "url": "https://doi.org/10.48550/arxiv.1006.0824"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "openalex:period of Fibonacci numbers modulo m|Fibonacci,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Applications of Fibonacci numbers : proceedings of the Seventh International Research Conference on Fibonacci Numbers and Their Applications', Technische Universit\u00e4t, Graz, Austria, July 15-19, 1996",
+    "url": "https://openalex.org/W630976363"
+   },
+   {
+    "name": "Fully generalized Fibonacci series modulo n as music sequence generators",
+    "url": "https://openalex.org/W7216603972"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "openalex:period of Fibonacci square numbers modulo m|Fibonacci,square,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Sophie Germain Primes and the Totient of Fibonacci Numbers",
+    "url": "https://doi.org/10.48550/arxiv.2604.17847"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "openalex:period of Fibonacci square numbers modulo m|Fibonacci,square,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "openalex:period of Fibonacci square triangular numbers modulo m|Fibonacci,square,triangular,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "openalex:period of Fibonacci triangular numbers modulo m|Fibonacci,triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Rotating-Memory Fibonacci Numbers and Periodic Tilings",
+    "url": "https://doi.org/10.48550/arxiv.2609.12569"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "openalex:period of Fibonacci triangular numbers modulo m|Fibonacci,triangular,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Rotating-Memory Fibonacci Numbers and Periodic Tilings",
+    "url": "https://doi.org/10.48550/arxiv.2609.12569"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "openalex:period of Lucas Pell-Lucas numbers composition modulo prime powers|Lucas,Pell,period|periodic|pisano,composition|composite|nested|iterated|subscript": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "openalex:period of Lucas numbers composition modulo prime powers|Lucas,period|periodic|pisano,composition|composite|nested|iterated|subscript": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "GENERALIZED WALL-SUN-SUN PRIMES AND MONOGENIC POWER-COMPOSITIONAL TRINOMIALS",
+    "url": "https://doi.org/10.51286/albjm/1678110273"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "openalex:period of Lucas numbers modulo m|Lucas,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Period of balancing numbers modulo product of consecutive Lucas-balancing numbers",
+    "url": "https://doi.org/10.24193/mathcluj.2018.2.10"
+   },
+   {
+    "name": "Distribution of Fibonacci and Lucas Numbers Modulo 3 k",
+    "url": "https://doi.org/10.1080/00150517.2011.12428042"
+   },
+   {
+    "name": "Period Lengths of the Incomplete Fibonacci and Incomplete Lucas Sequences Modulo m",
+    "url": "https://doi.org/10.3390/math14173038"
+   },
+   {
+    "name": "Blocks within the period of Lucas sequence",
+    "url": "https://doi.org/10.23755/rm.v41i0.664"
+   },
+   {
+    "name": "GCD of sums of $k$ consecutive Fibonacci, Lucas, and generalized Fibonacci numbers",
+    "url": "https://doi.org/10.48550/arxiv.2104.12262"
+   },
+   {
+    "name": "Residues of Terms of Lucas Sequences Modulo $3^k$",
+    "url": "https://doi.org/10.48550/arxiv.2511.00722"
+   },
+   {
+    "name": "Periodic words connected with the Lucas numbers",
+    "url": "https://openalex.org/W7217670045"
+   },
+   {
+    "name": "Periodic words connected with the Tribonacci-Lucas numbers",
+    "url": "https://doi.org/10.15330/ms.49.2.181-185"
+   },
+   {
+    "name": "JACOBSTHAL FAMILY MODULO m",
+    "url": "https://openalex.org/W3161911136"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "openalex:period of Lucas numbers modulo m|Lucas,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "openalex:period of Lucas numbers with Lucas subscripts modulo m|lucas,period|periodic|pisano,composition|composite|nested|iterated|subscript|l_{l|f_{f|l_{f|f_{l|l(l(|f(f(|of lucas numbers|of fibonacci numbers": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "openalex:period of Lucas square numbers modulo m|Lucas,square,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "openalex:period of Lucas square numbers modulo m|Lucas,square,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "openalex:period of Lucas square triangular numbers modulo m|Lucas,square,triangular,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "openalex:period of Lucas triangular numbers modulo m|Lucas,triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "openalex:period of Lucas triangular numbers modulo m|Lucas,triangular,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "openalex:period of Pell Pell-Lucas numbers composition modulo prime powers|Pell,Pell,period|periodic|pisano,composition|composite|nested|iterated|subscript": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "openalex:period of Pell-Lucas numbers composition modulo prime powers|Pell,period|periodic|pisano,composition|composite|nested|iterated|subscript": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "openalex:period of Pell-Lucas tribonacci numbers composition modulo prime powers|Pell,tribonacci,period|periodic|pisano,composition|composite|nested|iterated|subscript": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "openalex:period of square numbers modulo m|square,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Structure of Triangular Numbers Modulo m",
+    "url": "https://doi.org/10.3390/appliedmath2030020"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "openalex:period of square numbers modulo m|square,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "openalex:period of square triangular numbers modulo m|square,triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Structure of Triangular Numbers Modulo m",
+    "url": "https://doi.org/10.3390/appliedmath2030020"
+   },
+   {
+    "name": "Triangular Congruence Rigidity from a Mod-144 Mirror Quotient Period Compression, Involution Selection, and Second-Level Closure",
+    "url": "https://doi.org/10.5281/zenodo.23131171"
+   },
+   {
+    "name": "THE ARRAY STRUCTURE AND ARITHMETIC OF $k$-AUGMENTED CENTERED TRIANGULAR NUMBERS",
+    "url": "https://doi.org/10.17654/0972087126139"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "openalex:period of square triangular numbers modulo m|square,triangular,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "openalex:period of triangular numbers modulo m|triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Structure of Triangular Numbers Modulo m",
+    "url": "https://doi.org/10.3390/appliedmath2030020"
+   },
+   {
+    "name": "Triangular Congruence Rigidity from a Mod-144 Mirror Quotient Period Compression, Involution Selection, and Second-Level Closure",
+    "url": "https://doi.org/10.5281/zenodo.23131171"
+   },
+   {
+    "name": "THE ARRAY STRUCTURE AND ARITHMETIC OF $k$-AUGMENTED CENTERED TRIANGULAR NUMBERS",
+    "url": "https://doi.org/10.17654/0972087126139"
+   },
+   {
+    "name": "Residue Sums Modulo Products of Two Distinct Odd Primes",
+    "url": "https://doi.org/10.48550/arxiv.2610.29608"
+   },
+   {
+    "name": "Supersymmetric lattice fermions on the triangular lattice: superfrustration and criticality",
+    "url": "https://doi.org/10.1088/1367-2630/14/7/073002"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "openalex:period of triangular numbers modulo m|triangular,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "openalex:square composition periodic modulo known result|square,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "openalex:square periodic modulo known result|square,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Periodic bursting cycles on the edge to square duct turbulence",
+    "url": "https://doi.org/10.1088/1742-6596/2753/1/012013"
+   },
+   {
+    "name": "Structure of Triangular Numbers Modulo m",
+    "url": "https://doi.org/10.3390/appliedmath2030020"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "openalex:square triangular composition periodic modulo known result|square,triangular,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "openalex:square triangular periodic modulo known result|square,triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Structure of Triangular Numbers Modulo m",
+    "url": "https://doi.org/10.3390/appliedmath2030020"
+   },
+   {
+    "name": "Corner free energies and boundary effects for Ising, Potts and fully packed loop models on the square and triangular lattices",
+    "url": "https://doi.org/10.1088/1751-8113/45/4/045003"
+   },
+   {
+    "name": "THE ARRAY STRUCTURE AND ARITHMETIC OF $k$-AUGMENTED CENTERED TRIANGULAR NUMBERS",
+    "url": "https://doi.org/10.17654/0972087126139"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "openalex:triangular composition periodic modulo known result|triangular,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "openalex:triangular periodic modulo known result|triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Structure of Triangular Numbers Modulo m",
+    "url": "https://doi.org/10.3390/appliedmath2030020"
+   },
+   {
+    "name": "Supersymmetric lattice fermions on the triangular lattice: superfrustration and criticality",
+    "url": "https://doi.org/10.1088/1367-2630/14/7/073002"
+   },
+   {
+    "name": "On projective billiards with open subsets of triangular orbits",
+    "url": "https://doi.org/10.48550/arxiv.2005.02012"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "stackexchange-math:Fibonacci numbers with Fibonacci subscripts period modulo m|fibonacci,period|periodic|pisano,composition|composite|nested|iterated|subscript|l_{l|f_{f|l_{f|f_{l|l(l(|f(f(|of lucas numbers|of fibonacci numbers": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-math:L_{L_n} modulo 5^k period Lucas|lucas,5^k|powers of 5|5-adic|modulo 5,composition|composite|nested|iterated|subscript|l_{l|f_{f|l_{f|f_{l|l(l(|f(f(|of lucas numbers|of fibonacci numbers": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-math:composition of Fibonacci and Lucas sequences periodic modulo prime powers known theorem|fibonacci|lucas,period|periodic|pisano,composition|composite|nested|iterated|subscript|l_{l|f_{f|l_{f|f_{l|l(l(|f(f(|of lucas numbers|of fibonacci numbers": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-math:iterated Fibonacci sequence F(F(n)) period modulo m|fibonacci,period|periodic|pisano,composition|composite|nested|iterated|subscript|l_{l|f_{f|l_{f|f_{l|l(l(|f(f(|of lucas numbers|of fibonacci numbers": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-math:period of Fibonacci Lucas numbers composition modulo prime powers|Fibonacci,Lucas,period|periodic|pisano,composition|composite|nested|iterated|subscript": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-math:period of Fibonacci Lucas numbers modulo m|Fibonacci,Lucas,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-math:period of Fibonacci Lucas numbers modulo m|Fibonacci,Lucas,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-math:period of Fibonacci Lucas square numbers modulo m|Fibonacci,Lucas,square,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-math:period of Fibonacci Lucas square numbers modulo m|Fibonacci,Lucas,square,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-math:period of Fibonacci Lucas triangular numbers modulo m|Fibonacci,Lucas,triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-math:period of Fibonacci Lucas triangular numbers modulo m|Fibonacci,Lucas,triangular,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-math:period of Fibonacci Pell-Lucas numbers composition modulo prime powers|Fibonacci,Pell,period|periodic|pisano,composition|composite|nested|iterated|subscript": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-math:period of Fibonacci numbers modulo m|Fibonacci,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Fibonacci numbers moduli",
+    "url": "https://math.stackexchange.com/questions/158111/fibonacci-numbers-moduli"
+   },
+   {
+    "name": "Profinite and p-adic interpolation of Fibonacci numbers",
+    "url": "https://math.stackexchange.com/questions/310397/profinite-and-p-adic-interpolation-of-fibonacci-numbers"
+   },
+   {
+    "name": "Slow growing integer sequence that is periodic modulo primes",
+    "url": "https://math.stackexchange.com/questions/1934482/slow-growing-integer-sequence-that-is-periodic-modulo-primes"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "stackexchange-math:period of Fibonacci numbers modulo m|Fibonacci,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Profinite and p-adic interpolation of Fibonacci numbers",
+    "url": "https://math.stackexchange.com/questions/310397/profinite-and-p-adic-interpolation-of-fibonacci-numbers"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "stackexchange-math:period of Fibonacci square numbers modulo m|Fibonacci,square,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-math:period of Fibonacci square numbers modulo m|Fibonacci,square,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-math:period of Fibonacci square triangular numbers modulo m|Fibonacci,square,triangular,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-math:period of Fibonacci triangular numbers modulo m|Fibonacci,triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-math:period of Fibonacci triangular numbers modulo m|Fibonacci,triangular,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-math:period of Lucas Pell-Lucas numbers composition modulo prime powers|Lucas,Pell,period|periodic|pisano,composition|composite|nested|iterated|subscript": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-math:period of Lucas numbers composition modulo prime powers|Lucas,period|periodic|pisano,composition|composite|nested|iterated|subscript": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-math:period of Lucas numbers modulo m|Lucas,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-math:period of Lucas numbers modulo m|Lucas,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-math:period of Lucas numbers with Lucas subscripts modulo m|lucas,period|periodic|pisano,composition|composite|nested|iterated|subscript|l_{l|f_{f|l_{f|f_{l|l(l(|f(f(|of lucas numbers|of fibonacci numbers": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-math:period of Lucas square numbers modulo m|Lucas,square,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-math:period of Lucas square numbers modulo m|Lucas,square,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-math:period of Lucas square triangular numbers modulo m|Lucas,square,triangular,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-math:period of Lucas triangular numbers modulo m|Lucas,triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-math:period of Lucas triangular numbers modulo m|Lucas,triangular,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-math:period of Pell Pell-Lucas numbers composition modulo prime powers|Pell,Pell,period|periodic|pisano,composition|composite|nested|iterated|subscript": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-math:period of Pell-Lucas numbers composition modulo prime powers|Pell,period|periodic|pisano,composition|composite|nested|iterated|subscript": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-math:period of Pell-Lucas tribonacci numbers composition modulo prime powers|Pell,tribonacci,period|periodic|pisano,composition|composite|nested|iterated|subscript": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-math:period of square numbers modulo m|square,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Do triangular numbers $n(n+1)/2$ have prime digit sum infinitely often?",
+    "url": "https://math.stackexchange.com/questions/5146720/do-triangular-numbers-nn1-2-have-prime-digit-sum-infinitely-often"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "stackexchange-math:period of square numbers modulo m|square,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-math:period of square triangular numbers modulo m|square,triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Do triangular numbers $n(n+1)/2$ have prime digit sum infinitely often?",
+    "url": "https://math.stackexchange.com/questions/5146720/do-triangular-numbers-nn1-2-have-prime-digit-sum-infinitely-often"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "stackexchange-math:period of square triangular numbers modulo m|square,triangular,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-math:period of triangular numbers modulo m|triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Finding the periods of a sequence of integers reduced mod m",
+    "url": "https://math.stackexchange.com/questions/2336334/finding-the-periods-of-a-sequence-of-integers-reduced-mod-m"
+   },
+   {
+    "name": "Do triangular numbers $n(n+1)/2$ have prime digit sum infinitely often?",
+    "url": "https://math.stackexchange.com/questions/5146720/do-triangular-numbers-nn1-2-have-prime-digit-sum-infinitely-often"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "stackexchange-math:period of triangular numbers modulo m|triangular,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-mathoverflow:Fibonacci numbers with Fibonacci subscripts period modulo m|fibonacci,period|periodic|pisano,composition|composite|nested|iterated|subscript|l_{l|f_{f|l_{f|f_{l|l(l(|f(f(|of lucas numbers|of fibonacci numbers": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-mathoverflow:L_{L_n} modulo 5^k period Lucas|lucas,5^k|powers of 5|5-adic|modulo 5,composition|composite|nested|iterated|subscript|l_{l|f_{f|l_{f|f_{l|l(l(|f(f(|of lucas numbers|of fibonacci numbers": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-mathoverflow:composition of Fibonacci and Lucas sequences periodic modulo prime powers known theorem|fibonacci|lucas,period|periodic|pisano,composition|composite|nested|iterated|subscript|l_{l|f_{f|l_{f|f_{l|l(l(|f(f(|of lucas numbers|of fibonacci numbers": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-mathoverflow:iterated Fibonacci sequence F(F(n)) period modulo m|fibonacci,period|periodic|pisano,composition|composite|nested|iterated|subscript|l_{l|f_{f|l_{f|f_{l|l(l(|f(f(|of lucas numbers|of fibonacci numbers": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-mathoverflow:period of Fibonacci Lucas numbers modulo m|Fibonacci,Lucas,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "The p-adic valuation of a linear recurrence",
+    "url": "https://mathoverflow.net/questions/214839/the-p-adic-valuation-of-a-linear-recurrence"
+   },
+   {
+    "name": "Two different ways to count Mersenne Primes",
+    "url": "https://mathoverflow.net/questions/82244/two-different-ways-to-count-mersenne-primes"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "stackexchange-mathoverflow:period of Fibonacci Lucas numbers modulo m|Fibonacci,Lucas,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Two different ways to count Mersenne Primes",
+    "url": "https://mathoverflow.net/questions/82244/two-different-ways-to-count-mersenne-primes"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "stackexchange-mathoverflow:period of Fibonacci Lucas square numbers modulo m|Fibonacci,Lucas,square,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-mathoverflow:period of Fibonacci Lucas square numbers modulo m|Fibonacci,Lucas,square,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-mathoverflow:period of Fibonacci Lucas triangular numbers modulo m|Fibonacci,Lucas,triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-mathoverflow:period of Fibonacci Lucas triangular numbers modulo m|Fibonacci,Lucas,triangular,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-mathoverflow:period of Fibonacci numbers modulo m|Fibonacci,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Fibonacci Numbers Modulo m",
+    "url": "https://mathoverflow.net/questions/98504/fibonacci-numbers-modulo-m"
+   },
+   {
+    "name": "Fibonacci and matrix modular exponentiation",
+    "url": "https://mathoverflow.net/questions/468594/fibonacci-and-matrix-modular-exponentiation"
+   },
+   {
+    "name": "Equivalence of primes based on the partition of their Pisano periods",
+    "url": "https://mathoverflow.net/questions/440463/equivalence-of-primes-based-on-the-partition-of-their-pisano-periods"
+   },
+   {
+    "name": "Identifying terms of a linear recurrence sequence using a congruence",
+    "url": "https://mathoverflow.net/questions/435850/identifying-terms-of-a-linear-recurrence-sequence-using-a-congruence"
+   },
+   {
+    "name": "The p-adic valuation of a linear recurrence",
+    "url": "https://mathoverflow.net/questions/214839/the-p-adic-valuation-of-a-linear-recurrence"
+   },
+   {
+    "name": "Two different ways to count Mersenne Primes",
+    "url": "https://mathoverflow.net/questions/82244/two-different-ways-to-count-mersenne-primes"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "stackexchange-mathoverflow:period of Fibonacci numbers modulo m|Fibonacci,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Two different ways to count Mersenne Primes",
+    "url": "https://mathoverflow.net/questions/82244/two-different-ways-to-count-mersenne-primes"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "stackexchange-mathoverflow:period of Fibonacci square numbers modulo m|Fibonacci,square,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-mathoverflow:period of Fibonacci square numbers modulo m|Fibonacci,square,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-mathoverflow:period of Fibonacci square triangular numbers modulo m|Fibonacci,square,triangular,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-mathoverflow:period of Fibonacci triangular numbers modulo m|Fibonacci,triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-mathoverflow:period of Fibonacci triangular numbers modulo m|Fibonacci,triangular,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-mathoverflow:period of Lucas numbers modulo m|Lucas,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "The p-adic valuation of a linear recurrence",
+    "url": "https://mathoverflow.net/questions/214839/the-p-adic-valuation-of-a-linear-recurrence"
+   },
+   {
+    "name": "Two different ways to count Mersenne Primes",
+    "url": "https://mathoverflow.net/questions/82244/two-different-ways-to-count-mersenne-primes"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "stackexchange-mathoverflow:period of Lucas numbers modulo m|Lucas,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Two different ways to count Mersenne Primes",
+    "url": "https://mathoverflow.net/questions/82244/two-different-ways-to-count-mersenne-primes"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "stackexchange-mathoverflow:period of Lucas numbers with Lucas subscripts modulo m|lucas,period|periodic|pisano,composition|composite|nested|iterated|subscript|l_{l|f_{f|l_{f|f_{l|l(l(|f(f(|of lucas numbers|of fibonacci numbers": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-mathoverflow:period of Lucas square numbers modulo m|Lucas,square,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-mathoverflow:period of Lucas square numbers modulo m|Lucas,square,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-mathoverflow:period of Lucas square triangular numbers modulo m|Lucas,square,triangular,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-mathoverflow:period of Lucas triangular numbers modulo m|Lucas,triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-mathoverflow:period of Lucas triangular numbers modulo m|Lucas,triangular,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-mathoverflow:period of square numbers modulo m|square,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-mathoverflow:period of square numbers modulo m|square,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-mathoverflow:period of square triangular numbers modulo m|square,triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-mathoverflow:period of square triangular numbers modulo m|square,triangular,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-mathoverflow:period of triangular numbers modulo m|triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "stackexchange-mathoverflow:period of triangular numbers modulo m|triangular,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "zbmath:Fibonacci Lucas period modulo|Fibonacci,Lucas,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "zbMATH Open Web Interface contents unavailable due to conflicting licenses.",
+    "url": "https://zbmath.org/6981661"
+   },
+   {
+    "name": "zbMATH Open Web Interface contents unavailable due to conflicting licenses.",
+    "url": "https://zbmath.org/785350"
+   },
+   {
+    "name": "Special Lucas sequences, including the Fibonacci sequence, modulo a prime",
+    "url": "https://zbmath.org/4179436"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "zbmath:Fibonacci Lucas period modulo|Fibonacci,Lucas,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "zbmath:Fibonacci Lucas square period modulo|Fibonacci,Lucas,square,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Sophie Germain Primes and the Totient of Fibonacci Numbers",
+    "url": "https://zbmath.org/903017326"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "zbmath:Fibonacci Lucas square period modulo|Fibonacci,Lucas,square,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "zbmath:Fibonacci Lucas triangular period modulo|Fibonacci,Lucas,triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Applications of Fibonacci numbers. Volume 7: Proceedings of the 7th international research conference on Fibonacci numbers and their applications, Graz, Austria, July 15--19, 1996",
+    "url": "https://zbmath.org/1162396"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "zbmath:Fibonacci Lucas triangular period modulo|Fibonacci,Lucas,triangular,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Applications of Fibonacci numbers. Volume 7: Proceedings of the 7th international research conference on Fibonacci numbers and their applications, Graz, Austria, July 15--19, 1996",
+    "url": "https://zbmath.org/1162396"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "zbmath:Fibonacci numbers with Fibonacci subscripts period modulo m|fibonacci,period|periodic|pisano,composition|composite|nested|iterated|subscript|l_{l|f_{f|l_{f|f_{l|l(l(|f(f(|of lucas numbers|of fibonacci numbers": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "zbmath:Fibonacci period modulo|Fibonacci,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "zbMATH Open Web Interface contents unavailable due to conflicting licenses.",
+    "url": "https://zbmath.org/3164709"
+   },
+   {
+    "name": "Periodicity of balancing numbers",
+    "url": "https://zbmath.org/6330511"
+   },
+   {
+    "name": "zbMATH Open Web Interface contents unavailable due to conflicting licenses.",
+    "url": "https://zbmath.org/4089631"
+   },
+   {
+    "name": "zbMATH Open Web Interface contents unavailable due to conflicting licenses.",
+    "url": "https://zbmath.org/3236918"
+   },
+   {
+    "name": "zbMATH Open Web Interface contents unavailable due to conflicting licenses.",
+    "url": "https://zbmath.org/6981661"
+   },
+   {
+    "name": "On arithmetical functions related to the Fibonacci numbers",
+    "url": "https://zbmath.org/3310987"
+   },
+   {
+    "name": "zbMATH Open Web Interface contents unavailable due to conflicting licenses.",
+    "url": "https://zbmath.org/7327530"
+   },
+   {
+    "name": "zbMATH Open Web Interface contents unavailable due to conflicting licenses.",
+    "url": "https://zbmath.org/6074906"
+   },
+   {
+    "name": "zbMATH Open Web Interface contents unavailable due to conflicting licenses.",
+    "url": "https://zbmath.org/3188597"
+   },
+   {
+    "name": "On the Sylvester-Fibonacci sequences.",
+    "url": "https://zbmath.org/7478543"
+   },
+   {
+    "name": "zbMATH Open Web Interface contents unavailable due to conflicting licenses.",
+    "url": "https://zbmath.org/785350"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "zbmath:Fibonacci period modulo|Fibonacci,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "On arithmetical functions related to the Fibonacci numbers",
+    "url": "https://zbmath.org/3310987"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "zbmath:Fibonacci square period modulo|Fibonacci,square,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Periodicity of balancing numbers",
+    "url": "https://zbmath.org/6330511"
+   },
+   {
+    "name": "Sophie Germain Primes and the Totient of Fibonacci Numbers",
+    "url": "https://zbmath.org/903017326"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "zbmath:Fibonacci square period modulo|Fibonacci,square,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "zbmath:Fibonacci square triangular period modulo|Fibonacci,square,triangular,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "zbmath:Fibonacci triangular period modulo|Fibonacci,triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Periodicity of balancing numbers",
+    "url": "https://zbmath.org/6330511"
+   },
+   {
+    "name": "Applications of Fibonacci numbers. Volume 7: Proceedings of the 7th international research conference on Fibonacci numbers and their applications, Graz, Austria, July 15--19, 1996",
+    "url": "https://zbmath.org/1162396"
+   },
+   {
+    "name": "The selected works of George E. Andrews (with commentary). Edited by Andrew V. Sills",
+    "url": "https://zbmath.org/5906464"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "zbmath:Fibonacci triangular period modulo|Fibonacci,triangular,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Applications of Fibonacci numbers. Volume 7: Proceedings of the 7th international research conference on Fibonacci numbers and their applications, Graz, Austria, July 15--19, 1996",
+    "url": "https://zbmath.org/1162396"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "zbmath:L_{L_n} modulo 5^k period Lucas|lucas,5^k|powers of 5|5-adic|modulo 5,composition|composite|nested|iterated|subscript|l_{l|f_{f|l_{f|f_{l|l(l(|f(f(|of lucas numbers|of fibonacci numbers": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "zbmath:Lucas period modulo|Lucas,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "zbMATH Open Web Interface contents unavailable due to conflicting licenses.",
+    "url": "https://zbmath.org/6957624"
+   },
+   {
+    "name": "zbMATH Open Web Interface contents unavailable due to conflicting licenses.",
+    "url": "https://zbmath.org/7240186"
+   },
+   {
+    "name": "zbMATH Open Web Interface contents unavailable due to conflicting licenses.",
+    "url": "https://zbmath.org/6981661"
+   },
+   {
+    "name": "Special Lucas sequences, including the Fibonacci sequence, modulo a prime",
+    "url": "https://zbmath.org/4179436"
+   },
+   {
+    "name": "Supercongruences for Domb numbers",
+    "url": "https://zbmath.org/903197318"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "zbmath:Lucas period modulo|Lucas,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "zbMATH Open Web Interface contents unavailable due to conflicting licenses.",
+    "url": "https://zbmath.org/7240186"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "zbmath:Lucas square period modulo|Lucas,square,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Degree \\(k\\) linear recursions mod \\((p)\\) and number fields",
+    "url": "https://zbmath.org/5940462"
+   },
+   {
+    "name": "Sophie Germain Primes and the Totient of Fibonacci Numbers",
+    "url": "https://zbmath.org/903017326"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "zbmath:Lucas square period modulo|Lucas,square,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "zbmath:Lucas square triangular period modulo|Lucas,square,triangular,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "zbmath:Lucas triangular period modulo|Lucas,triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Applications of Fibonacci numbers. Volume 7: Proceedings of the 7th international research conference on Fibonacci numbers and their applications, Graz, Austria, July 15--19, 1996",
+    "url": "https://zbmath.org/1162396"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "zbmath:Lucas triangular period modulo|Lucas,triangular,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Applications of Fibonacci numbers. Volume 7: Proceedings of the 7th international research conference on Fibonacci numbers and their applications, Graz, Austria, July 15--19, 1996",
+    "url": "https://zbmath.org/1162396"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "zbmath:composition of Fibonacci and Lucas sequences periodic modulo prime powers known theorem|fibonacci|lucas,period|periodic|pisano,composition|composite|nested|iterated|subscript|l_{l|f_{f|l_{f|f_{l|l(l(|f(f(|of lucas numbers|of fibonacci numbers": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "zbmath:iterated Fibonacci sequence F(F(n)) period modulo m|fibonacci,period|periodic|pisano,composition|composite|nested|iterated|subscript|l_{l|f_{f|l_{f|f_{l|l(l(|f(f(|of lucas numbers|of fibonacci numbers": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "zbmath:period of Fibonacci Lucas numbers composition modulo prime powers|Fibonacci,Lucas,period|periodic|pisano,composition|composite|nested|iterated|subscript": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "zbmath:period of Fibonacci Pell-Lucas numbers composition modulo prime powers|Fibonacci,Pell,period|periodic|pisano,composition|composite|nested|iterated|subscript": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "zbmath:period of Lucas Pell-Lucas numbers composition modulo prime powers|Lucas,Pell,period|periodic|pisano,composition|composite|nested|iterated|subscript": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "zbmath:period of Lucas numbers composition modulo prime powers|Lucas,period|periodic|pisano,composition|composite|nested|iterated|subscript": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "zbmath:period of Lucas numbers with Lucas subscripts modulo m|lucas,period|periodic|pisano,composition|composite|nested|iterated|subscript|l_{l|f_{f|l_{f|f_{l|l(l(|f(f(|of lucas numbers|of fibonacci numbers": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "zbmath:period of Pell Pell-Lucas numbers composition modulo prime powers|Pell,Pell,period|periodic|pisano,composition|composite|nested|iterated|subscript": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "zbmath:period of Pell-Lucas numbers composition modulo prime powers|Pell,period|periodic|pisano,composition|composite|nested|iterated|subscript": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "zbmath:period of Pell-Lucas tribonacci numbers composition modulo prime powers|Pell,tribonacci,period|periodic|pisano,composition|composite|nested|iterated|subscript": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "zbmath:square period modulo|square,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Periodicity of balancing numbers",
+    "url": "https://zbmath.org/6330511"
+   },
+   {
+    "name": "zbMATH Open Web Interface contents unavailable due to conflicting licenses.",
+    "url": "https://zbmath.org/5542627"
+   },
+   {
+    "name": "Polynomials for Kloosterman sums",
+    "url": "https://zbmath.org/5228403"
+   },
+   {
+    "name": "Continued fraction expansions with even period and primary symmetric parts with extremely large end",
+    "url": "https://zbmath.org/6587608"
+   },
+   {
+    "name": "On Poonen's conjecture concerning rational preperiodic points of quadratic maps",
+    "url": "https://zbmath.org/6170758"
+   },
+   {
+    "name": "Discr\u00e9pance quadratique de la suite de van der Corput et de sa sym\u00e9trique. (Square discrepancy of the van der Corput sequence and of its symmetrisation)",
+    "url": "https://zbmath.org/4156550"
+   },
+   {
+    "name": "Iwasawa invariants for symmetric square representations",
+    "url": "https://zbmath.org/7696878"
+   },
+   {
+    "name": "Proof of some conjectures by Kaplansky",
+    "url": "https://zbmath.org/1655749"
+   },
+   {
+    "name": "Limit theorems for the Mellin transform of the square of the Riemann zeta-function.~I",
+    "url": "https://zbmath.org/5037885"
+   },
+   {
+    "name": "An open architecture number sieve",
+    "url": "https://zbmath.org/4168803"
+   },
+   {
+    "name": "Real quadratic fields, continued fractions, and a construction of primary symmetric parts of ELE type",
+    "url": "https://zbmath.org/7131235"
+   },
+   {
+    "name": "Unsupported Cyclotomic Divisors in Three-Prime Integer Tilings",
+    "url": "https://zbmath.org/903158858"
+   },
+   {
+    "name": "T-duality for orientifolds and twisted KR-theory",
+    "url": "https://zbmath.org/6377534"
+   },
+   {
+    "name": "Correlation of the two-prime Sidel'nikov sequence",
+    "url": "https://zbmath.org/5876226"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "zbmath:square period modulo|square,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Unsupported Cyclotomic Divisors in Three-Prime Integer Tilings",
+    "url": "https://zbmath.org/903158858"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "zbmath:square triangular period modulo|square,triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Periodicity of balancing numbers",
+    "url": "https://zbmath.org/6330511"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "zbmath:square triangular period modulo|square,triangular,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [],
+  "status": "CLEAR"
+ },
+ "zbmath:triangular period modulo|triangular,period|pisano|periodic|periodicity": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Periodicity of balancing numbers",
+    "url": "https://zbmath.org/6330511"
+   },
+   {
+    "name": "Ganzzahlige Potenzreihen und linear rekurrente Zahlenfolgen",
+    "url": "https://zbmath.org/3432351"
+   },
+   {
+    "name": "Applications of Fibonacci numbers. Volume 7: Proceedings of the 7th international research conference on Fibonacci numbers and their applications, Graz, Austria, July 15--19, 1996",
+    "url": "https://zbmath.org/1162396"
+   },
+   {
+    "name": "The selected works of George E. Andrews (with commentary). Edited by Andrew V. Sills",
+    "url": "https://zbmath.org/5906464"
+   }
+  ],
+  "status": "REVIEW"
+ },
+ "zbmath:triangular period modulo|triangular,period|pisano|periodic|periodicity,composition|composite|nested|iterated|iterate|iteration|self-composition|fibonacci of fibonacci|of fibonacci numbers of|f_{f_|f(f(": {
+  "checked": "2026-11-09",
+  "hits": [
+   {
+    "name": "Applications of Fibonacci numbers. Volume 7: Proceedings of the 7th international research conference on Fibonacci numbers and their applications, Graz, Austria, July 15--19, 1996",
+    "url": "https://zbmath.org/1162396"
+   }
+  ],
+  "status": "REVIEW"
  }
 }

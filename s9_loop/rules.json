@@ -1,0 +1,356 @@
+{
+ "rules": {
+  "FQ:3": {
+   "id": "FQ:3",
+   "chain": "FQ",
+   "p": 3,
+   "k0": 3,
+   "A": 4,
+   "r": 3,
+   "statement": "F(Q(n)) mod 3^k has exact period 4*3^(k-3) for k >= 3",
+   "what": "period of the composition on powers of 3",
+   "where": "k >= 3, tested to k = 10",
+   "why": "closes a gap: at k = 3 R_COMP predicts 24, the world shows 4",
+   "who": "mined by s9_loop/loop.py (real) from tables; proof: none",
+   "status": "CONJECTURE",
+   "mined_on": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "holdout": 9,
+   "later": {
+    "k": [
+     10
+    ],
+    "survived": true
+   },
+   "novelty": {
+    "query": "period of Fibonacci Pell-Lucas numbers composition modulo prime powers",
+    "sources": {
+     "crossref": "CLEAR",
+     "openalex": "CLEAR",
+     "zbmath": "CLEAR",
+     "stackexchange": "CLEAR"
+    },
+    "n": 1,
+    "candidates": []
+   },
+   "corner": "DISCOVERY"
+  },
+  "LF:5": {
+   "id": "LF:5",
+   "chain": "LF",
+   "p": 5,
+   "k0": 1,
+   "A": 6,
+   "r": 5,
+   "statement": "L(F(n)) mod 5^k has exact period 6*5^(k-1) for k >= 1",
+   "what": "period of the composition on powers of 5",
+   "where": "k >= 1, tested to k = 7",
+   "why": "closes a gap: at k = 2 R_COMP predicts 60, the world shows 30",
+   "who": "mined by s9_loop/loop.py (real) from tables; proof: s8_proofs/PROOFS.md Theorem 1 (not reviewed by a mathematician)",
+   "status": "PROVED",
+   "mined_on": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "holdout": 6,
+   "later": {
+    "k": [
+     7
+    ],
+    "survived": true
+   },
+   "novelty": {
+    "query": "period of Fibonacci Lucas numbers composition modulo prime powers",
+    "sources": {
+     "crossref": "CLEAR",
+     "openalex": "CLEAR",
+     "zbmath": "CLEAR",
+     "stackexchange": "CLEAR"
+    },
+    "n": 1,
+    "candidates": []
+   },
+   "corner": "NEW"
+  },
+  "LL:5": {
+   "id": "LL:5",
+   "chain": "LL",
+   "p": 5,
+   "k0": 2,
+   "A": 6,
+   "r": 5,
+   "statement": "L(L(n)) mod 5^k has exact period 6*5^(k-2) for k >= 2",
+   "what": "period of the composition on powers of 5",
+   "where": "k >= 2, tested to k = 8",
+   "why": "closes a gap: at k = 2 R_COMP predicts 12, the world shows 6",
+   "who": "mined by s9_loop/loop.py (real) from tables; proof: s8_proofs/PROOFS.md Theorem 1 (not reviewed by a mathematician)",
+   "status": "PROVED",
+   "mined_on": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "holdout": 7,
+   "later": {
+    "k": [
+     8
+    ],
+    "survived": true
+   },
+   "novelty": {
+    "query": "period of Lucas numbers composition modulo prime powers",
+    "sources": {
+     "crossref": "CLEAR",
+     "openalex": "REVIEW",
+     "zbmath": "CLEAR",
+     "stackexchange": "CLEAR"
+    },
+    "n": null,
+    "candidates": [
+     "https://doi.org/10.51286/albjm/1678110273"
+    ]
+   },
+   "corner": "UNDECIDED (w=1, e=1, n unknown)"
+  },
+  "LQ:5": {
+   "id": "LQ:5",
+   "chain": "LQ",
+   "p": 5,
+   "k0": 2,
+   "A": 6,
+   "r": 5,
+   "statement": "L(Q(n)) mod 5^k has exact period 6*5^(k-2) for k >= 2",
+   "what": "period of the composition on powers of 5",
+   "where": "k >= 2, tested to k = 8",
+   "why": "closes a gap: at k = 2 R_COMP predicts 12, the world shows 6",
+   "who": "mined by s9_loop/loop.py (real) from tables; proof: none",
+   "status": "CONJECTURE",
+   "mined_on": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "holdout": 7,
+   "later": {
+    "k": [
+     8
+    ],
+    "survived": true
+   },
+   "novelty": {
+    "query": "period of Lucas Pell-Lucas numbers composition modulo prime powers",
+    "sources": {
+     "crossref": "CLEAR",
+     "openalex": "CLEAR",
+     "zbmath": "CLEAR",
+     "stackexchange": "CLEAR"
+    },
+    "n": 1,
+    "candidates": []
+   },
+   "corner": "DISCOVERY"
+  },
+  "PQ:3": {
+   "id": "PQ:3",
+   "chain": "PQ",
+   "p": 3,
+   "k0": 3,
+   "A": 4,
+   "r": 3,
+   "statement": "P(Q(n)) mod 3^k has exact period 4*3^(k-3) for k >= 3",
+   "what": "period of the composition on powers of 3",
+   "where": "k >= 3, tested to k = 10",
+   "why": "closes a gap: at k = 3 R_COMP predicts 24, the world shows 4",
+   "who": "mined by s9_loop/loop.py (real) from tables; proof: none",
+   "status": "CONJECTURE",
+   "mined_on": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "holdout": 9,
+   "later": {
+    "k": [
+     10
+    ],
+    "survived": true
+   },
+   "novelty": {
+    "query": "period of Pell Pell-Lucas numbers composition modulo prime powers",
+    "sources": {
+     "crossref": "CLEAR",
+     "openalex": "CLEAR",
+     "zbmath": "CLEAR",
+     "stackexchange": "CLEAR"
+    },
+    "n": 1,
+    "candidates": []
+   },
+   "corner": "DISCOVERY"
+  },
+  "QQ:2": {
+   "id": "QQ:2",
+   "chain": "QQ",
+   "p": 2,
+   "k0": 7,
+   "A": 4,
+   "r": 2,
+   "statement": "Q(Q(n)) mod 2^k has exact period 4*2^(k-7) for k >= 7",
+   "what": "period of the composition on powers of 2",
+   "where": "k >= 7, tested to k = 12",
+   "why": "closes a gap: at k = 7 R_COMP predicts 8, the world shows 4",
+   "who": "mined by s9_loop/loop.py (real) from tables; proof: none",
+   "status": "CONJECTURE",
+   "mined_on": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "holdout": 11,
+   "later": {
+    "k": [
+     12
+    ],
+    "survived": true
+   },
+   "novelty": {
+    "query": "period of Pell-Lucas numbers composition modulo prime powers",
+    "sources": {
+     "crossref": "CLEAR",
+     "openalex": "CLEAR",
+     "zbmath": "CLEAR",
+     "stackexchange": "CLEAR"
+    },
+    "n": 1,
+    "candidates": []
+   },
+   "corner": "DISCOVERY"
+  },
+  "TQ:2": {
+   "id": "TQ:2",
+   "chain": "TQ",
+   "p": 2,
+   "k0": 4,
+   "A": 4,
+   "r": 2,
+   "statement": "T(Q(n)) mod 2^k has exact period 4*2^(k-4) for k >= 4",
+   "what": "period of the composition on powers of 2",
+   "where": "k >= 4, tested to k = 12",
+   "why": "closes a gap: at k = 4 R_COMP predicts 8, the world shows 4",
+   "who": "mined by s9_loop/loop.py (real) from tables; proof: none",
+   "status": "CONJECTURE",
+   "mined_on": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "holdout": 11,
+   "later": {
+    "k": [
+     12
+    ],
+    "survived": true
+   },
+   "novelty": {
+    "query": "period of Pell-Lucas tribonacci numbers composition modulo prime powers",
+    "sources": {
+     "crossref": "CLEAR",
+     "openalex": "CLEAR",
+     "zbmath": "CLEAR",
+     "stackexchange": "CLEAR"
+    },
+    "n": 1,
+    "candidates": []
+   },
+   "corner": "DISCOVERY"
+  }
+ },
+ "facts": {
+  "FF:2^1": 4,
+  "FL:2^1": 4,
+  "FP:2^1": 4,
+  "FQ:2^1": 4,
+  "FQ:3^2": 4,
+  "LF:2^1": 4,
+  "LF:13^1": 24,
+  "LF:17^1": 12,
+  "LL:2^1": 4,
+  "LL:13^1": 24,
+  "LL:17^1": 12,
+  "LP:2^1": 4,
+  "LP:17^1": 12,
+  "LQ:2^1": 4,
+  "LQ:2^2": 4,
+  "LQ:2^3": 4,
+  "LQ:3^1": 1,
+  "LQ:11^1": 6,
+  "LQ:17^1": 12,
+  "LQ:19^1": 12,
+  "LQ:19^2": 60,
+  "LQ:19^3": 1140,
+  "LQ:19^4": 21660,
+  "PQ:3^2": 4,
+  "PQ:11^1": 4,
+  "PQ:11^2": 12,
+  "PQ:11^3": 132,
+  "PQ:11^4": 1452,
+  "PQ:11^5": 15972,
+  "QF:5^1": 12,
+  "QF:13^1": 24,
+  "QF:13^2": 24,
+  "QF:29^1": 30,
+  "QL:5^1": 12,
+  "QL:13^1": 24,
+  "QL:13^2": 24,
+  "QL:29^1": 6,
+  "QP:5^1": 4,
+  "QQ:2^5": 1,
+  "QQ:2^6": 1,
+  "QQ:3^1": 1,
+  "QQ:5^1": 4,
+  "QQ:7^1": 4,
+  "QQ:19^1": 6,
+  "QQ:23^1": 12,
+  "QQ:29^1": 6,
+  "QQ:29^2": 30,
+  "QQ:29^3": 870,
+  "TF:2^2": 6,
+  "TL:2^2": 6
+ }
+}

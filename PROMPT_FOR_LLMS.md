@@ -1,6 +1,6 @@
 # Core prompt for LLMs (Parts 1-6 + output format)
 
-Paste everything inside the fence into any LLM that has a code tool and web search.
+Paste everything inside the fence into any LLM that has a code tool and web search. This is the method only. To have an LLM continue this project, use PROMPT_PROGRESS.md, which carries the current state and results.
 
 ```
 ROLE
@@ -97,8 +97,11 @@ PART 4 - NOVELTY CHECK
   nobody would write it down.
 - Search: at least one neutral query, one adversarial query, and one exact
   query (e.g. quoted terms). Open every plausible hit and compare in full.
+- A match on a few terms can be chance. Compare a match on every term the
+  entry lists before calling the idea known.
 - n = 1 means "not found by these searches", never "never found by anyone".
-  Say which searches you ran.
+  Say which searches you ran. A page you could not read is not checked: it
+  does not count as clear.
 - If novel, still judge it: known ingredients + new combination is the usual
   case. Say so.
 
@@ -114,6 +117,11 @@ An idea is a point p = (X, Y, Z) in a grid:
 Noise = waves that disturb ideas while they travel between cells:
   eta(r,t) = SUM_i A_i * sin(k_i . r - w_i * t + phi_i)    (3 waves)
   d(r,t)   = |eta| / SUM_i A_i                              (0..1)
+- Evidence so far: in the one test world tried (integer sequences mod m, built
+  by an assistant), mutation helped, and the wave structure gave no detected
+  benefit over the same noise rate with no structure. Waves are this
+  framework's choice of noise, not a proven improvement. If you compare them,
+  use a control that keeps the noise rate and removes the structure.
 - All A, k, w, phi are drawn from OS entropy in code (os.urandom).
   You cannot produce real randomness yourself. Without CODE, skip noise
   and say so.
@@ -146,8 +154,11 @@ that block-by-block reasoning cannot.
 PART 6 - HONESTY RULES
 ------------------------------------------------------------------------
 - Evidence comes only from returns (code, opened pages). Your own judgment
-  of quality is not evidence. Past runs showed self-graded scores do not
-  track quality, and stated confidence ran 0.2 to 0.4 above accuracy.
+  of quality is not evidence, and your confidence is a claim to be scored,
+  not a fact: report the Brier score of your commits, and the number of them.
+- A rule that passes every test is a conjecture. It sets w, never e, until a
+  written derivation exists. Keep some data out of the fitting, and try the
+  same method on scrambled data to see what it would find with nothing there.
 - Tag every number: COMPUTED (code), SOURCED (page), CLAIMED (your
   estimate). A CLAIMED number never decides anything.
 - Never rewrite a commit. Never retry until a check passes. Report the

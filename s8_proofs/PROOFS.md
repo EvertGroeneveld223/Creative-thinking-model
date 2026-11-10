@@ -27,7 +27,7 @@ The composition rule R_COMP gives twice these values, so the theorem is the rule
 ## Lemmas
 
 **V. v5(F(n)) = v5(n) for n >= 1, and 5 never divides L(n).**
-F mod 5 has cycle length 20 with zeros exactly at multiples of 5, so 5 divides F(n) iff 5 divides n. L mod 5 cycles through 2, 1, 3, 4, so it is never 0. The bracket in I7 is always 1 mod 5, so v5(F(5n)) = v5(F(n)) + 1 for every n. Write n = 5^a·b with 5 not dividing b. Applying this a times gives v5(F(n)) = a + v5(F(b)) = a.
+SOURCED: this is Lemma 1 of T. Lengyel, "The Order of the Fibonacci and Lucas Numbers", Fibonacci Quarterly 33.3 (1995), 234-239 (read in full, 2026-11-09). A short proof, for completeness: F mod 5 has cycle length 20 with zeros exactly at multiples of 5, so 5 divides F(n) iff 5 divides n. L mod 5 cycles through 2, 1, 3, 4, so it is never 0. The bracket in I7 is always 1 mod 5, so v5(F(5n)) = v5(F(n)) + 1 for every n. Write n = 5^a·b with 5 not dividing b. Applying this a times gives v5(F(n)) = a + v5(F(b)) = a.
 
 **A. For j >= 1: L(n + 2·5^(j-1)) = -L(n) mod 5^j.**
 Let x = 5^(j-1) and c = 2x. Since x is odd, I5 and I4 give L(c) = L(x)^2 + 2 = 5F(x)^2 - 2. By V, v5(5F(x)^2) = 2j - 1 >= j, so L(c) = -2 mod 5^j. By I6 and V, v5(5F(c)) >= j. Then I1 gives 2L(n+c) = -2L(n) mod 5^j, and 2 is invertible.
@@ -75,10 +75,38 @@ So L(L(1+c)) != L(L(1)) mod 5^k.
 
 So L(F(1+c)) != L(F(1)) mod 5^k. QED.
 
+## Theorem 2 (upper bound for every odd prime power)
+
+Found after looking at a table of savings for primes below 300, by asking what the 5^k proof actually used. Same status as above: written by Claude, steps checked by `prove.py` (part 5), **not reviewed by a mathematician**.
+
+Let q = p^k with p an odd prime, and let P be the exact cycle length of L mod q. Suppose P = 4 mod 8, and put z = P/4, which is odd. Let g be F or L.
+
+**If h > 0 satisfies 6 | h and g(n+h) = -g(n) mod z for all n >= 0, then L(g(n+h)) = L(g(n)) mod q for all n >= 0.** So the period of L(g(n)) mod q divides h.
+
+**Step 1: L(n+c) = -L(n) mod q for all integers n, where c = P/2 = 2z.**
+*Case p != 5.* 5 is invertible mod q. From 5F(n) = L(n+1) + L(n-1), the sequence F also has period P, so F(2c) = 0 and L(2c) = 2 mod q. Since P = 4 mod 8, c is even, so I5 gives L(2c) = L(c)^2 - 2, and therefore (L(c) - 2)(L(c) + 2) = 0 mod q. These factors differ by 4 and p is odd, so p divides at most one of them, and q divides that one. Hence L(c) = 2 or -2 mod q, a unit in either case. By I6, F(2c) = F(c)L(c), so F(c) = 0 mod q. Then I1 gives 2L(n+c) = L(c)L(n) mod q. If L(c) = 2, then c is a period of L, which contradicts P being exact. So L(c) = -2 and L(n+c) = -L(n).
+*Case p = 5.* The cycle of L mod 5^k is 4·5^(k-1). Lemma A applied twice shows the cycle divides this. The cycle mod 5 is exactly 4, so 4 divides it, which leaves only values 4·5^j. For k >= 2 the valuation tool with x = 1, y = 1 + 4·5^(k-2) gives v5(L(y) - L(1)) = k - 1, so 4·5^(k-2) is not a period, and neither is any divisor of it. So c = 2·5^(k-1), and this is lemma A with j = k.
+
+**Step 2: L((c-1)x) = L(x) mod q for all x >= 0.** This is lemma M.
+
+**Step 3.** Let a = c - 1 = 2z - 1. Since z is odd, a = 1 mod 4, and a = -1 mod z. Given h as in the statement: g(n+h) = g(n) = a·g(n) mod 4 because 6 | h and g has period 6 mod 4, and g(n+h) = -g(n) = a·g(n) mod z. Since gcd(4, z) = 1, g(n+h) = a·g(n) mod P. L mod q depends only on the index mod P, so L(g(n+h)) = L(a·g(n)) = L(g(n)) mod q by step 2. QED.
+
+The upper bound in Theorem 1 is the case q = 5^k, where z = 5^(k-1), and h = 6·5^(k-2) for g = L and h = 6·5^(k-1) for g = F.
+
+**When no h exists.** For a prime power t of z, the shift must be half the cycle C of g mod t. So the conditions are congruences on h, and they can conflict. Example: q = 61 has z = 15. Mod 3 the shift is 4 mod 8, and mod 5 (for g = F) it is 10 mod 20, so h would be 0 and 2 mod 4 at once. Mod 13 it works: z = 7, the shift is 8 mod 16, and h = 24 where R_COMP gives 48.
+
+**Why P = 4 mod 8 matters for this argument.** If 8 | P then a = 3 mod 4, and neither F nor L has any h with g(n+h) = 3g(n) mod 4 (finite check, `prove.py`). So this mechanism cannot apply. That does not rule out some other mechanism.
+
 ## Not proved
 
-**Odd-modulus pattern (conjecture).** For odd m and g in {F, L}, the period of F(g(n)) mod m seems to equal the R_COMP bound. No exception was computed for odd m up to 19,999. The sign argument only explains why R_MULT does not apply: F((c-1)k) = -F(k) rather than F(k). It does not rule out every other way of shortening the period.
+**Conjecture 2 (exact formula).** For f, g in {F, L} and q a prime power: the exact period of f(g(n)) mod q is
+- half the R_COMP bound at q = 2 (this one is a finite check);
+- for f = L and q odd, the h of Theorem 2 when it exists and is below the bound;
+- the R_COMP bound in every other case.
+With R_CRT (the lcm over prime powers) this gives every m. `general.py` computes this with no errors on all prime powers up to 10,000 and all m up to 1,200. The rule was written after seeing primes below 300, so the 4,668 cases at larger primes (272 predicted savings) were a blind test. A finite check is not a proof. Theorem 2 proves only that the period divides h. The lower bound, and "no saving" in the other cases, are open outside q = 5^k.
+
+**Odd-modulus pattern.** This is the f = F case of Conjecture 2. No exception was computed for odd m up to 19,999 (`odd_pattern.py`). The sign argument only explains why the mechanism above does not apply: F((c-1)k) = -F(k) rather than F(k). It does not rule out every other way of shortening the period.
 
 ## Novelty
 
-Status of the theorem and the search record are in HANDOFF.md, section 4. Being absent from these searches does not make it new, and it is elementary enough that it may well be known.
+The search record is `search_theorem.json` (queries through `novelty.py`) and `opened_pages.json` (pages opened, with what was read of each). Nothing found states these periods. Pages that could not be read are listed there as not checked, not as clear. Being absent from these searches does not make a result new. The results here are elementary and may well be known, for instance in older literature that these sources do not index.

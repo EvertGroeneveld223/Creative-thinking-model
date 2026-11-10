@@ -3,7 +3,7 @@ _P=lambda *a:_os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(_
 """Rulebook + return to sender. Rules are assumed always right.
 Every answer must be a chain of rule applications; every rule carries Who/What/Where/Why.
 How is produced per step (which rule, which part, which substitution)."""
-import json, hashlib
+import json, hashlib, re, sys, urllib.request
 
 W = "https://en.wikipedia.org/wiki/"
 RULES_ALL = {
@@ -95,6 +95,81 @@ def send(sender, lhs, rhs, rules):
     reply["hash"] = hashlib.sha256(json.dumps(reply, sort_keys=True).encode()).hexdigest()[:12]
     return reply
 
+# ---------- a gap asks the web, for real ----------
+PAGES = [W+"Proofs_involving_the_addition_of_natural_numbers", W+"Peano_axioms"]
+def raw_url(u): return "https://en.wikipedia.org/w/index.php?title=" + u.rsplit("/", 1)[1] + "&action=raw"
+def http_fetch(u):
+    req = urllib.request.Request(u, headers={"User-Agent": "creativity-engine-novelty/1.0"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return r.read().decode("utf-8", "replace")
+def parse_term(txt):
+    """A term over 0, the variables a and b, S(...) and +. Returns the term, with variables as ?a, or None."""
+    if re.sub(r"[ab0S()+\s]", "", txt): return None
+    toks = re.findall(r"[ab0S()+]", txt); i = [0]
+    def atom():
+        if i[0] >= len(toks): raise ValueError
+        t = toks[i[0]]; i[0] += 1
+        if t in "ab": return "?" + t
+        if t == "0": return ("0",)
+        if t == "S":
+            if i[0] >= len(toks) or toks[i[0]] != "(": raise ValueError
+            i[0] += 1
+        elif t != "(": raise ValueError
+        e = expr()
+        if i[0] >= len(toks) or toks[i[0]] != ")": raise ValueError
+        i[0] += 1
+        return ("S", e) if t == "S" else e
+    def expr():
+        e = atom()
+        while i[0] < len(toks) and toks[i[0]] == "+":
+            i[0] += 1; e = ("+", e, atom())
+        return e
+    try:
+        e = expr()
+    except ValueError: return None
+    return e if i[0] == len(toks) else None
+def equations(page):
+    """Every line of a page that reads as one equation over the small grammar, left side an addition: (line, left term, right term)."""
+    out = []
+    for line in page.splitlines():
+        t = line.replace("''", "").replace("&", "")
+        t = re.sub(r"\\(textrm|mbox)\{.*?\}|<[^>]*>|\\\\|\|+|[,.:]|A[0-9]\b", " ", t)
+        for m in re.finditer(r"([ab0S()+\s]+)=([ab0S()+\s]+)", t):
+            l, r = parse_term(m.group(1)), parse_term(m.group(2))
+            if l and r and l[0] == "+": out.append((line.strip(), l, r))
+    return out
+def inst(t, a, b):
+    """The value of a term with numbers put in for a and b."""
+    if t == "?a": return a
+    if t == "?b": return b
+    if t[0] == "0": return 0
+    if t[0] == "S": return inst(t[1], a, b) + 1
+    return inst(t[1], a, b) + inst(t[2], a, b)
+def stuck_terms(t):
+    """All subterms that still hold an operator."""
+    if isinstance(t, str) or len(t) == 1: return []
+    return ([t] if t[0] != "S" else []) + [x for y in t[1:] for x in stuck_terms(y)]
+def ask_the_web(lhs, rhs, rules, fetch=http_fetch):
+    """The gap goes to the pages. A found equation becomes a rule only if its left side fits a stuck term and the world agrees on a, b = 0..20.
+    A page that cannot be reached leaves the gap open. Returns (rule id or None, report).
+    This grammar covers Peano addition only; reading rules from a page in general is not solved."""
+    stuck = stuck_terms(normalize(lhs, rules)[0]) + stuck_terms(normalize(rhs, rules)[0]); report = []
+    for page in PAGES:
+        try:
+            body = fetch(raw_url(page))
+        except OSError as e:
+            report.append(dict(page=page, status="UNCHECKED", why=repr(e))); continue
+        eqs = equations(body); report.append(dict(page=page, status="READ", equations=len(eqs)))
+        for line, l, r in eqs:
+            if not any(match(l, t, {}) is not None for t in stuck): continue
+            if any(inst(l, a, b) != inst(r, a, b) for a in range(21) for b in range(21)):
+                report.append(dict(page=page, rejected=line, why="the world disagrees")); continue
+            rid = "W" + str(sum(k.startswith("W") for k in rules) + 1)
+            rules[rid] = dict(lhs=l, rhs=r, kind="rewrite", what=line[:120], who=page, where="any naturals; checked on a, b = 0..20", why="found for the gap " + ", ".join(show(t) for t in stuck))
+            report.append(dict(page=page, adopted=rid, line=line[:120]))
+            return rid, report
+    return None, report
+
 def print_reply(r):
     print(f"\n=== reply to {r['to']}: {r['claim']} -> {r['status']} (works={r['works']})  #{r['hash']}")
     for side, ch in (("left", r["left_chain"]), ("right", r["right_chain"])):
@@ -112,9 +187,14 @@ if __name__ == "__main__":
     # Case 2: step rule A2 missing
     no_a2 = {k: v for k, v in RULES_ALL.items() if k != "A2"}
     runs["missing_A2"] = send("generator", one_plus_one, two, no_a2)
-    # Case 3: after the gap, the web returns A2 with its source; rule added, claim resent
-    no_a2["A2"] = RULES_ALL["A2"]
-    runs["A2_added_from_web"] = send("generator", one_plus_one, two, no_a2)
+    # Case 3: the gap really goes to the web pages. The rule it comes back with is the one used, so with no network the gap stays open
+    if "--offline" in sys.argv:
+        def down(u): raise OSError("offline")
+        rid, report = ask_the_web(one_plus_one, two, no_a2, down)
+    else:
+        rid, report = ask_the_web(one_plus_one, two, no_a2)
+    runs["rule_from_web"] = send("generator", one_plus_one, two, no_a2); runs["rule_from_web"]["web"] = report; runs["rule_from_web"]["rule_found"] = no_a2[rid]["what"] if rid else None
+    print("web:", report)
     # Case 4: a false claim, 1+1 = 1
     runs["false_claim"] = send("generator", one_plus_one, ("1",), RULES_ALL)
     for r in runs.values(): print_reply(r)
