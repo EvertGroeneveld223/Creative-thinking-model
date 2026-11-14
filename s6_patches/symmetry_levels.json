@@ -7,9 +7,12 @@
    "QUOT_AFF_CRT": 969,
    "PARITY": 969,
    "ZERO": 969,
-   "CLASS": 969
+   "CLASS": 969,
+   "BLOCK": 969,
+   "BLOCK2": 969
   },
-  "misses": []
+  "misses": [],
+  "misses_after_block": []
  },
  "depth3": {
   "n": 2367,
@@ -19,7 +22,9 @@
    "QUOT_AFF_CRT": 2220,
    "PARITY": 2280,
    "ZERO": 2285,
-   "CLASS": 2324
+   "CLASS": 2324,
+   "BLOCK": 2358,
+   "BLOCK2": 2367
   },
   "misses": [
    [
@@ -280,6 +285,7 @@
     12,
     6
    ]
-  ]
+  ],
+  "misses_after_block": []
  }
 }

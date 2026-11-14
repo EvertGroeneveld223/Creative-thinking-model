@@ -1,0 +1,139 @@
+{
+ "primary": [
+  {
+   "test": "base vs shuffled",
+   "mean_a": 29.78,
+   "mean_b": 29.9,
+   "diff": -0.11999999999999744,
+   "ci95": [
+    -4.68,
+    4.419999999999998
+   ],
+   "p": 0.9659951700241499,
+   "p_holm": 1,
+   "significant": false
+  },
+  {
+   "test": "polar vs polar_shuffled",
+   "mean_a": 31.5,
+   "mean_b": 32.62,
+   "diff": -1.1199999999999974,
+   "ci95": [
+    -5.099999999999998,
+    2.859999999999996
+   ],
+   "p": 0.5943370283148585,
+   "p_holm": 1,
+   "significant": false
+  },
+  {
+   "test": "pooled mutation vs off",
+   "mean_a": 30.95,
+   "mean_b": 20.88,
+   "diff": 10.07,
+   "ci95": [
+    6.194999999999997,
+    13.934999999999999
+   ],
+   "p": 4.9999750001249995e-06,
+   "p_holm": 1.4999925000374999e-05,
+   "significant": true
+  }
+ ],
+ "per_mode": {
+  "off": {
+   "n": 50,
+   "finds_mean": 20.88,
+   "finds_sd": 12.993938932425065,
+   "finds_mutated": 0,
+   "mutations": 0,
+   "resends": 70.76,
+   "timeouts": 0.86,
+   "explained": 103.9,
+   "false": 10.12,
+   "unreachable": 9.46,
+   "out_of_grid": 26.44
+  },
+  "base": {
+   "n": 50,
+   "finds_mean": 29.78,
+   "finds_sd": 11.67465421416875,
+   "finds_mutated": 10.24,
+   "mutations": 78.5,
+   "resends": 74.8,
+   "timeouts": 2.4,
+   "explained": 101.42,
+   "false": 16.12,
+   "unreachable": 13.1,
+   "out_of_grid": 19.18
+  },
+  "shuffled": {
+   "n": 50,
+   "finds_mean": 29.9,
+   "finds_sd": 11.759928501795704,
+   "finds_mutated": 9.8,
+   "mutations": 78.04,
+   "resends": 72.02,
+   "timeouts": 2.14,
+   "explained": 103.3,
+   "false": 16.48,
+   "unreachable": 13.14,
+   "out_of_grid": 16.96
+  },
+  "polar": {
+   "n": 50,
+   "finds_mean": 31.5,
+   "finds_sd": 10.045305533696132,
+   "finds_mutated": 12.12,
+   "mutations": 122.16,
+   "resends": 70.14,
+   "timeouts": 1.98,
+   "explained": 101.18,
+   "false": 18.08,
+   "unreachable": 15.6,
+   "out_of_grid": 14.96
+  },
+  "polar_shuffled": {
+   "n": 50,
+   "finds_mean": 32.62,
+   "finds_sd": 10.474244407992748,
+   "finds_mutated": 13.32,
+   "mutations": 124.98,
+   "resends": 63.3,
+   "timeouts": 1.58,
+   "explained": 100.64,
+   "false": 17.1,
+   "unreachable": 13.64,
+   "out_of_grid": 18.54
+  }
+ },
+ "secondary_by_sequence": {
+  "off": {
+   "mean": 20.18,
+   "sd": 12.629233983912412
+  },
+  "base": {
+   "mean": 28.64,
+   "sd": 11.178989038297129
+  },
+  "shuffled": {
+   "mean": 28.8,
+   "sd": 11.306490821376787
+  },
+  "polar": {
+   "mean": 30.6,
+   "sd": 9.983660119803513
+  },
+  "polar_shuffled": {
+   "mean": 31.48,
+   "sd": 10.110087910152929
+  }
+ },
+ "secondary_polar_vs_base": {
+  "diff": 1.7199999999999989,
+  "ci95": [
+   -2.4200000000000017,
+   6.0
+  ]
+ }
+}

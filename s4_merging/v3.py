@@ -1,6 +1,6 @@
 """v3 loop: 3D wave noise (from v2) + merged explanations. Novelty is checked by web AFTER the loop for the top finds."""
-import json, math, hashlib, sys
-import engine1 as g, merge as M, v2
+import json, math, sys
+import engine1 as g, merge as M, v2, channel
 u, pick = g.u, g.pick
 def naive(p):
     tr = []; B = g.bound(g.tree(p), p["m"], tr)
@@ -29,9 +29,8 @@ def run(T=300):
         if u() < dist: q, notes = v2.mutate(q, 1 + int(2*dist))
         if not v2.within(q): log.append(dict(t=t, kind="OUT-OF-GRID")); continue
         r = evaluate(q)
-        reply = json.dumps([r["kind"], r.get("L")]); h = hashlib.sha256(reply.encode()).hexdigest()
-        back = v2.d(W, list(g.coords(src)), t+1); k = 0
-        while u() < back and k < 20: resends += 1; k += 1          # corrupted replies fail the hash and are resent
+        got, k = channel.send_back(json.dumps([r["kind"], r.get("L")]), lambda tt: v2.d(W, list(g.coords(src)), tt), t, u); resends += k
+        r = dict(r, kind=json.loads(got)[0], L=json.loads(got)[1])
         e = dict(t=t, kind=r["kind"], expr=g.show(g.tree(q)), m=q["m"], ax=ax, d=round(dist, 3), notes=notes)
         if r["kind"] == "EXPLAINED":
             short = v2.shortest(q, r["s"])

@@ -115,7 +115,7 @@
   ],
   "hash": "7264a411c0a1"
  },
- "A2_added_from_web": {
+ "rule_from_web": {
   "to": "generator",
   "claim": "(1 + 1) = 2",
   "works": true,
@@ -143,14 +143,14 @@
     "where": "natural numbers"
    },
    {
-    "rule": "A2",
+    "rule": "W1",
     "before": "(S(0) + S(0))",
     "after": "S((S(0) + 0))",
-    "what": "a + S(b) = S(a + b)",
-    "how": "apply A2 to whole [(S(0) + S(0))] with a=S(0), b=0",
-    "why": "addition, step case",
+    "what": "| '''A2:''' || ''a'' + ''S''(''b'') = ''S''(''a'' + ''b'')",
+    "how": "apply W1 to whole [(S(0) + S(0))] with a=S(0), b=0",
+    "why": "found for the gap (S(0) + S(0))",
     "who": "https://en.wikipedia.org/wiki/Proofs_involving_the_addition_of_natural_numbers",
-    "where": "any naturals a, b"
+    "where": "any naturals; checked on a, b = 0..20"
    },
    {
     "rule": "A1",
@@ -179,7 +179,20 @@
   "right_end": "S(S(0))",
   "gaps": [],
   "ask_web": [],
-  "hash": "ead2cbc70a46"
+  "hash": "f0fc4835ceb3",
+  "web": [
+   {
+    "page": "https://en.wikipedia.org/wiki/Proofs_involving_the_addition_of_natural_numbers",
+    "status": "READ",
+    "equations": 7
+   },
+   {
+    "page": "https://en.wikipedia.org/wiki/Proofs_involving_the_addition_of_natural_numbers",
+    "adopted": "W1",
+    "line": "| '''A2:''' || ''a'' + ''S''(''b'') = ''S''(''a'' + ''b'')"
+   }
+  ],
+  "rule_found": "| '''A2:''' || ''a'' + ''S''(''b'') = ''S''(''a'' + ''b'')"
  },
  "false_claim": {
   "to": "generator",

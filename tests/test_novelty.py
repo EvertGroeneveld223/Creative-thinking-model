@@ -42,4 +42,45 @@ class T(unittest.TestCase):
         body = json.dumps(dict(message=dict(items=[dict(title=["Fibonacci numbers modulo p"], DOI="a"), dict(title=["Period of <i>nested</i> Fibonacci"], DOI="b")])))
         r = N.crossref("q", ["nested", "fibonacci"], cache(), lambda u: body)
         self.assertEqual([h["url"] for h in r["hits"]], ["https://doi.org/b"])
+    def test_compare_catches_a_chance_match(self):
+        t = list(range(2, 40))
+        self.assertEqual(N.compare(t, ",".join(map(str, t)))["result"], "AGREES")
+        self.assertEqual(N.compare(t, ",".join(map(str, t[:20])))["result"], "SHORT")
+        bad = t[:15] + [999] + t[16:]
+        r = N.compare(t, ",".join(map(str, bad)))
+        self.assertEqual((r["result"], r["first_diff"]), ("DIVERGES", 15))
+        self.assertEqual(N.compare(t, "1,2,3")["result"], "DIVERGES")
+    def test_required_kinds_block_a_claim(self):
+        clear = dict(status="CLEAR", hits=[]); down = dict(status="UNCHECKED", hits=[])
+        req = ("oeis-terms", "arxiv")
+        self.assertEqual(N.verdict({"oeis-terms": clear}, req)[0], "UNCHECKED")                         # arxiv was never asked
+        self.assertEqual(N.verdict({"oeis-terms": clear, "arxiv: q": down}, req)[0], "UNCHECKED")       # arxiv could not be reached
+        self.assertEqual(N.verdict({"oeis-terms": clear, "arxiv: q": clear}, req), ("NOT-FOUND", 1))
+        self.assertEqual(N.verdict({"oeis-terms": clear, "arxiv: q": dict(status="REVIEW", hits=[dict(name="x")])}, req)[0], "REVIEW")
+    def test_filters_use_alternatives_and_abstract(self):
+        must = ["lucas", ("period", "pisano")]
+        body = json.dumps(dict(results=[dict(id="a", title="On Lucas numbers", abstract_inverted_index=dict(Pisano=[0])), dict(id="b", title="On Lucas numbers", abstract_inverted_index=None)]))
+        self.assertEqual([h["url"] for h in N.openalex("q", must, cache(), lambda u: body)["hits"]], ["a"])
+    def test_stackexchange_and_zbmath_parse(self):
+        se = json.dumps(dict(items=[dict(title="Period of Lucas mod m", body="<p>x</p>", link="L")]))
+        self.assertEqual(N.stackexchange("q", ["lucas", "period"], cache(), lambda u: se)["status"], "REVIEW")
+        zb = json.dumps(dict(result=[dict(title=dict(title="Other"), editorial_contributions=[dict(text="period of Lucas")], identifier="1")]))
+        self.assertEqual(N.zbmath("q", ["lucas", "period"], cache(), lambda u: zb)["status"], "REVIEW")
+        def nothing(u): raise N.Unavailable("HTTPError 404")
+        self.assertEqual(N.zbmath("q", ["x"], cache(), nothing)["status"], "CLEAR")
+        def down(u): raise N.Unavailable("HTTPError 503")
+        self.assertEqual(N.zbmath("q", ["x"], cache(), down)["status"], "UNCHECKED")
+class Tables(unittest.TestCase):
+    def test_tables_match_the_proof_engine(self):
+        sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "s4_merging"))
+        import engine1 as g, merge as M, tables as TB
+        pts = [dict(base="luc", ops=[["comp", "luc"]]), dict(base="fib", ops=[["comp", "luc"]]), dict(base="luc", ops=[["mul", "luc"]]), dict(base="sq", ops=[["comp", "tri"]]), dict(base="tri", ops=[["add", "fib"]])]
+        for p in pts:
+            for m in range(2, 25):
+                self.assertEqual(TB.period(g.tree(p), m), M.explain(dict(p, m=m))[0], (p, m))
+    def test_equal_tables_can_be_different_sequences(self):
+        sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "s4_merging"))
+        import engine1 as g, tables as TB
+        a, b = g.tree(dict(base="fib", ops=[["add", "fib"]])), g.tree(dict(base="fib", ops=[["add", "luc"]]))
+        self.assertNotEqual(TB.series(a, 7), TB.series(b, 7))
 if __name__ == "__main__": unittest.main()

@@ -5,6 +5,7 @@ Part 2 checks the finite base facts of the proof by direct computation.
 Part 3 tests each step of the induction and the final theorem on concrete k, using code independent of the proof.
 Part 4 is a general certificate for one composition and one modulus: it proves "exact period T" by finite checks,
        including the lower bound that the identity-only why-chain (s6_patches/why.py) does not give.
+Part 5 tests each step of Theorem 2 on concrete odd prime powers q with P = 4 mod 8.
 
 Python checks the steps. It does not check the induction argument itself: that is in PROOFS.md, for a person to read.
 Standard library only."""
@@ -281,6 +282,42 @@ def check_certificate(chain, m, T, cert):
     return True, "ok"
 
 
+# ---------- Part 5: Theorem 2 ----------
+
+
+def theorem2_checks(qmax=4000):
+    """Every odd prime power q <= qmax whose Lucas cycle is 4 mod 8. Uses the plain tables of general.py, none of the proof's lemmas."""
+    import general as G
+    R = []; n = used = 0
+    def add(name, ok): R.append((name, bool(ok), ""))
+    for p in G.primes(qmax):
+        if p == 2: continue
+        q = p
+        while q <= qmax:
+            Lt = G.table("L", q); P = len(Lt)
+            if P % 8 == 4:
+                n += 1; z = P//4; c = 2*z; a = c - 1
+                add(f"q={q} step 1: L(n+{c}) = -L(n)", all((Lt[(i+c) % P] + Lt[i]) % q == 0 for i in range(P)))
+                if p != 5:
+                    add(f"q={q} step 1: F(c) = 0 and L(c) = -2", F(c, q) == 0 and (L(c, q) + 2) % q == 0)
+                add(f"q={q} step 2: L((c-1)x) = L(x)", all(Lt[(a*x) % P] == Lt[x] for x in range(P)))
+                add(f"q={q} step 3: a = 1 mod 4 and -1 mod z", a % 4 == 1 and (a + 1) % z == 0)
+                for name in "FL":
+                    h = G.shift_solution(name, z) if z > 1 else None
+                    if h is None: continue
+                    used += 1; it = G.table(name, P); B = len(it)
+                    add(f"q={q} {name}: g(n+{h}) = a*g(n) mod P", all((it[(i+h) % B] - a*it[i]) % P == 0 for i in range(B)))
+                    add(f"q={q} L({name}(n)) has period dividing {h}", all(Lt[it[(i+h) % B]] == Lt[it[i]] for i in range(B)))
+            q *= p
+    # the Part 1 identity I5 needs c even: P = 4 mod 8 gives it, and h with g(n+h) = 3g(n) mod 4 never exists
+    for name in "FL":
+        v = G.table(name, 4)
+        add(f"{name} has no h with g(n+h) = 3g(n) mod 4", not any(all((v[(i+h) % 6] - 3*v[i]) % 4 == 0 for i in range(6)) for h in range(1, 7)))
+    for k in range(2, 7):
+        add(f"Theorem 1 is the case q = 5^{k} of the formula", G.predict_q("L", "L", 5**k)[0] == 6*5**(k-2) and G.predict_q("L", "F", 5**k)[0] == 6*5**(k-1))
+    return R, n, used
+
+
 def main(K=6):
     fails = 0
     def show(name, ok, detail=""):
@@ -315,6 +352,12 @@ def main(K=6):
         T, cert = certify(chain, m)
         ok, why = check_certificate(chain, m, T, cert)
         show(f"{chain} mod {m}: exact period {T}, witnesses {cert['witnesses']}", ok and T == want, why)
+    print("--- Part 5: Theorem 2 on concrete q")
+    results, n, used = theorem2_checks()
+    for name, ok, detail in results:
+        if not ok:
+            show(name, ok, detail)
+    print(f"Theorem 2: {n} prime powers with P = 4 mod 8, {used} cases with a shift, step instances: {sum(r[1] for r in results)} of {len(results)} pass")
     print("ALL CHECKS PASSED" if not fails else f"{fails} CHECKS FAILED")
     return fails
 

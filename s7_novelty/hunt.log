@@ -1,110 +1,138 @@
 439 distinct expressions with worth > 0; 164 of size <= 3 searched
-107 distinct families
-0 KNOWN luc(n) | saved at 4 moduli | [3, 8, 6, 4, 24, 16, 12, 24, 12, 10] | inst: KNOWN
-1 KNOWN sq(n) | saved at 6 moduli | [2, 3, 2, 5, 6, 7, 4, 9, 10, 11] | inst: KNOWN
-2 NEW fib(luc(n)) | saved at 8 moduli | [4, 12, 24, 12, 12, 24, 24, 24, 12, 12] | inst: NOT-FOUND
-3 NEW [luc(n) * luc(n)] | saved at 19 moduli | [3, 4, 3, 2, 12, 8, 6, 12, 6, 10] | inst: TRIVIAL
-4 NEW luc(sq(n)) | saved at 18 moduli | [3, 4, 6, 2, 12, 8, 6, 12, 6, 10] | inst: NOT-FOUND
-5 NEW luc(luc(n)) | saved at 10 moduli | [4, 12, 24, 6, 12, 24, 24, 24, 12, 12] | inst: NOT-FOUND
-6 NEW luc(fib(n)) | saved at 9 moduli | [4, 12, 24, 6, 12, 24, 24, 24, 12, 60] | inst: NOT-FOUND
-7 KNOWN sq(sq(n)) | saved at 6 moduli | [2, 3, 2, 5, 6, 7, 2, 9, 10, 11] | inst: TRIVIAL
-8 NEW tri(luc(n)) | saved at 4 moduli | [6, 8, 12, 4, 24, 16, 24, 24, 12, 10] | inst: NOT-FOUND
-9 NEW luc(tri(n)) | saved at 4 moduli | [3, 16, 12, 8, 48, 32, 24, 48, 24, 20] | inst: NOT-FOUND
-10 NEW [luc(n) + luc(n)] | saved at 11 moduli | [1, 8, 3, 4, 8, 16, 6, 24, 4, 10] | inst: KNOWN
-11 KNOWN [tri(n) + tri(n)] | saved at 12 moduli | [1, 3, 4, 5, 3, 7, 8, 9, 5, 11] | inst: KNOWN
-12 NEW fib(sq(n)) | saved at 18 moduli | [3, 2, 6, 10, 6, 8, 6, 12, 30, 10] | inst: KNOWN
-13 KNOWN [fib(n) + luc(n)] | saved at 8 moduli | [1, 8, 3, 20, 8, 16, 6, 24, 20, 10] | inst: NOT-FOUND
-14 KNOWN tri(sq(n)) | saved at 13 moduli | [2, 3, 4, 5, 6, 7, 8, 3, 10, 11] | inst: TRIVIAL
-15 NEW sq(tri(n)) | saved at 8 moduli | [4, 3, 4, 5, 12, 7, 8, 3, 20, 11] | inst: TRIVIAL
-16 KNOWN [fib(n) * luc(n)] | saved at 22 moduli | [3, 4, 3, 10, 12, 8, 6, 12, 30, 5] | inst: KNOWN
-17 NEW [fib(n) * fib(n)] | saved at 19 moduli | [3, 4, 3, 10, 12, 8, 6, 12, 30, 10] | inst: NOT-FOUND
-18 NEW [sq(n) + sq(n)] | saved at 12 moduli | [1, 3, 2, 5, 3, 7, 2, 9, 5, 11] | inst: NOT-FOUND
-19 KNOWN fib(fib(n)) | saved at 4 moduli | [4, 12, 24, 60, 12, 24, 24, 24, 60, 60] | inst: NOT-FOUND
-20 NEW [sq(n) + luc(n)] | saved at 3 moduli | [6, 24, 6, 20, 24, 112, 12, 72, 60, 110] | inst: NOT-FOUND
-21 NEW [sq(n) * luc(n)] | saved at 3 moduli | [6, 24, 6, 20, 24, 112, 12, 72, 60, 110] | inst: NOT-FOUND
-22 NEW luc([luc(n) + luc(n)]) | saved at 19 moduli | [4, 6, 4, 3, 12, 12, 12, 24, 12, 2] | inst: TRIVIAL
-23 NEW luc([fib(n) * luc(n)]) | saved at 23 moduli | [2, 6, 12, 3, 6, 12, 12, 12, 6, 30] | inst: NOT-FOUND
-24 NEW luc([fib(n) * fib(n)]) | saved at 23 moduli | [4, 6, 12, 3, 12, 12, 12, 12, 12, 30] | inst: TRIVIAL
-25 NEW luc(sq(luc(n))) | saved at 23 moduli | [4, 6, 12, 3, 12, 12, 12, 12, 12, 6] | inst: TRIVIAL
-26 NEW [luc(sq(n)) + luc(n)] | saved at 8 moduli | [1, 8, 6, 4, 8, 16, 12, 24, 4, 10] | inst: NOT-FOUND
-27 NEW luc([fib(n) + luc(n)]) | saved at 19 moduli | [4, 6, 4, 3, 12, 12, 12, 24, 12, 10] | inst: NOT-FOUND
-28 NEW sq(luc(tri(n))) | saved at 19 moduli | [3, 8, 3, 4, 24, 16, 12, 24, 12, 20] | inst: NOT-FOUND
-29 NEW [fib(luc(n)) * luc(n)] | saved at 7 moduli | [12, 24, 12, 6, 24, 48, 24, 24, 12, 60] | inst: NOT-FOUND
-30 NEW fib([luc(n) * luc(n)]) | saved at 23 moduli | [4, 3, 12, 6, 12, 12, 12, 12, 12, 6] | inst: NOT-FOUND
-31 NEW sq([tri(n) * tri(n)]) | saved at 8 moduli | [4, 3, 4, 5, 12, 7, 4, 3, 20, 11] | inst: TRIVIAL
-32 NEW sq([tri(n) + tri(n)]) | saved at 13 moduli | [1, 3, 1, 5, 3, 7, 4, 3, 5, 11] | inst: TRIVIAL
-33 NEW sq([fib(n) + luc(n)]) | saved at 21 moduli | [1, 4, 1, 10, 4, 8, 3, 12, 10, 10] | inst: TRIVIAL
-34 NEW [[luc(n) + luc(n)] * fib(n)] | saved at 23 moduli | [1, 4, 3, 10, 4, 8, 3, 12, 10, 5] | inst: NOT-FOUND
-35 NEW [[luc(n) + fib(n)] * luc(n)] | saved at 21 moduli | [1, 4, 3, 10, 4, 8, 6, 12, 10, 10] | inst: NOT-FOUND
-36 NEW [fib(luc(n)) * sq(n)] | saved at 6 moduli | [2, 12, 24, 60, 12, 168, 24, 72, 60, 132] | inst: NOT-FOUND
-37 NEW fib(tri(luc(n))) | saved at 6 moduli | [8, 24, 24, 12, 24, 48, 24, 24, 24, 12] | inst: NOT-FOUND
-38 NEW [fib(luc(n)) * tri(n)] | saved at 5 moduli | [4, 12, 24, 60, 12, 168, 48, 72, 60, 132] | inst: NOT-FOUND
-39 NEW luc(tri(fib(n))) | saved at 4 moduli | [8, 24, 24, 12, 24, 48, 24, 24, 24, 60] | inst: NOT-FOUND
-40 NEW [luc(luc(n)) + luc(n)] | saved at 8 moduli | [12, 24, 24, 12, 24, 48, 24, 24, 12, 60] | inst: NOT-FOUND
-41 NEW fib([luc(n) + luc(n)]) | saved at 13 moduli | [4, 6, 8, 12, 12, 12, 24, 24, 12, 4] | inst: NOT-FOUND
-42 NEW sq(tri(luc(n))) | saved at 8 moduli | [6, 8, 6, 4, 24, 16, 12, 8, 12, 10] | inst: NOT-FOUND
-43 NEW fib([fib(n) * luc(n)]) | saved at 23 moduli | [2, 6, 12, 30, 6, 12, 12, 12, 30, 30] | inst: KNOWN
-44 NEW [[tri(n) + tri(n)] * tri(n)] | saved at 13 moduli | [1, 3, 4, 5, 3, 7, 4, 3, 5, 11] | inst: NOT-FOUND
-45 NEW luc(sq(sq(n))) | saved at 18 moduli | [3, 2, 6, 2, 6, 2, 6, 6, 6, 10] | inst: NOT-FOUND
-46 KNOWN sq([sq(n) + sq(n)]) | saved at 12 moduli | [1, 3, 1, 5, 3, 7, 2, 9, 5, 11] | inst: TRIVIAL
-47 NEW sq(luc(sq(n))) | saved at 19 moduli | [3, 1, 3, 2, 3, 4, 6, 6, 6, 10] | inst: NOT-FOUND
-48 NEW sq(sq(fib(n))) | saved at 19 moduli | [3, 4, 3, 5, 12, 8, 3, 12, 15, 10] | inst: TRIVIAL
-49 NEW sq(fib(sq(n))) | saved at 19 moduli | [3, 2, 3, 10, 6, 4, 6, 6, 30, 10] | inst: NOT-FOUND
-50 NEW [[fib(n) + fib(n)] + fib(n)] | saved at 6 moduli | [3, 1, 6, 20, 3, 16, 12, 8, 60, 10] | inst: NOT-FOUND
-51 NEW sq([fib(n) * luc(n)]) | saved at 22 moduli | [3, 2, 3, 5, 6, 4, 3, 2, 15, 5] | inst: NOT-FOUND
-52 NEW [[sq(n) + sq(n)] * fib(n)] | saved at 7 moduli | [1, 24, 6, 20, 24, 112, 6, 72, 20, 110] | inst: NOT-FOUND
-53 KNOWN tri(sq(sq(n))) | saved at 13 moduli | [2, 3, 2, 5, 6, 7, 2, 3, 10, 11] | inst: NOT-FOUND
-54 NEW [[tri(n) + tri(n)] * luc(n)] | saved at 9 moduli | [1, 24, 12, 20, 24, 112, 24, 72, 20, 110] | inst: NOT-FOUND
-55 NEW [[luc(n) * fib(n)] + luc(n)] | saved at 5 moduli | [1, 8, 6, 20, 8, 16, 12, 24, 20, 10] | inst: NOT-FOUND
-56 NEW [[fib(n) * fib(n)] * fib(n)] | saved at 1 moduli | [3, 8, 6, 20, 24, 16, 12, 8, 60, 10] | inst: NOT-FOUND
-57 NEW [tri(tri(n)) + tri(n)] | saved at 2 moduli | [8, 3, 16, 5, 24, 7, 32, 3, 40, 11] | inst: TRIVIAL
-58 TRIVIAL [[ds(n) + ds(n)] + ds(n)] | saved at 0 moduli | [] | inst: NOT-FOUND
-59 TRIVIAL [[tri(n) + sq(n)] + ds(n)] | saved at 0 moduli | [] | inst: TRIVIAL
-60 NEW [[tri(n) + tri(n)] + tri(n)] | saved at 8 moduli | [4, 1, 8, 5, 4, 7, 16, 3, 20, 11] | inst: TRIVIAL
-61 NEW [[sq(n) + sq(n)] + sq(n)] | saved at 12 moduli | [2, 1, 2, 5, 2, 7, 4, 3, 10, 11] | inst: TRIVIAL
-62 TRIVIAL [[sq(n) + tri(n)] + ds(n)] | saved at 0 moduli | [] | inst: TRIVIAL
-63 NEW [[fib(n) + luc(n)] + tri(n)] | saved at 4 moduli | [4, 24, 24, 20, 24, 112, 48, 72, 20, 110] | inst: NOT-FOUND
-64 NEW sq([sq(n) + tri(n)]) | saved at 6 moduli | [4, 3, 4, 5, 12, 7, 8, 9, 20, 11] | inst: NOT-FOUND
-65 NEW tri([fib(n) * luc(n)]) | saved at 23 moduli | [3, 4, 6, 10, 12, 8, 12, 12, 30, 5] | inst: NOT-FOUND
-66 KNOWN [[tri(n) + tri(n)] + sq(n)] | saved at 12 moduli | [2, 3, 4, 5, 6, 7, 8, 9, 10, 11] | inst: NOT-FOUND
-67 NEW luc([tri(n) + tri(n)]) | saved at 22 moduli | [3, 8, 3, 4, 24, 16, 12, 24, 12, 5] | inst: NOT-FOUND
-68 NEW fib([luc(n) + fib(n)]) | saved at 10 moduli | [4, 6, 8, 60, 12, 12, 24, 24, 60, 20] | inst: NOT-FOUND
-69 NEW tri([tri(n) + tri(n)]) | saved at 15 moduli | [4, 1, 8, 5, 4, 7, 16, 9, 20, 11] | inst: NOT-FOUND
-70 TRIVIAL [luc(sq(n)) + ds(n)] | saved at 0 moduli | [] | inst: NOT-FOUND
-71 NEW [[luc(n) + luc(n)] * luc(n)] | saved at 21 moduli | [1, 4, 3, 2, 4, 8, 3, 12, 2, 10] | inst: NOT-FOUND
-72 NEW [sq(sq(n)) + sq(n)] | saved at 13 moduli | [1, 3, 2, 5, 3, 7, 4, 3, 5, 11] | inst: NOT-FOUND
-73 NEW fib([fib(n) * fib(n)]) | saved at 23 moduli | [4, 3, 12, 30, 12, 12, 12, 12, 60, 30] | inst: NOT-FOUND
-74 NEW luc([tri(n) * tri(n)]) | saved at 19 moduli | [3, 8, 12, 4, 24, 16, 12, 24, 12, 20] | inst: NOT-FOUND
-75 NEW tri(fib(sq(n))) | saved at 21 moduli | [2, 2, 6, 10, 2, 8, 12, 12, 10, 10] | inst: NOT-FOUND
-76 NEW [sq(fib(n)) * tri(n)] | saved at 12 moduli | [12, 12, 24, 10, 12, 56, 48, 36, 60, 110] | inst: NOT-FOUND
-77 NEW sq([tri(n) * fib(n)]) | saved at 18 moduli | [12, 12, 12, 10, 12, 56, 24, 12, 60, 110] | inst: NOT-FOUND
-78 NEW tri(tri(sq(n))) | saved at 13 moduli | [4, 3, 8, 5, 12, 7, 16, 3, 20, 11] | inst: NOT-FOUND
-79 NEW [luc(luc(n)) * fib(n)] | saved at 5 moduli | [12, 24, 24, 60, 24, 48, 24, 24, 60, 60] | inst: NOT-FOUND
-80 NEW sq([luc(n) + luc(n)]) | saved at 21 moduli | [1, 4, 1, 2, 4, 8, 3, 12, 2, 10] | inst: NOT-FOUND
-81 TRIVIAL [[fib(n) * luc(n)] + ds(n)] | saved at 0 moduli | [] | inst: NOT-FOUND
-82 NEW [[fib(n) * luc(n)] + tri(n)] | saved at 14 moduli | [12, 12, 24, 10, 12, 56, 48, 36, 60, 55] | inst: NOT-FOUND
-83 NEW [sq(tri(n)) + luc(n)] | saved at 7 moduli | [12, 24, 12, 20, 24, 112, 24, 24, 60, 110] | inst: NOT-FOUND
-84 NEW fib(sq(tri(n))) | saved at 19 moduli | [3, 4, 12, 20, 12, 16, 12, 24, 60, 20] | inst: NOT-FOUND
-85 NEW tri(sq(fib(n))) | saved at 20 moduli | [3, 4, 6, 10, 12, 8, 12, 4, 30, 10] | inst: NOT-FOUND
-86 NEW [sq(fib(n)) * sq(n)] | saved at 19 moduli | [6, 12, 6, 10, 12, 56, 12, 36, 30, 110] | inst: NOT-FOUND
-87 NEW [fib(luc(n)) + fib(n)] | saved at 3 moduli | [12, 24, 24, 60, 24, 48, 24, 24, 60, 60] | inst: NOT-FOUND
-88 NEW [fib(luc(n)) * fib(n)] | saved at 6 moduli | [12, 24, 12, 30, 24, 48, 24, 24, 60, 60] | inst: NOT-FOUND
-89 NEW sq([sq(n) * fib(n)]) | saved at 19 moduli | [6, 12, 6, 10, 12, 56, 6, 36, 30, 110] | inst: NOT-FOUND
-90 TRIVIAL [[fib(n) * fib(n)] * ds(n)] | saved at 0 moduli | [] | inst: NOT-FOUND
-91 NEW [luc(luc(n)) * tri(n)] | saved at 8 moduli | [4, 12, 24, 30, 12, 168, 48, 72, 60, 132] | inst: NOT-FOUND
-92 KNOWN sq(tri(sq(n))) | saved at 13 moduli | [2, 3, 2, 5, 6, 7, 4, 3, 10, 11] | inst: NOT-FOUND
-93 NEW luc([luc(n) * sq(n)]) | saved at 14 moduli | [12, 12, 24, 6, 12, 12, 24, 24, 12, 60] | inst: NOT-FOUND
-94 NEW tri(luc(sq(n))) | saved at 19 moduli | [6, 4, 6, 2, 12, 8, 12, 4, 6, 10] | inst: NOT-FOUND
-95 NEW [[luc(n) * fib(n)] + sq(n)] | saved at 21 moduli | [6, 12, 6, 10, 12, 56, 12, 36, 30, 55] | inst: NOT-FOUND
-96 NEW luc([fib(n) * tri(n)]) | saved at 7 moduli | [12, 48, 24, 24, 48, 96, 24, 48, 24, 60] | inst: NOT-FOUND
-97 NEW [fib(sq(n)) + tri(n)] | saved at 12 moduli | [12, 6, 24, 10, 12, 56, 48, 36, 60, 110] | inst: NOT-FOUND
-98 NEW [[sq(n) + sq(n)] * sq(n)] | saved at 12 moduli | [1, 3, 2, 5, 3, 7, 2, 9, 5, 11] | inst: TRIVIAL
-99 NEW sq([luc(n) * luc(n)]) | saved at 19 moduli | [3, 4, 3, 1, 12, 8, 3, 12, 3, 10] | inst: NOT-FOUND
-100 NEW fib([sq(n) * fib(n)]) | saved at 10 moduli | [12, 12, 24, 60, 12, 12, 24, 24, 60, 60] | inst: NOT-FOUND
-101 NEW [tri(sq(n)) * sq(n)] | saved at 12 moduli | [2, 3, 2, 5, 6, 7, 8, 9, 10, 11] | inst: NOT-FOUND
-102 NEW fib([tri(n) + tri(n)]) | saved at 22 moduli | [3, 8, 3, 20, 24, 16, 12, 24, 60, 5] | inst: NOT-FOUND
-103 NEW sq(fib(tri(n))) | saved at 19 moduli | [3, 8, 3, 20, 24, 16, 12, 24, 60, 20] | inst: NOT-FOUND
-104 KNOWN tri([fib(n) + fib(n)]) | saved at 4 moduli | [3, 8, 6, 20, 24, 16, 12, 24, 60, 10] | inst: NOT-FOUND
-105 NEW [[fib(n) + fib(n)] * fib(n)] | saved at 21 moduli | [1, 4, 3, 10, 4, 8, 3, 12, 10, 10] | inst: NOT-FOUND
-106 KNOWN fib(tri(sq(n))) | saved at 22 moduli | [3, 8, 6, 20, 24, 16, 12, 24, 60, 10] | inst: NOT-FOUND
-Counter({'NEW': 87, 'KNOWN': 14, 'TRIVIAL': 6})
+134 classes by residues; 101 distinct period tables; table disagreements merge vs tables: 0
+0 KNOWN luc(n) | [3, 8, 6, 4, 24, 16, 12, 24] | oeis [('A106291', 'AGREES', 69)] | candidates 35 | inst KNOWN
+1 KNOWN sq(n) | [2, 3, 2, 5, 6, 7, 4, 9] | oeis [('A186646', 'AGREES', 98)] | candidates 45 | inst KNOWN
+2 REVIEW fib(luc(n)) | [4, 12, 24, 12, 12, 24, 24, 24] | oeis [] | candidates 13 | inst NOT-FOUND
+3 REVIEW [luc(n) * luc(n)] | [3, 4, 3, 2, 12, 8, 6, 12] | oeis [] | candidates 35 | inst TRIVIAL
+4 REVIEW luc(sq(n)) | [3, 4, 6, 2, 12, 8, 6, 12] | oeis [] | candidates 2 | inst NOT-FOUND
+5 REVIEW luc(luc(n)) | [4, 12, 24, 6, 12, 24, 24, 24] | oeis [] | candidates 9 | inst NOT-FOUND
+6 REVIEW luc(fib(n)) | [4, 12, 24, 6, 12, 24, 24, 24] | oeis [] | candidates 13 | inst NOT-FOUND
+7 REVIEW sq(sq(n)) | [2, 3, 2, 5, 6, 7, 2, 9] | oeis [('A327937', 'DIVERGES', 87), ('A377515', 'DIVERGES', 69), ('A259445', 'DIVERGES', 67)] | candidates 5 | inst TRIVIAL
+8 REVIEW tri(luc(n)) | [6, 8, 12, 4, 24, 16, 24, 24] | oeis [] | candidates 1 | inst NOT-FOUND
+9 REVIEW luc(tri(n)) | [3, 16, 12, 8, 48, 32, 24, 48] | oeis [] | candidates 1 | inst NOT-FOUND
+10 REVIEW [luc(n) + luc(n)] | [1, 8, 3, 4, 8, 16, 6, 24] | oeis [] | candidates 35 | inst KNOWN
+11 KNOWN [tri(n) + tri(n)] | [1, 3, 4, 5, 3, 7, 8, 9] | oeis [('A283971', 'AGREES', 66), ('A348173', 'DIVERGES', 83)] | candidates 39 | inst KNOWN
+12 REVIEW fib(sq(n)) | [3, 2, 6, 10, 6, 8, 6, 12] | oeis [] | candidates 1 | inst KNOWN
+13 KNOWN [fib(n) + luc(n)] | [1, 8, 3, 20, 8, 16, 6, 24] | oeis [('A376082', 'AGREES', 64)] | candidates 44 | inst NOT-FOUND
+14 KNOWN tri(sq(n)) | [2, 3, 4, 5, 6, 7, 8, 3] | oeis [('A160597', 'DIVERGES', 73), ('A327535', 'DIVERGES', 68), ('A282779', 'AGREES', 80), ('A327389', 'DIVERGES', 68)] | candidates 8 | inst TRIVIAL
+15 REVIEW sq(tri(n)) | [4, 3, 4, 5, 12, 7, 8, 3] | oeis [] | candidates 8 | inst TRIVIAL
+16 KNOWN [fib(n) + fib(n)] | [1, 8, 3, 20, 8, 16, 6, 24] | oeis [('A376082', 'AGREES', 64)] | candidates 82 | inst NOT-FOUND
+17 KNOWN [fib(n) * luc(n)] | [3, 4, 3, 10, 12, 8, 6, 12] | oeis [('A281230', 'AGREES', 79)] | candidates 44 | inst KNOWN
+18 REVIEW [fib(n) * fib(n)] | [3, 4, 3, 10, 12, 8, 6, 12] | oeis [] | candidates 82 | inst NOT-FOUND
+19 REVIEW [sq(n) + sq(n)] | [1, 3, 2, 5, 3, 7, 2, 9] | oeis [] | candidates 45 | inst NOT-FOUND
+20 KNOWN fib(fib(n)) | [4, 12, 24, 60, 12, 24, 24, 24] | oeis [('A356550', 'AGREES', 62)] | candidates 16 | inst NOT-FOUND
+21 REVIEW [sq(n) + luc(n)] | [6, 24, 6, 20, 24, 112, 12, 72] | oeis [] | candidates 6 | inst NOT-FOUND
+22 REVIEW [sq(n) * luc(n)] | [6, 24, 6, 20, 24, 112, 12, 72] | oeis [] | candidates 6 | inst NOT-FOUND
+23 REVIEW luc([luc(n) + luc(n)]) | [4, 6, 4, 3, 12, 12, 12, 24] | oeis [] | candidates 9 | inst TRIVIAL
+24 REVIEW luc([fib(n) * luc(n)]) | [2, 6, 12, 3, 6, 12, 12, 12] | oeis [] | candidates 13 | inst NOT-FOUND
+25 REVIEW luc([fib(n) * fib(n)]) | [4, 6, 12, 3, 12, 12, 12, 12] | oeis [] | candidates 13 | inst TRIVIAL
+26 REVIEW luc(sq(luc(n))) | [4, 6, 12, 3, 12, 12, 12, 12] | oeis [] | candidates 2 | inst TRIVIAL
+27 REVIEW [luc(sq(n)) + luc(n)] | [1, 8, 6, 4, 8, 16, 12, 24] | oeis [] | candidates 2 | inst NOT-FOUND
+28 REVIEW [sq(luc(n)) + luc(n)] | [1, 8, 6, 4, 8, 16, 12, 24] | oeis [] | candidates 2 | inst NOT-FOUND
+29 REVIEW luc([fib(n) + luc(n)]) | [4, 6, 4, 3, 12, 12, 12, 24] | oeis [] | candidates 13 | inst NOT-FOUND
+30 NEW sq(luc(tri(n))) | [3, 8, 3, 4, 24, 16, 12, 24] | oeis [] | candidates 0 | inst NOT-FOUND
+31 REVIEW [fib(luc(n)) * luc(n)] | [12, 24, 12, 6, 24, 48, 24, 24] | oeis [] | candidates 13 | inst NOT-FOUND
+32 REVIEW fib([luc(n) * luc(n)]) | [4, 3, 12, 6, 12, 12, 12, 12] | oeis [] | candidates 13 | inst NOT-FOUND
+33 REVIEW sq([tri(n) * tri(n)]) | [4, 3, 4, 5, 12, 7, 4, 3] | oeis [] | candidates 8 | inst TRIVIAL
+34 REVIEW sq([tri(n) + tri(n)]) | [1, 3, 1, 5, 3, 7, 4, 3] | oeis [] | candidates 8 | inst TRIVIAL
+35 NEW sq([fib(n) + luc(n)]) | [1, 4, 1, 10, 4, 8, 3, 12] | oeis [] | candidates 0 | inst TRIVIAL
+36 REVIEW [[luc(n) + luc(n)] * fib(n)] | [1, 4, 3, 10, 4, 8, 3, 12] | oeis [] | candidates 44 | inst NOT-FOUND
+37 REVIEW [[luc(n) + fib(n)] * luc(n)] | [1, 4, 3, 10, 4, 8, 6, 12] | oeis [] | candidates 44 | inst NOT-FOUND
+38 NEW [fib(luc(n)) * sq(n)] | [2, 12, 24, 60, 12, 168, 24, 72] | oeis [] | candidates 0 | inst NOT-FOUND
+39 REVIEW fib(tri(luc(n))) | [8, 24, 24, 12, 24, 48, 24, 24] | oeis [] | candidates 1 | inst NOT-FOUND
+40 REVIEW [fib(luc(n)) * tri(n)] | [4, 12, 24, 60, 12, 168, 48, 72] | oeis [] | candidates 1 | inst NOT-FOUND
+41 REVIEW luc(tri(fib(n))) | [8, 24, 24, 12, 24, 48, 24, 24] | oeis [] | candidates 1 | inst NOT-FOUND
+42 REVIEW [luc(luc(n)) + luc(n)] | [12, 24, 24, 12, 24, 48, 24, 24] | oeis [] | candidates 9 | inst NOT-FOUND
+43 REVIEW fib([luc(n) + luc(n)]) | [4, 6, 8, 12, 12, 12, 24, 24] | oeis [] | candidates 13 | inst NOT-FOUND
+44 NEW luc([sq(n) * tri(n)]) | [3, 16, 12, 8, 48, 32, 24, 48] | oeis [] | candidates 0 | inst NOT-FOUND
+45 NEW sq(tri(luc(n))) | [6, 8, 6, 4, 24, 16, 12, 8] | oeis [] | candidates 0 | inst NOT-FOUND
+46 REVIEW fib([fib(n) * luc(n)]) | [2, 6, 12, 30, 6, 12, 12, 12] | oeis [] | candidates 13 | inst KNOWN
+47 REVIEW [[tri(n) + tri(n)] * tri(n)] | [1, 3, 4, 5, 3, 7, 4, 3] | oeis [] | candidates 39 | inst NOT-FOUND
+48 REVIEW luc(sq(sq(n))) | [3, 2, 6, 2, 6, 2, 6, 6] | oeis [] | candidates 2 | inst NOT-FOUND
+49 REVIEW sq([sq(n) + sq(n)]) | [1, 3, 1, 5, 3, 7, 2, 9] | oeis [('A060819', 'DIVERGES', 75)] | candidates 5 | inst TRIVIAL
+50 KNOWN [tri(sq(n)) + sq(n)] | [1, 3, 4, 5, 3, 7, 8, 9] | oeis [('A283971', 'AGREES', 66), ('A348173', 'DIVERGES', 83)] | candidates 8 | inst NOT-FOUND
+51 REVIEW sq(luc(sq(n))) | [3, 1, 3, 2, 3, 4, 6, 6] | oeis [] | candidates 2 | inst NOT-FOUND
+52 REVIEW sq(sq(fib(n))) | [3, 4, 3, 5, 12, 8, 3, 12] | oeis [] | candidates 1 | inst TRIVIAL
+53 REVIEW sq(fib(sq(n))) | [3, 2, 3, 10, 6, 4, 6, 6] | oeis [] | candidates 1 | inst NOT-FOUND
+54 REVIEW [[fib(n) + fib(n)] + fib(n)] | [3, 1, 6, 20, 3, 16, 12, 8] | oeis [] | candidates 82 | inst NOT-FOUND
+55 NEW sq([fib(n) * luc(n)]) | [3, 2, 3, 5, 6, 4, 3, 2] | oeis [] | candidates 0 | inst NOT-FOUND
+56 REVIEW [[sq(n) + sq(n)] * fib(n)] | [1, 24, 6, 20, 24, 112, 6, 72] | oeis [] | candidates 27 | inst NOT-FOUND
+57 REVIEW tri(sq(sq(n))) | [2, 3, 2, 5, 6, 7, 2, 3] | oeis [('A007947', 'DIVERGES', 77), ('A019555', 'DIVERGES', 77), ('A053166', 'DIVERGES', 75), ('A015052', 'DIVERGES', 77), ('A015053', 'DIVERGES', 77)] | candidates 8 | inst NOT-FOUND
+58 REVIEW [[tri(n) + tri(n)] * luc(n)] | [1, 24, 12, 20, 24, 112, 24, 72] | oeis [] | candidates 1 | inst NOT-FOUND
+59 REVIEW [[luc(n) * fib(n)] + luc(n)] | [1, 8, 6, 20, 8, 16, 12, 24] | oeis [] | candidates 44 | inst NOT-FOUND
+60 REVIEW [[fib(n) * fib(n)] * fib(n)] | [3, 8, 6, 20, 24, 16, 12, 8] | oeis [] | candidates 82 | inst NOT-FOUND
+61 REVIEW [[luc(n) * luc(n)] + fib(n)] | [1, 8, 6, 20, 8, 16, 12, 24] | oeis [] | candidates 44 | inst NOT-FOUND
+62 REVIEW [tri(tri(n)) + tri(n)] | [8, 3, 16, 5, 24, 7, 32, 3] | oeis [] | candidates 4 | inst TRIVIAL
+63 TRIVIAL [[ds(n) + ds(n)] + ds(n)] | [] | oeis [] | candidates 0 | inst NOT-FOUND
+64 TRIVIAL [[tri(n) + sq(n)] + ds(n)] | [] | oeis [] | candidates 0 | inst TRIVIAL
+65 NEW [fib(sq(n)) + luc(n)] | [1, 8, 6, 20, 8, 16, 12, 24] | oeis [] | candidates 0 | inst NOT-FOUND
+66 REVIEW [[tri(n) + tri(n)] + tri(n)] | [4, 1, 8, 5, 4, 7, 16, 3] | oeis [] | candidates 39 | inst TRIVIAL
+67 REVIEW [[sq(n) + sq(n)] + sq(n)] | [2, 1, 2, 5, 2, 7, 4, 3] | oeis [] | candidates 45 | inst TRIVIAL
+68 REVIEW [[fib(n) * fib(n)] + fib(n)] | [1, 8, 6, 20, 8, 16, 12, 24] | oeis [] | candidates 82 | inst NOT-FOUND
+69 TRIVIAL [[sq(n) + tri(n)] + ds(n)] | [] | oeis [] | candidates 0 | inst TRIVIAL
+70 REVIEW [[fib(n) + luc(n)] + tri(n)] | [4, 24, 24, 20, 24, 112, 48, 72] | oeis [] | candidates 1 | inst NOT-FOUND
+71 REVIEW sq([sq(n) + tri(n)]) | [4, 3, 4, 5, 12, 7, 8, 9] | oeis [] | candidates 8 | inst NOT-FOUND
+72 REVIEW tri([fib(n) * luc(n)]) | [3, 4, 6, 10, 12, 8, 12, 12] | oeis [] | candidates 1 | inst NOT-FOUND
+73 KNOWN [[tri(n) + tri(n)] + sq(n)] | [2, 3, 4, 5, 6, 7, 8, 9] | oeis [('A000027', 'AGREES', 76), ('A001477', 'AGREES', 76), ('A002260', 'DIVERGES', 26), ('A002262', 'SHORT', 12), ('A053645', 'DIVERGES', 67)] | candidates 37 | inst NOT-FOUND
+74 REVIEW luc([tri(n) + tri(n)]) | [3, 8, 3, 4, 24, 16, 12, 24] | oeis [] | candidates 1 | inst NOT-FOUND
+75 REVIEW fib([luc(n) + fib(n)]) | [4, 6, 8, 60, 12, 12, 24, 24] | oeis [] | candidates 13 | inst NOT-FOUND
+76 REVIEW tri([tri(n) + tri(n)]) | [4, 1, 8, 5, 4, 7, 16, 9] | oeis [] | candidates 4 | inst NOT-FOUND
+77 TRIVIAL [luc(sq(n)) + ds(n)] | [] | oeis [] | candidates 0 | inst NOT-FOUND
+78 REVIEW [[luc(n) + luc(n)] * luc(n)] | [1, 4, 3, 2, 4, 8, 3, 12] | oeis [] | candidates 35 | inst NOT-FOUND
+79 REVIEW [sq(sq(n)) + sq(n)] | [1, 3, 2, 5, 3, 7, 4, 3] | oeis [] | candidates 5 | inst NOT-FOUND
+80 REVIEW fib([fib(n) * fib(n)]) | [4, 3, 12, 30, 12, 12, 12, 12] | oeis [] | candidates 16 | inst NOT-FOUND
+81 REVIEW luc([tri(n) * tri(n)]) | [3, 8, 12, 4, 24, 16, 12, 24] | oeis [] | candidates 1 | inst NOT-FOUND
+82 REVIEW [sq(sq(n)) + luc(n)] | [6, 24, 6, 20, 24, 112, 12, 72] | oeis [] | candidates 2 | inst NOT-FOUND
+83 NEW tri(fib(sq(n))) | [2, 2, 6, 10, 2, 8, 12, 12] | oeis [] | candidates 0 | inst NOT-FOUND
+84 NEW [sq(fib(n)) * tri(n)] | [12, 12, 24, 10, 12, 56, 48, 36] | oeis [] | candidates 0 | inst NOT-FOUND
+85 NEW sq([tri(n) * fib(n)]) | [12, 12, 12, 10, 12, 56, 24, 12] | oeis [] | candidates 0 | inst NOT-FOUND
+86 REVIEW tri(tri(sq(n))) | [4, 3, 8, 5, 12, 7, 16, 3] | oeis [] | candidates 8 | inst NOT-FOUND
+87 REVIEW [luc(luc(n)) * fib(n)] | [12, 24, 24, 60, 24, 48, 24, 24] | oeis [] | candidates 13 | inst NOT-FOUND
+88 REVIEW [sq(tri(n)) + sq(n)] | [4, 3, 4, 5, 12, 7, 8, 9] | oeis [] | candidates 8 | inst NOT-FOUND
+89 REVIEW [[luc(n) * luc(n)] * tri(n)] | [12, 12, 24, 10, 12, 56, 48, 36] | oeis [] | candidates 1 | inst NOT-FOUND
+90 REVIEW sq([luc(n) + luc(n)]) | [1, 4, 1, 2, 4, 8, 3, 12] | oeis [] | candidates 2 | inst NOT-FOUND
+91 TRIVIAL [[fib(n) * luc(n)] + ds(n)] | [] | oeis [] | candidates 0 | inst NOT-FOUND
+92 REVIEW [[fib(n) * luc(n)] + tri(n)] | [12, 12, 24, 10, 12, 56, 48, 36] | oeis [] | candidates 1 | inst NOT-FOUND
+93 NEW [sq(tri(n)) + luc(n)] | [12, 24, 12, 20, 24, 112, 24, 24] | oeis [] | candidates 0 | inst NOT-FOUND
+94 NEW fib(sq(tri(n))) | [3, 4, 12, 20, 12, 16, 12, 24] | oeis [] | candidates 0 | inst NOT-FOUND
+95 REVIEW [[tri(n) * tri(n)] * sq(n)] | [4, 3, 4, 5, 12, 7, 8, 9] | oeis [] | candidates 37 | inst NOT-FOUND
+96 NEW tri(sq(fib(n))) | [3, 4, 6, 10, 12, 8, 12, 4] | oeis [] | candidates 0 | inst NOT-FOUND
+97 REVIEW [sq(fib(n)) * sq(n)] | [6, 12, 6, 10, 12, 56, 12, 36] | oeis [] | candidates 1 | inst NOT-FOUND
+98 REVIEW [fib(luc(n)) + fib(n)] | [12, 24, 24, 60, 24, 48, 24, 24] | oeis [] | candidates 13 | inst NOT-FOUND
+99 REVIEW [fib(luc(n)) * fib(n)] | [12, 24, 12, 30, 24, 48, 24, 24] | oeis [] | candidates 13 | inst NOT-FOUND
+100 REVIEW sq([sq(n) * fib(n)]) | [6, 12, 6, 10, 12, 56, 6, 36] | oeis [] | candidates 1 | inst NOT-FOUND
+101 TRIVIAL [[fib(n) * fib(n)] * ds(n)] | [] | oeis [] | candidates 0 | inst NOT-FOUND
+102 REVIEW [luc(luc(n)) * tri(n)] | [4, 12, 24, 30, 12, 168, 48, 72] | oeis [] | candidates 1 | inst NOT-FOUND
+103 REVIEW sq(tri(sq(n))) | [2, 3, 2, 5, 6, 7, 4, 3] | oeis [('A019554', 'DIVERGES', 76), ('A019530', 'DIVERGES', 77), ('A066069', 'DIVERGES', 75), ('A355263', 'DIVERGES', 68), ('A371573', 'DIVERGES', 68)] | candidates 8 | inst NOT-FOUND
+104 KNOWN [[tri(n) + tri(n)] * sq(n)] | [1, 3, 4, 5, 3, 7, 8, 9] | oeis [('A283971', 'AGREES', 66), ('A348173', 'DIVERGES', 83)] | candidates 37 | inst TRIVIAL
+105 REVIEW luc([luc(n) * sq(n)]) | [12, 12, 24, 6, 12, 12, 24, 24] | oeis [] | candidates 2 | inst NOT-FOUND
+106 NEW tri(luc(sq(n))) | [6, 4, 6, 2, 12, 8, 12, 4] | oeis [] | candidates 0 | inst NOT-FOUND
+107 REVIEW [fib(fib(n)) * fib(n)] | [12, 24, 12, 30, 24, 48, 24, 24] | oeis [] | candidates 16 | inst NOT-FOUND
+108 REVIEW [[luc(n) * fib(n)] + sq(n)] | [6, 12, 6, 10, 12, 56, 12, 36] | oeis [] | candidates 3 | inst NOT-FOUND
+109 REVIEW [luc(luc(n)) * luc(n)] | [12, 24, 24, 12, 24, 48, 24, 24] | oeis [] | candidates 9 | inst NOT-FOUND
+110 NEW sq([luc(n) * tri(n)]) | [12, 12, 12, 10, 12, 56, 24, 12] | oeis [] | candidates 0 | inst NOT-FOUND
+111 REVIEW luc([fib(n) * tri(n)]) | [12, 48, 24, 24, 48, 96, 24, 48] | oeis [] | candidates 1 | inst NOT-FOUND
+112 NEW [fib(sq(n)) + tri(n)] | [12, 6, 24, 10, 12, 56, 48, 36] | oeis [] | candidates 0 | inst NOT-FOUND
+113 REVIEW [[sq(n) + luc(n)] * fib(n)] | [6, 24, 6, 20, 24, 112, 12, 72] | oeis [] | candidates 3 | inst NOT-FOUND
+114 REVIEW [[sq(n) + sq(n)] * sq(n)] | [1, 3, 2, 5, 3, 7, 2, 9] | oeis [] | candidates 45 | inst TRIVIAL
+115 REVIEW sq([luc(n) * luc(n)]) | [3, 4, 3, 1, 12, 8, 3, 12] | oeis [] | candidates 2 | inst NOT-FOUND
+116 REVIEW [sq(sq(n)) * sq(n)] | [2, 3, 2, 5, 6, 7, 2, 3] | oeis [('A007947', 'DIVERGES', 77), ('A019555', 'DIVERGES', 77), ('A053166', 'DIVERGES', 75), ('A015052', 'DIVERGES', 77), ('A015053', 'DIVERGES', 77)] | candidates 5 | inst KNOWN
+117 REVIEW sq([sq(n) * tri(n)]) | [4, 3, 4, 5, 12, 7, 8, 9] | oeis [] | candidates 8 | inst NOT-FOUND
+118 REVIEW [[luc(n) + fib(n)] * fib(n)] | [1, 4, 3, 10, 4, 8, 6, 12] | oeis [] | candidates 44 | inst NOT-FOUND
+119 REVIEW fib([sq(n) * fib(n)]) | [12, 12, 24, 60, 12, 12, 24, 24] | oeis [] | candidates 1 | inst NOT-FOUND
+120 NEW [luc(sq(n)) * tri(n)] | [12, 12, 24, 10, 12, 56, 48, 36] | oeis [] | candidates 0 | inst NOT-FOUND
+121 REVIEW [tri(sq(n)) * sq(n)] | [2, 3, 2, 5, 6, 7, 8, 9] | oeis [] | candidates 8 | inst NOT-FOUND
+122 REVIEW luc([fib(n) + fib(n)]) | [4, 6, 4, 3, 12, 12, 12, 24] | oeis [] | candidates 13 | inst NOT-FOUND
+123 REVIEW tri(sq(tri(n))) | [4, 3, 8, 5, 12, 7, 16, 3] | oeis [] | candidates 8 | inst NOT-FOUND
+124 REVIEW fib([tri(n) + tri(n)]) | [3, 8, 3, 20, 24, 16, 12, 24] | oeis [] | candidates 3 | inst NOT-FOUND
+125 REVIEW [[tri(n) * tri(n)] + fib(n)] | [12, 24, 12, 20, 24, 112, 24, 24] | oeis [] | candidates 11 | inst NOT-FOUND
+126 NEW sq(fib(tri(n))) | [3, 8, 3, 20, 24, 16, 12, 24] | oeis [] | candidates 0 | inst NOT-FOUND
+127 KNOWN tri([fib(n) + fib(n)]) | [3, 8, 6, 20, 24, 16, 12, 24] | oeis [('A001175', 'AGREES', 66)] | candidates 3 | inst NOT-FOUND
+128 REVIEW [[fib(n) + fib(n)] * fib(n)] | [1, 4, 3, 10, 4, 8, 3, 12] | oeis [] | candidates 82 | inst NOT-FOUND
+129 NEW fib(tri(sq(n))) | [3, 8, 6, 20, 24, 16, 12, 24] | oeis [('A001175', 'DIVERGES', 66)] | candidates 0 | inst NOT-FOUND
+130 NEW [sq(fib(n)) + tri(n)] | [12, 12, 24, 10, 12, 56, 48, 36] | oeis [] | candidates 0 | inst NOT-FOUND
+131 REVIEW [luc(fib(n)) * fib(n)] | [12, 24, 24, 60, 24, 48, 24, 24] | oeis [] | candidates 13 | inst NOT-FOUND
+132 REVIEW [[sq(n) * sq(n)] + fib(n)] | [6, 24, 6, 20, 24, 112, 12, 72] | oeis [] | candidates 27 | inst NOT-FOUND
+133 REVIEW fib([fib(n) + fib(n)]) | [4, 6, 8, 60, 12, 12, 24, 24] | oeis [] | candidates 16 | inst NOT-FOUND
+Counter({'REVIEW': 96, 'NEW': 20, 'KNOWN': 12, 'TRIVIAL': 6})
+distinct candidate pages: 270
