@@ -1,0 +1,179 @@
+[
+ {
+  "muts": {
+   "AREA": 13,
+   "MOD": 26,
+   "RULE": 24
+  },
+  "useful": {
+   "AREA": 7,
+   "RULE": 4,
+   "MOD": 8
+  },
+  "finds": [
+   [
+    16,
+    "[sq(n) + sq(n)]",
+    1.0
+   ],
+   [
+    12,
+    "[[[fib(n) + luc(n)] + luc(n)] * fib(n)]",
+    0.25
+   ],
+   [
+    13,
+    "sq([[[fib(n) + luc(n)] + luc(n)] * fib(n)])",
+    0.4
+   ],
+   [
+    14,
+    "[sq([[[fib(n) + luc(n)] + luc(n)] * fib(n)]) + sq(n)]",
+    0.167
+   ],
+   [
+    16,
+    "sq(tri(n))",
+    0.5
+   ],
+   [
+    16,
+    "sq(sq(tri(n)))",
+    1.0
+   ],
+   [
+    12,
+    "[[luc(sq([tri(n) * sq(n)])) * tri(n)] * sq(n)]",
+    0.167
+   ],
+   [
+    12,
+    "[[[luc(sq([tri(n) * sq(n)])) * tri(n)] * sq(n)] + fib(n)]",
+    0.143
+   ],
+   [
+    5,
+    "luc([luc(n) + fib(n)])",
+    1.441
+   ],
+   [
+    5,
+    "fib(sq([luc(n) + fib(n)]))",
+    0.646
+   ],
+   [
+    11,
+    "[fib(n) * luc(n)]",
+    0.5
+   ],
+   [
+    16,
+    "luc([luc(n) * fib(n)])",
+    0.333
+   ],
+   [
+    14,
+    "sq([[luc(n) + luc(n)] + luc(n)])",
+    0.25
+   ],
+   [
+    10,
+    "luc(luc(n))",
+    1.661
+   ]
+  ],
+  "amps": null,
+  "kinds": {
+   "EXPLAINED": 120,
+   "FALSE": 20,
+   "UNREACHABLE": 9,
+   "OUT-OF-GRID": 1
+  }
+ },
+ {
+  "muts": {
+   "MOD": 27,
+   "AREA": 24,
+   "RULE": 25
+  },
+  "useful": {
+   "RULE": 9,
+   "MOD": 12,
+   "AREA": 2
+  },
+  "finds": [
+   [
+    4,
+    "[[[fib(n) + luc(n)] + fib(n)] + luc(n)]",
+    0.646
+   ],
+   [
+    6,
+    "[[[[fib(n) + luc(n)] + fib(n)] + luc(n)] * luc(n)]",
+    0.517
+   ],
+   [
+    4,
+    "[[[[fib(n) + fib(n)] + fib(n)] + luc(n)] * fib(n)]",
+    0.2
+   ],
+   [
+    16,
+    "sq(n)",
+    1.0
+   ],
+   [
+    4,
+    "luc([[tri(n) + sq(n)] + tri(n)])",
+    0.25
+   ],
+   [
+    16,
+    "sq(sq(tri(n)))",
+    1.0
+   ],
+   [
+    9,
+    "luc([[sq(tri(n)) + sq(n)] * luc(n)])",
+    0.2
+   ],
+   [
+    8,
+    "fib([luc(n) * fib(n)])",
+    0.333
+   ],
+   [
+    10,
+    "[fib([sq(n) * fib(n)]) * fib(n)]",
+    0.25
+   ],
+   [
+    10,
+    "[fib([fib(n) * fib(n)]) + fib(n)]",
+    0.25
+   ],
+   [
+    16,
+    "[sq(sq(tri(n))) * sq(n)]",
+    0.5
+   ],
+   [
+    4,
+    "sq(n)",
+    1.0
+   ],
+   [
+    14,
+    "[[[sq(sq(n)) + fib(n)] + luc(n)] * tri(n)]",
+    0.317
+   ]
+  ],
+  "amps": null,
+  "kinds": {
+   "EXPLAINED": 112,
+   "FALSE": 18,
+   "UNREACHABLE": 11,
+   "OUT-OF-GRID": 9
+  }
+ }
+]

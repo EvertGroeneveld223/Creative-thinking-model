@@ -1,0 +1,29 @@
+{
+ "cases": 1479,
+ "rcomp_wrong": 101,
+ "rules": 7,
+ "rejected": [],
+ "null_rules": 0,
+ "null_rejected": 0,
+ "later_tested": 7,
+ "later_survived": 7,
+ "refuted": [],
+ "later_gap_cases": 7,
+ "later_gap_exact": 7,
+ "facts": 50,
+ "composite": {
+  "cases": 2592,
+  "empty": 2286,
+  "rules": 2297,
+  "rules_and_facts": 2544,
+  "fired": 52,
+  "fired_empty": 28,
+  "fired_rules": 39
+ },
+ "primes_with_rules": [
+  2,
+  3,
+  5
+ ],
+ "secs": 254.5
+}

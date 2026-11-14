@@ -1,0 +1,171 @@
+{
+ "queries": [
+  "period of Lucas numbers with Lucas subscripts modulo m",
+  "Fibonacci numbers with Fibonacci subscripts period modulo m",
+  "composition of Fibonacci and Lucas sequences periodic modulo prime powers known theorem",
+  "iterated Fibonacci sequence F(F(n)) period modulo m",
+  "L_{L_n} modulo 5^k period Lucas"
+ ],
+ "results": {
+  "period of Lucas numbers with Lucas subscripts modulo m": {
+   "crossref": {
+    "status": "CLEAR",
+    "hits": []
+   },
+   "openalex": {
+    "status": "CLEAR",
+    "hits": []
+   },
+   "zbmath": {
+    "status": "CLEAR",
+    "hits": []
+   },
+   "stackexchange-math": {
+    "status": "CLEAR",
+    "hits": []
+   },
+   "stackexchange-mathoverflow": {
+    "status": "CLEAR",
+    "hits": []
+   },
+   "arxiv": {
+    "status": "CLEAR",
+    "hits": []
+   }
+  },
+  "Fibonacci numbers with Fibonacci subscripts period modulo m": {
+   "crossref": {
+    "status": "CLEAR",
+    "hits": []
+   },
+   "openalex": {
+    "status": "REVIEW",
+    "hits": [
+     {
+      "name": "Aspects of Fibonacci numbers",
+      "url": "https://openalex.org/W2923086435"
+     }
+    ]
+   },
+   "zbmath": {
+    "status": "CLEAR",
+    "hits": []
+   },
+   "stackexchange-math": {
+    "status": "CLEAR",
+    "hits": []
+   },
+   "stackexchange-mathoverflow": {
+    "status": "CLEAR",
+    "hits": []
+   },
+   "arxiv": {
+    "status": "CLEAR",
+    "hits": []
+   }
+  },
+  "composition of Fibonacci and Lucas sequences periodic modulo prime powers known theorem": {
+   "crossref": {
+    "status": "CLEAR",
+    "hits": []
+   },
+   "openalex": {
+    "status": "REVIEW",
+    "hits": [
+     {
+      "name": "Fixed points of K-Fibonacci sequences",
+      "url": "https://doi.org/10.48550/arxiv.2404.08194"
+     },
+     {
+      "name": "GENERALIZED WALL-SUN-SUN PRIMES AND MONOGENIC POWER-COMPOSITIONAL TRINOMIALS",
+      "url": "https://doi.org/10.51286/albjm/1678110273"
+     }
+    ]
+   },
+   "zbmath": {
+    "status": "CLEAR",
+    "hits": []
+   },
+   "stackexchange-math": {
+    "status": "CLEAR",
+    "hits": []
+   },
+   "stackexchange-mathoverflow": {
+    "status": "CLEAR",
+    "hits": []
+   },
+   "arxiv": {
+    "status": "CLEAR",
+    "hits": []
+   }
+  },
+  "iterated Fibonacci sequence F(F(n)) period modulo m": {
+   "crossref": {
+    "status": "REVIEW",
+    "hits": [
+     {
+      "name": "powers of the period function for the sequence of fibonacci numbers",
+      "url": "https://doi.org/10.1080/00150517.1980.12430186"
+     }
+    ]
+   },
+   "openalex": {
+    "status": "REVIEW",
+    "hits": [
+     {
+      "name": "Fixed points of K-Fibonacci sequences",
+      "url": "https://doi.org/10.48550/arxiv.2404.08194"
+     }
+    ]
+   },
+   "zbmath": {
+    "status": "CLEAR",
+    "hits": []
+   },
+   "stackexchange-math": {
+    "status": "CLEAR",
+    "hits": []
+   },
+   "stackexchange-mathoverflow": {
+    "status": "CLEAR",
+    "hits": []
+   },
+   "arxiv": {
+    "status": "CLEAR",
+    "hits": []
+   }
+  },
+  "L_{L_n} modulo 5^k period Lucas": {
+   "crossref": {
+    "status": "CLEAR",
+    "hits": []
+   },
+   "openalex": {
+    "status": "CLEAR",
+    "hits": []
+   },
+   "zbmath": {
+    "status": "CLEAR",
+    "hits": []
+   },
+   "stackexchange-math": {
+    "status": "CLEAR",
+    "hits": []
+   },
+   "stackexchange-mathoverflow": {
+    "status": "CLEAR",
+    "hits": []
+   },
+   "arxiv": {
+    "status": "CLEAR",
+    "hits": []
+   }
+  }
+ },
+ "candidates": {
+  "https://openalex.org/W2923086435": "Aspects of Fibonacci numbers",
+  "https://doi.org/10.48550/arxiv.2404.08194": "Fixed points of K-Fibonacci sequences",
+  "https://doi.org/10.51286/albjm/1678110273": "GENERALIZED WALL-SUN-SUN PRIMES AND MONOGENIC POWER-COMPOSITIONAL TRINOMIALS",
+  "https://doi.org/10.1080/00150517.1980.12430186": "powers of the period function for the sequence of fibonacci numbers"
+ }
+}

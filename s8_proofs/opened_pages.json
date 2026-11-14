@@ -1,0 +1,32 @@
+{
+ "note": "Pages and searches for the theorems in PROOFS.md, 2026-11-09. 'read' says how much was actually read. A page not read is not evidence either way.",
+ "web_searches_by_agent": [
+  "period of Lucas numbers of Lucas numbers L(L(n)) modulo 5^k composition Fibonacci iterated sequence modulo m period",
+  "\"Fibonacci numbers with Fibonacci subscripts\" OR \"F_{F_n}\" periodic modulo m period length theorem Lucas L_{L_n} modulo powers of 5",
+  "Fibonacci of Fibonacci F(F(n)) mod m period smaller than Pisano of Pisano iterated Pisano period composition exact period proof",
+  "Lengyel \"The order of the Fibonacci and Lucas numbers\" Fibonacci Quarterly 1995 valuation 5-adic period Lucas numbers modulo 5^k",
+  "\"Lucas numbers with Lucas subscripts\" OR \"L_{L_n}\" OR \"Fibonacci numbers with Lucas subscripts\" congruence modulo period sequence divisibility"
+ ],
+ "pages": [
+  {"url": "https://oeis.org/A356550", "title": "a(n) is the period of {F(F(k)) mod n}", "read": "full page", "states_theorem": false,
+   "note": "F(F(k)) only. Gives the upper bound a(n) divides A001175(A001175(n)). No L(L), L(F) or 5^k formula."},
+  {"url": "https://www.fq.math.ca/Scanned/33-3/lengyel.pdf", "title": "T. Lengyel, The Order of the Fibonacci and Lucas Numbers, Fibonacci Quarterly 33.3 (1995)", "read": "all six pages", "states_theorem": false,
+   "note": "Source of Lemma V (its Lemma 1). p-adic orders of F(n) and L(n), and an application to Stirling numbers. No composed sequences."},
+  {"url": "https://arxiv.org/html/2006.12002v1", "title": "S. Yokura, A remark on periods of periodic sequences modulo m", "read": "full text", "states_theorem": false, "note": "Partial sums of generalized Fibonacci sequences. No composed sequences."},
+  {"url": "https://arxiv.org/html/2404.08194v2", "title": "B. Benfield, O. Lippard, Fixed points of K-Fibonacci sequences", "read": "about 90 percent verbatim, plus a keyword search of the whole PDF", "states_theorem": false, "note": "Iterates the period function pi(pi(m)), a different object from the composed sequence."},
+  {"url": "https://arxiv.org/html/2511.00722v1", "title": "J.C. Saunders, R.N. Stephens, Residues of Terms of Lucas Sequences Modulo 3^k", "read": "about 84 percent verbatim; the end including Future Work was not read", "states_theorem": false, "note": "General Lucas sequences mod 3^k. No composed sequences in the part read."},
+  {"url": "https://arxiv.org/abs/2609.24544", "title": "Chuysurichay, Jaidee, Panraksa, Ward, The local Dold congruence for Fibonacci and Lucas sequences", "read": "abstract, plus a keyword search of the whole PDF", "states_theorem": false, "note": "Dold congruences. No composed sequences found."},
+  {"url": "https://doi.org/10.3390/math14173038", "title": "Yilmaz, Period Lengths of the Incomplete Fibonacci and Incomplete Lucas Sequences Modulo m", "read": "abstract only, through the Crossref API; the page itself returned 403", "states_theorem": false, "note": "Incomplete sequences, by the abstract. Full text not read."},
+  {"url": "https://openalex.org/W2923086435", "title": "G. Yucel, Aspects of Fibonacci numbers (1994 dissertation)", "read": "abstract only", "states_theorem": false, "note": "Thesis body not read."}
+ ],
+ "not_read": [
+  {"url": "https://doi.org/10.1080/00150517.1980.12430186", "title": "Powers of the period function for the sequence of Fibonacci numbers (Fibonacci Quarterly, 1980)", "why": "publisher returned 403", "note": "By its title it iterates the period function, not the sequence, but this was not checked."},
+  {"url": "https://www.sciencedirect.com/science/article/abs/pii/S0096300314000514", "title": "Truncated Lucas sequence and its period", "why": "publisher returned 403"},
+  {"url": "https://codeforces.com/blog/entry/83559", "title": "Blog post on computing F(F(i)) mod m", "why": "site returned 403"},
+  {"url": "https://www.mdpi.com/2227-7390/14/17/3038", "title": "Full text of the Yilmaz paper", "why": "site returned 403"}
+ ],
+ "title_only": {
+  "note": "Candidates that novelty.py returned for luc(luc(n)), luc(fib(n)) and fib(luc(n)) were looked at by title only. None has a title about composed sequences, but a title is not a page. These classes stay REVIEW, and a person should decide.",
+  "source": "s7_novelty/hunt_results.json"
+ }
+}
