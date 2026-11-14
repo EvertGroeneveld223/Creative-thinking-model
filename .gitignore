@@ -2,4 +2,4 @@
 __pycache__/
 .idea/
 *.pyc
-s6_patches/sym9_tests_partial.json
+.idea/workspace.xml
